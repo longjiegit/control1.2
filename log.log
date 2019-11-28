@@ -1,0 +1,1498 @@
+2019-11-21 16:09:56,050 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-21 16:09:56,050 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-21 16:09:56,060 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-21 16:09:56,140 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-21 16:09:56,510 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-21 16:09:56,840 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-21 16:09:56,850 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-21 16:12:01,035 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:12:01,039 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-21 16:12:01,059 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:12:01,059 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-21 16:12:01,062 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:12:01,062 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-21 16:12:13,731 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:12:13,731 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'comput', 'data': 'on', 'destmac': '80-56-F2-2E-64-17', 'destip': ''}
+2019-11-21 16:12:13,731 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:192.168.1.255
+2019-11-21 16:13:22,199 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-21 16:13:22,199 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-21 16:13:22,199 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-21 16:13:22,219 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-21 16:13:22,469 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-21 16:13:22,659 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-21 16:13:22,659 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-21 16:13:48,249 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:13:48,249 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destip': '', 'type': 'command', 'data': 'on', 'destmac': '40-B0-76-47-36-3C'}
+2019-11-21 16:13:48,259 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.2525.255.255
+2019-11-21 16:13:48,259 - D:\pyproject\control1.2\commonservice.py-wake_up[line:36] - ERROR: (11001, 'getaddrinfo failed')
+2019-11-21 16:13:54,964 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:13:54,964 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destmac': '80-56-F2-2E-64-17', 'data': 'on', 'destip': '', 'type': 'command'}
+2019-11-21 16:13:54,964 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.2525.255.255
+2019-11-21 16:13:54,968 - D:\pyproject\control1.2\commonservice.py-wake_up[line:36] - ERROR: (11001, 'getaddrinfo failed')
+2019-11-21 16:15:32,109 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-21 16:15:32,109 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-21 16:15:32,109 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-21 16:15:32,149 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-21 16:15:32,389 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-21 16:15:32,639 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-21 16:15:32,639 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-21 16:15:43,674 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:15:43,674 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '40-B0-76-47-36-3C', 'destip': '', 'data': 'on', 'commObj': 'comput', 'type': 'command'}
+2019-11-21 16:15:43,684 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.2525.255.255
+2019-11-21 16:15:43,684 - D:\pyproject\control1.2\commonservice.py-wake_up[line:37] - ERROR: (11001, 'getaddrinfo failed')
+2019-11-21 16:16:14,262 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-21 16:16:14,272 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-21 16:16:14,272 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-21 16:16:14,302 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-21 16:16:14,552 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-21 16:16:14,752 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-21 16:16:14,762 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-21 16:16:21,222 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:16:21,222 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destip': '', 'data': 'on', 'commObj': 'comput', 'type': 'command', 'destmac': '40-B0-76-47-36-3C'}
+2019-11-21 16:16:21,222 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2019-11-21 16:16:29,378 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-21 16:16:29,378 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'comput', 'data': 'on', 'destmac': '80-56-F2-2E-64-17', 'destip': ''}
+2019-11-21 16:16:29,382 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.255.255.255
+2019-11-21 16:18:20,664 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-21 16:18:20,664 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-21 16:27:19,631 - D:\pyproject\control1.2\jd.py-timeStartShut[line:72] - INFO: 定时开机启动
+2019-11-21 16:27:19,641 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:19,641 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050000FF00
+2019-11-21 16:27:22,651 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:22,961 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:22,961 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050001FF00
+2019-11-21 16:27:25,971 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:26,281 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:26,281 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050002FF00
+2019-11-21 16:27:29,290 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:29,602 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:29,602 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050003FF00
+2019-11-21 16:27:32,612 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:32,921 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:32,921 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050004FF00
+2019-11-21 16:27:35,931 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:36,241 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:36,241 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050005FF00
+2019-11-21 16:27:39,251 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:39,561 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:39,561 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050006FF00
+2019-11-21 16:27:42,571 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:42,881 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:42,881 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1c050007FF00
+2019-11-21 16:27:45,891 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:46,201 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:46,201 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050000FF00
+2019-11-21 16:27:49,209 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:49,513 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:49,513 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050001FF00
+2019-11-21 16:27:52,522 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:52,832 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:52,832 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050002FF00
+2019-11-21 16:27:55,842 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:56,152 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:56,152 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050003FF00
+2019-11-21 16:27:59,162 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:27:59,472 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:27:59,472 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050004FF00
+2019-11-21 16:28:02,482 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:28:02,792 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:28:02,792 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050005FF00
+2019-11-21 16:28:05,802 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:28:06,112 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:28:06,112 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050006FF00
+2019-11-21 16:28:09,119 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:28:09,429 - D:\pyproject\control1.2\jd.py-sendCommand[line:356] - INFO: 192.168.2.200:4196
+2019-11-21 16:28:09,429 - D:\pyproject\control1.2\jd.py-sendCommand[line:357] - INFO: 1d050007FF00
+2019-11-21 16:28:12,433 - D:\pyproject\control1.2\jd.py-sendCommand[line:371] - ERROR: timed out
+2019-11-21 16:28:12,743 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.2.13
+2019-11-21 16:28:15,753 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:15,753 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.111
+2019-11-21 16:28:17,793 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-21 16:28:17,793 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.112
+2019-11-21 16:28:20,803 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:20,803 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.113
+2019-11-21 16:28:23,812 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:23,812 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.114
+2019-11-21 16:28:26,819 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:26,819 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.115
+2019-11-21 16:28:29,824 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:29,824 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.116
+2019-11-21 16:28:32,834 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: timed out
+2019-11-21 16:28:32,834 - D:\pyproject\control1.2\jd.py-keyOpen[line:222] - INFO: 开启投影机192.168.1.117
+2019-11-21 16:28:34,874 - D:\pyproject\control1.2\jd.py-Pjlink[line:244] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-21 16:28:34,874 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2019-11-21 16:28:34,874 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.255.255.255
+2019-11-21 16:28:34,884 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2019-11-21 16:28:34,884 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-21 16:28:34,884 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-21 16:28:34,884 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-21 16:28:34,894 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-21 16:28:34,894 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 14:46:09,853 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:46:09,859 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 14:46:09,897 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:46:09,898 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 14:46:09,926 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:46:09,927 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 14:48:28,259 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:48:28,261 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'socket', 'type': 'command', 'destmac': '', 'destip': '', 'data': 'on'}
+2019-11-22 14:48:28,275 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050000FF00 8E 66
+2019-11-22 14:48:31,279 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:31,585 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050001FF00 DF A6
+2019-11-22 14:48:34,586 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:34,890 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050002FF00 2F A6
+2019-11-22 14:48:37,892 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:38,198 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050003FF00 7E 66
+2019-11-22 14:48:41,200 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:41,505 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050004FF00 CF A7
+2019-11-22 14:48:44,506 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:44,811 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050005FF00 9E 67
+2019-11-22 14:48:47,815 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:48,119 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050006FF00 6E 67
+2019-11-22 14:48:51,120 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:48:51,425 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1d050007FF00 3F A7
+2019-11-22 14:48:54,426 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:49:59,780 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:49:59,783 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'destip': '', 'destmac': '', 'type': 'command', 'data': 'on'}
+2019-11-22 14:49:59,787 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050000FF00 8F B7
+2019-11-22 14:50:02,790 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:03,095 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050001FF00 DE 77
+2019-11-22 14:50:06,096 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:06,400 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 14:50:09,402 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:09,707 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 14:50:12,709 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:13,014 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050004FF00 CE 76
+2019-11-22 14:50:16,016 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:16,322 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050005FF00 9F B6
+2019-11-22 14:50:19,325 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:19,629 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050006FF00 6F B6
+2019-11-22 14:50:22,630 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:22,935 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050007FF00 3E 76
+2019-11-22 14:50:25,937 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 14:50:28,590 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:50:28,591 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 14:50:28,618 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:50:28,619 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 14:50:28,650 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:50:28,651 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 14:59:37,828 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,832 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,835 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,838 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,841 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,844 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,847 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:37,850 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 14:59:59,348 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:59:59,349 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 14:59:59,372 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:59:59,373 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 14:59:59,393 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 14:59:59,393 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:00:40,345 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:00:40,347 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'data': 'on', 'destmac': '40-B0-76-47-36-3C', 'commObj': 'comput'}
+2019-11-22 15:00:40,351 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2019-11-22 15:00:45,466 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:00:45,468 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'data': 'on', 'commObj': 'comput', 'destmac': '80-56-F2-2E-64-17'}
+2019-11-22 15:00:45,471 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.255.255.255
+2019-11-22 15:00:56,705 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:00:56,706 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '40-B0-76-47-36-3C', 'data': 'off', 'type': 'command', 'commObj': 'comput', 'destip': '192.168.1.238'}
+2019-11-22 15:00:56,710 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.238
+2019-11-22 15:00:59,714 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:01:00,135 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:01:00,137 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '80-56-F2-2E-64-17', 'commObj': 'comput', 'data': 'off', 'destip': '192.168.1.111'}
+2019-11-22 15:01:00,140 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.111
+2019-11-22 15:01:02,148 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:05:42,086 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,089 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,092 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,094 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,096 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,098 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:42,101 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:05:51,851 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:05:51,851 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:05:51,874 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:05:51,875 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:05:51,894 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:05:51,895 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:07:13,983 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:07:13,985 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:07:13,987 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:07:21,186 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:07:21,187 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:07:21,205 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:07:21,206 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:07:21,225 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:07:21,226 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:08:33,927 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:08:33,929 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:08:33,931 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:08:39,754 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:08:39,755 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:08:39,783 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:08:39,784 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:08:39,807 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:08:39,808 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:09:30,510 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,512 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,28', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,521 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,529 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,530 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'data': 'voice,39', 'destmac': '9050', 'destip': '\ufeff1', 'type': 'command', 'commObj': 'video'}
+2019-11-22 15:09:30,533 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,549 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,550 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,51', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,553 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,572 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,573 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,57', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,576 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,589 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,590 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destip': '\ufeff1', 'type': 'command', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,75'}
+2019-11-22 15:09:30,593 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,609 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,612 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,82', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,618 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,629 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,630 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,90', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,633 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,650 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,652 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,100', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,655 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,669 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,670 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,107', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,672 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,690 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,692 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,125', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,695 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,709 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,711 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,132', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,714 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,729 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,731 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,137', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,735 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,749 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,750 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,141', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,753 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,769 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,770 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,144', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,772 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,789 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,789 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,148', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,792 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,808 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,809 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,149', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:30,811 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,829 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,830 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,150', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,832 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,849 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,849 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,150', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,852 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:30,869 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:30,869 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '9050', 'data': 'voice,150', 'commObj': 'video', 'destip': '\ufeff1'}
+2019-11-22 15:09:30,870 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:33,523 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,527 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,535 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,539 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,554 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,558 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,577 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,580 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,594 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,598 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,619 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,622 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,635 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,639 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,657 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,661 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,673 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,676 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,696 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,700 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,715 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,718 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,736 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,740 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,754 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,758 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,775 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,780 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,794 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,796 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,814 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,818 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,833 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,837 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,853 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,858 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:33,874 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:33,877 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:36,528 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,531 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,28
+2019-11-22 15:09:36,540 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,542 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,39
+2019-11-22 15:09:36,559 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,561 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,51
+2019-11-22 15:09:36,582 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,584 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,57
+2019-11-22 15:09:36,599 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,601 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,75
+2019-11-22 15:09:36,624 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,626 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,82
+2019-11-22 15:09:36,640 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,642 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,90
+2019-11-22 15:09:36,662 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,664 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,100
+2019-11-22 15:09:36,678 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,680 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,107
+2019-11-22 15:09:36,701 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,703 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,125
+2019-11-22 15:09:36,720 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,723 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,132
+2019-11-22 15:09:36,741 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,744 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,137
+2019-11-22 15:09:36,760 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,762 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,141
+2019-11-22 15:09:36,782 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,785 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,144
+2019-11-22 15:09:36,798 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,800 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,148
+2019-11-22 15:09:36,820 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,822 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,149
+2019-11-22 15:09:36,839 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,842 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,150
+2019-11-22 15:09:36,859 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,861 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,150
+2019-11-22 15:09:36,879 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:36,881 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,150
+2019-11-22 15:09:38,537 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,548 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,569 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,604 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,618 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,635 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,651 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,672 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,699 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,711 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,729 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,752 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,770 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,792 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,807 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,831 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,860 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,870 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:38,887 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:46,930 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:46,933 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,135', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:46,937 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:46,949 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:46,952 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,122', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:46,957 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:46,969 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:46,971 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,111', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:46,975 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:46,989 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:46,991 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,101', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:46,993 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,014 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,015 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,98', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,017 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,028 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,030 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,95'}
+2019-11-22 15:09:47,032 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,049 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,050 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,90'}
+2019-11-22 15:09:47,052 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,068 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,070 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,87', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,071 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,088 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,089 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,81'}
+2019-11-22 15:09:47,091 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,116 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,117 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,78', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,120 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,129 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,130 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,75', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,132 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,149 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,150 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,72', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,152 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,168 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,170 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,67'}
+2019-11-22 15:09:47,172 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,188 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,189 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,59'}
+2019-11-22 15:09:47,192 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,209 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,211 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,55'}
+2019-11-22 15:09:47,214 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,229 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,230 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,51', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,232 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,248 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,249 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,48'}
+2019-11-22 15:09:47,251 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,268 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,269 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,44'}
+2019-11-22 15:09:47,272 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,289 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,291 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,38', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,297 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,310 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,311 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,34', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,314 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,329 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,330 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,29', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,332 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,349 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,351 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,25'}
+2019-11-22 15:09:47,353 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,368 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,370 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,21', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,372 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,388 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,389 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,12', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,391 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,408 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,409 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,9'}
+2019-11-22 15:09:47,412 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,428 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,429 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,6'}
+2019-11-22 15:09:47,431 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,448 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,449 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,3'}
+2019-11-22 15:09:47,451 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,468 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,469 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,1', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,471 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,488 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,489 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,491 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,509 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,510 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,512 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,528 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,529 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,0', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,532 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,548 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,549 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,551 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,568 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,569 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,0', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,571 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,588 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,589 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,591 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,609 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,610 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,0', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,613 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,631 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,632 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,0', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,634 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,649 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,650 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,651 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,668 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,669 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'commObj': 'video', 'data': 'voice,0'}
+2019-11-22 15:09:47,671 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:47,689 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:47,690 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,0', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:09:47,691 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:09:49,939 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:49,943 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:49,958 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:49,962 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:49,976 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:49,980 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:49,995 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:49,999 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,019 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,023 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,034 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,038 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,054 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,059 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,073 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,077 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,092 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,096 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,121 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,125 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,133 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,137 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,153 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,157 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,174 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,178 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,194 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,198 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,217 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,220 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,234 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,238 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,252 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,256 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,273 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,275 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,298 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,302 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,316 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,320 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,333 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,337 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,355 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,359 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,373 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,378 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,392 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,396 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,414 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,417 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,432 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,434 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,452 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,456 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,473 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,475 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,492 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,496 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,513 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,516 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,534 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,537 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,553 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,557 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,574 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,578 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,594 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,597 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,615 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,617 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,636 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,638 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,654 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,658 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,673 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,677 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:50,693 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:50,695 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:09:51,010 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,012 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,29', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,015 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,29
+2019-11-22 15:09:51,088 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,090 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,38', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,091 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,38
+2019-11-22 15:09:51,109 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,110 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,39', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,112 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,39
+2019-11-22 15:09:51,129 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,131 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,41', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,132 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,41
+2019-11-22 15:09:51,149 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,150 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,43', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,151 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,43
+2019-11-22 15:09:51,169 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,171 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,44', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,173 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,44
+2019-11-22 15:09:51,189 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,190 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,50', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,191 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,50
+2019-11-22 15:09:51,211 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,212 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,52', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,215 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,52
+2019-11-22 15:09:51,229 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,230 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,55', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,232 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,55
+2019-11-22 15:09:51,249 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,250 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,57', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,252 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,57
+2019-11-22 15:09:51,269 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,270 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,60', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,271 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,60
+2019-11-22 15:09:51,288 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,289 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,66', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,291 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,66
+2019-11-22 15:09:51,311 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,312 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,68', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,313 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,68
+2019-11-22 15:09:51,329 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,330 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,71', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,331 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,71
+2019-11-22 15:09:51,348 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,349 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,72', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,350 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,72
+2019-11-22 15:09:51,370 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,371 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,74', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,373 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,74
+2019-11-22 15:09:51,389 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,390 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,77', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,391 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,77
+2019-11-22 15:09:51,412 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,413 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,79', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,415 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,79
+2019-11-22 15:09:51,429 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,431 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,81', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,433 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,81
+2019-11-22 15:09:51,448 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,449 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,83', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,451 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,83
+2019-11-22 15:09:51,469 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,471 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,84', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,472 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,84
+2019-11-22 15:09:51,488 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,489 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,88', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,490 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,88
+2019-11-22 15:09:51,512 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,514 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,89', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,516 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,89
+2019-11-22 15:09:51,530 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,531 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,90', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,533 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,90
+2019-11-22 15:09:51,549 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,550 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,92', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,551 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,92
+2019-11-22 15:09:51,568 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,569 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,94', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,571 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,94
+2019-11-22 15:09:51,589 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,590 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,98', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,592 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,98
+2019-11-22 15:09:51,609 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,609 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,100', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,611 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,100
+2019-11-22 15:09:51,649 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,650 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,102', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,652 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,102
+2019-11-22 15:09:51,668 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,669 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,109', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,672 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,109
+2019-11-22 15:09:51,688 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,689 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,117', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,690 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,117
+2019-11-22 15:09:51,710 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,711 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,120', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,712 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,120
+2019-11-22 15:09:51,728 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,729 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,124', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,730 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,124
+2019-11-22 15:09:51,748 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,749 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,128', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,751 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,128
+2019-11-22 15:09:51,768 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,768 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,132', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,770 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,132
+2019-11-22 15:09:51,788 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,789 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,140', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,790 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,140
+2019-11-22 15:09:51,809 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,810 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,144', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,811 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,144
+2019-11-22 15:09:51,828 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,829 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,148', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,830 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,148
+2019-11-22 15:09:51,848 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,848 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,150', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,850 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,150
+2019-11-22 15:09:51,868 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,870 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,152', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,872 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,152
+2019-11-22 15:09:51,889 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,890 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,154', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,893 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,154
+2019-11-22 15:09:51,909 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,911 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,157', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,913 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,157
+2019-11-22 15:09:51,929 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,930 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,158', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,932 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,158
+2019-11-22 15:09:51,948 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,949 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,159', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,951 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,159
+2019-11-22 15:09:51,969 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,970 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,160', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:51,971 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,160
+2019-11-22 15:09:51,989 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:51,990 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,161', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:51,992 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,161
+2019-11-22 15:09:52,010 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,012 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,162', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:52,013 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,162
+2019-11-22 15:09:52,029 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,030 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,162', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:52,032 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,162
+2019-11-22 15:09:52,050 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,052 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,163', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:52,054 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,163
+2019-11-22 15:09:52,088 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,090 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,164', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:52,093 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,164
+2019-11-22 15:09:52,109 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,110 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '3', 'data': 'voice,164', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:52,112 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,164
+2019-11-22 15:09:52,148 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,150 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,164', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:52,151 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,164
+2019-11-22 15:09:52,168 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:52,169 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,164', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:09:52,171 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,164
+2019-11-22 15:09:52,945 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:52,948 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,135
+2019-11-22 15:09:52,963 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:52,965 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,122
+2019-11-22 15:09:52,981 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:52,983 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,111
+2019-11-22 15:09:53,001 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,003 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,101
+2019-11-22 15:09:53,025 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,027 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,98
+2019-11-22 15:09:53,040 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,042 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,95
+2019-11-22 15:09:53,061 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,063 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,90
+2019-11-22 15:09:53,079 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,081 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,87
+2019-11-22 15:09:53,098 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,100 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,81
+2019-11-22 15:09:53,127 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,129 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,78
+2019-11-22 15:09:53,139 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,141 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,75
+2019-11-22 15:09:53,160 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,162 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,72
+2019-11-22 15:09:53,181 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,184 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,67
+2019-11-22 15:09:53,202 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,204 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,59
+2019-11-22 15:09:53,223 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,226 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,55
+2019-11-22 15:09:53,240 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,241 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,51
+2019-11-22 15:09:53,258 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,261 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,48
+2019-11-22 15:09:53,277 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,280 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,44
+2019-11-22 15:09:53,304 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,306 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,38
+2019-11-22 15:09:53,322 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,324 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,34
+2019-11-22 15:09:53,339 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,342 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,29
+2019-11-22 15:09:53,361 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,363 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,25
+2019-11-22 15:09:53,381 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,384 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,21
+2019-11-22 15:09:53,400 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,402 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,12
+2019-11-22 15:09:53,420 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,423 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,9
+2019-11-22 15:09:53,438 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,440 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,6
+2019-11-22 15:09:53,459 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,462 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,3
+2019-11-22 15:09:53,478 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,479 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,1
+2019-11-22 15:09:53,498 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,499 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,518 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,519 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,539 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,540 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,558 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,560 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,580 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,582 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,599 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,601 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,618 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,621 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,639 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,641 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,660 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,663 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,679 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,681 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:53,697 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:09:53,699 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,0
+2019-11-22 15:09:54,017 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,093 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,114 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,135 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,154 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,175 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,193 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,216 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,233 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,253 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,273 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,294 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,314 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,332 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,351 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,375 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,393 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,416 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,435 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,453 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,475 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,493 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,517 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,534 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,552 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,572 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,593 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,612 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,653 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,673 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,694 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,715 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,732 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,753 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,772 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,793 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,812 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,831 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,851 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,873 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,895 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,914 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,933 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,954 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,954 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:54,973 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:54,988 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:54,989 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:54,994 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,010 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,016 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,036 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,036 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,056 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,058 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,069 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,095 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,103 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,106 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,113 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,142 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,150 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,152 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,167 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,172 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:09:55,189 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,219 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,232 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,252 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,267 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,296 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,316 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,329 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,353 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,384 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,390 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,409 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,432 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,456 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,479 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,484 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,505 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,534 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,546 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,565 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,589 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,609 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,627 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,647 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,668 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,696 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:55,705 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:09:59,281 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,283 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '9050', 'commObj': 'video', 'destip': '2', 'type': 'command', 'data': 'voice,29'}
+2019-11-22 15:09:59,286 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,29
+2019-11-22 15:09:59,313 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,315 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,50', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,317 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,50
+2019-11-22 15:09:59,329 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,330 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,50', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,332 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,50
+2019-11-22 15:09:59,349 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,350 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,66', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,352 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,66
+2019-11-22 15:09:59,369 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,370 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,69', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,371 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,69
+2019-11-22 15:09:59,404 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,404 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,77', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,406 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,77
+2019-11-22 15:09:59,408 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,409 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,82', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,410 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,82
+2019-11-22 15:09:59,433 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,434 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,86', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,435 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,86
+2019-11-22 15:09:59,463 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,464 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,91', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,466 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,91
+2019-11-22 15:09:59,479 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,480 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,100', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,481 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,100
+2019-11-22 15:09:59,501 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,502 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,103', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,504 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,103
+2019-11-22 15:09:59,518 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,520 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,107', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,521 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,107
+2019-11-22 15:09:59,538 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,539 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,118', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,541 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,118
+2019-11-22 15:09:59,558 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,559 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,124', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,560 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,124
+2019-11-22 15:09:59,578 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,579 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,128', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,580 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,128
+2019-11-22 15:09:59,600 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,601 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,134', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,602 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,134
+2019-11-22 15:09:59,619 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,621 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,139', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,623 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,139
+2019-11-22 15:09:59,639 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,641 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,147', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,643 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,147
+2019-11-22 15:09:59,659 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,661 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,150', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,664 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,150
+2019-11-22 15:09:59,679 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,681 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,151', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,683 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,151
+2019-11-22 15:09:59,703 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,704 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '2', 'data': 'voice,153', 'commObj': 'video', 'destmac': '9050'}
+2019-11-22 15:09:59,707 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,153
+2019-11-22 15:09:59,720 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,723 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'data': 'voice,154', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,725 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,154
+2019-11-22 15:09:59,739 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:09:59,740 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,154', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:09:59,741 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,154
+2019-11-22 15:10:02,287 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,318 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,333 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,353 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,373 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,407 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,412 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,437 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,467 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,483 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,506 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,523 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,544 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,563 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,583 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,604 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,627 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,646 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,667 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,685 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,710 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,727 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:10:02,744 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:36,872 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,875 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '2', 'destmac': '9050', 'data': 'voice,138'}
+2019-11-22 15:11:36,878 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,138
+2019-11-22 15:11:36,892 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,894 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '2', 'data': 'voice,158', 'destmac': '9050'}
+2019-11-22 15:11:36,897 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,158
+2019-11-22 15:11:36,911 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,912 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '9050', 'data': 'voice,158', 'type': 'command', 'destip': '2', 'commObj': 'video'}
+2019-11-22 15:11:36,915 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,158
+2019-11-22 15:11:36,932 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,933 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '2', 'destmac': '9050', 'data': 'voice,200'}
+2019-11-22 15:11:36,934 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:36,950 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,952 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'data': 'voice,200', 'type': 'command', 'destip': '2', 'destmac': '9050'}
+2019-11-22 15:11:36,953 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:36,971 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,972 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '2', 'destmac': '9050', 'data': 'voice,200'}
+2019-11-22 15:11:36,975 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:36,991 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:36,992 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '9050', 'data': 'voice,200', 'type': 'command', 'destip': '2', 'commObj': 'video'}
+2019-11-22 15:11:36,994 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:37,009 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,010 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'destip': '2', 'destmac': '9050', 'data': 'voice,200'}
+2019-11-22 15:11:37,013 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:37,833 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,835 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,144', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:11:37,838 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,144
+2019-11-22 15:11:37,876 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,877 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '3', 'data': 'voice,166', 'destmac': '9050'}
+2019-11-22 15:11:37,878 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,166
+2019-11-22 15:11:37,889 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,890 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'destip': '3', 'destmac': '9050', 'data': 'voice,166'}
+2019-11-22 15:11:37,891 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,166
+2019-11-22 15:11:37,912 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,914 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,200', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:11:37,916 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:37,929 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,930 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,200', 'destip': '3', 'destmac': '9050'}
+2019-11-22 15:11:37,931 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:37,949 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:37,950 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '3', 'data': 'voice,200', 'destmac': '9050'}
+2019-11-22 15:11:37,952 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.2.116:指令:voice,200
+2019-11-22 15:11:38,973 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:38,975 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,29', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:11:38,979 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:38,991 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:38,993 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'destip': '\ufeff1', 'destmac': '9050', 'data': 'voice,61'}
+2019-11-22 15:11:38,997 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,013 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,014 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '\ufeff1', 'data': 'voice,61', 'destmac': '9050'}
+2019-11-22 15:11:39,016 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,030 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,031 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '\ufeff1', 'destmac': '9050', 'data': 'voice,125'}
+2019-11-22 15:11:39,033 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,050 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,051 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,138', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:11:39,053 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,070 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,071 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,156', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:11:39,073 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,090 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,091 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'video', 'type': 'command', 'data': 'voice,175', 'destip': '\ufeff1', 'destmac': '9050'}
+2019-11-22 15:11:39,094 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,109 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,111 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '\ufeff1', 'data': 'voice,198', 'destmac': '9050'}
+2019-11-22 15:11:39,112 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,128 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,129 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '\ufeff1', 'destmac': '9050', 'data': 'voice,200'}
+2019-11-22 15:11:39,131 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,155 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:11:39,156 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'commObj': 'video', 'destip': '\ufeff1', 'data': 'voice,200', 'destmac': '9050'}
+2019-11-22 15:11:39,159 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050002FF00 2E 77
+2019-11-22 15:11:39,880 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,898 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,917 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,936 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,954 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,977 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:39,995 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,015 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,840 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,880 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,894 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,918 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,935 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:40,954 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: timed out
+2019-11-22 15:11:41,980 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:41,984 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:41,999 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,003 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,018 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,022 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,035 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,039 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,055 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,059 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,075 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,078 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,096 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,099 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,114 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,117 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,133 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,137 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:42,161 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:42,165 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:246] - INFO: 1c050003FF00 7F B7
+2019-11-22 15:11:44,987 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:44,989 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,29
+2019-11-22 15:11:45,005 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,007 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,61
+2019-11-22 15:11:45,025 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,027 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,61
+2019-11-22 15:11:45,040 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,042 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,125
+2019-11-22 15:11:45,060 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,062 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,138
+2019-11-22 15:11:45,081 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,083 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,156
+2019-11-22 15:11:45,102 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,105 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,175
+2019-11-22 15:11:45,120 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,122 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,198
+2019-11-22 15:11:45,138 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,140 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,200
+2019-11-22 15:11:45,166 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:258] - ERROR: timed out
+2019-11-22 15:11:45,168 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:85] - INFO: 播放器IP:192.168.1.116:指令:voice,200
+2019-11-22 15:11:46,996 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,023 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,035 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,059 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,071 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,099 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,114 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,138 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,146 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:11:47,183 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:91] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:12:30,451 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,463 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,465 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,467 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,469 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,471 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,473 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,475 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,478 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,479 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,481 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,482 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,483 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,484 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,485 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,486 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,487 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,488 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,489 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,490 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,491 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,492 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,493 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,494 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,495 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,496 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,497 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,498 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,499 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,500 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,501 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,502 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,503 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,504 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,505 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,506 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,507 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,508 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,509 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,510 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,511 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,512 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,513 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,514 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,515 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,516 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,516 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,517 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,518 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,519 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,520 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,520 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,521 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,522 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,523 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,524 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,525 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,526 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,528 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,530 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,531 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,533 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,535 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,537 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,539 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,541 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,543 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,545 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,546 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,548 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,550 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,552 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,554 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,556 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,558 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,560 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,562 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,564 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,565 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,567 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,569 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,571 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,572 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,573 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,574 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,575 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,576 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,576 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,577 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,578 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,579 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,580 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,581 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,582 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,583 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,584 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,585 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,587 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,589 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,591 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,593 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,595 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,597 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,599 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,601 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,602 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,603 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,605 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,606 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,607 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,609 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,610 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,612 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,613 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,614 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,616 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,617 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,619 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,621 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,623 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,625 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,626 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,628 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,631 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,633 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,634 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,635 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,637 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,638 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,640 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,643 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,645 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,648 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,650 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,653 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,655 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,657 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,659 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,660 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,662 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,663 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,664 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,665 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,666 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,667 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,669 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,670 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,671 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,673 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,674 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,675 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,677 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,678 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,679 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,681 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,682 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,683 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,685 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,686 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,687 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:12:30,688 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:14:39,815 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:14:39,817 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:14:39,841 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:14:39,843 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:14:39,872 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:14:39,874 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:15:45,137 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:15:45,139 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:15:45,142 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:15:48,117 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:15:48,120 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:15:48,146 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:15:48,148 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:15:48,172 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:15:48,174 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:17:48,362 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:17:48,364 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:17:48,366 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:30:51,225 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:30:51,228 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:30:51,659 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:30:51,661 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:30:52,031 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:30:52,033 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:32:16,642 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:32:16,644 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:32:16,645 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:32:23,392 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:32:23,393 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:32:23,420 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:32:23,421 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:32:23,439 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:32:23,440 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:32:57,877 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:32:57,878 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:32:57,879 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:33:11,045 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:11,047 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 15:33:11,072 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:11,074 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 15:33:11,101 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:11,103 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-22 15:33:24,055 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:24,058 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'type': 'command', 'data': 'off', 'destip': '192.168.1.238', 'destmac': '40-B0-76-47-36-3C'}
+2019-11-22 15:33:24,061 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.238
+2019-11-22 15:33:27,063 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:33:27,918 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:27,920 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '80-56-F2-2E-64-17', 'destip': '192.168.1.111', 'commObj': 'comput', 'data': 'off', 'type': 'command'}
+2019-11-22 15:33:27,922 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.111
+2019-11-22 15:33:29,515 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:29,517 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destip': '192.168.1.112', 'type': 'command', 'destmac': '8C-DC-D4-24-76-74', 'data': 'off'}
+2019-11-22 15:33:29,520 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.112
+2019-11-22 15:33:29,928 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:33:31,854 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:31,856 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '40-B0-76-47-36-3C', 'destip': '', 'commObj': 'comput', 'data': 'on', 'type': 'command'}
+2019-11-22 15:33:31,858 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2019-11-22 15:33:32,521 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:33:33,153 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:33,155 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '80-56-F2-2E-64-17', 'destip': '', 'commObj': 'comput', 'data': 'on', 'type': 'command'}
+2019-11-22 15:33:33,158 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.255.255.255
+2019-11-22 15:33:34,363 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:34,364 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'data': 'on', 'type': 'command', 'destip': '', 'commObj': 'comput', 'destmac': '8C-DC-D4-24-76-74'}
+2019-11-22 15:33:34,367 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2019-11-22 15:33:35,652 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:35,655 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '00-00-00-00-00-00', 'type': 'command', 'commObj': 'comput', 'destip': '', 'data': 'on'}
+2019-11-22 15:33:35,658 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:33:37,101 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:37,103 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '00-00-00-00-00-00', 'type': 'command', 'data': 'on', 'commObj': 'comput', 'destip': ''}
+2019-11-22 15:33:37,106 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:33:38,161 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:38,163 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destip': '', 'data': 'on', 'type': 'command', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:33:38,166 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:33:39,273 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:39,274 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'data': 'on', 'commObj': 'comput', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:33:39,276 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:33:40,380 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:33:40,381 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'destmac': '00-00-00-00-00-00', 'data': 'on', 'commObj': 'comput'}
+2019-11-22 15:33:40,382 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:02,543 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:02,545 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'data': 'on', 'type': 'command', 'destip': '', 'destmac': '40-B0-76-47-36-3C'}
+2019-11-22 15:35:02,547 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2019-11-22 15:35:04,082 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:04,084 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'data': 'on', 'commObj': 'comput', 'destip': '', 'destmac': '80-56-F2-2E-64-17'}
+2019-11-22 15:35:04,087 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:80-56-F2-2E-64-17:网关：:255.255.255.255
+2019-11-22 15:35:05,195 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:05,196 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'destmac': '8C-DC-D4-24-76-74', 'data': 'on', 'commObj': 'comput'}
+2019-11-22 15:35:05,199 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2019-11-22 15:35:06,223 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:06,225 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'data': 'on', 'type': 'command', 'destip': '', 'destmac': '8C-DC-D4-24-76-74'}
+2019-11-22 15:35:06,227 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2019-11-22 15:35:07,082 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:07,084 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'data': 'on', 'commObj': 'comput', 'destip': '', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:35:07,087 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:07,993 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:07,995 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'data': 'on', 'commObj': 'comput', 'destip': '', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:35:07,998 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:08,931 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:08,933 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '', 'data': 'on', 'commObj': 'comput', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:35:08,936 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:09,763 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:09,765 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destip': '', 'type': 'command', 'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'data': 'on'}
+2019-11-22 15:35:09,767 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:10,763 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:10,765 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destip': '', 'type': 'command', 'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'data': 'on'}
+2019-11-22 15:35:10,767 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2019-11-22 15:35:11,992 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:11,994 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'data': 'off', 'destmac': '40-B0-76-47-36-3C', 'destip': '192.168.1.238', 'commObj': 'comput', 'type': 'command'}
+2019-11-22 15:35:11,997 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.238
+2019-11-22 15:35:13,323 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:13,325 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'data': 'off', 'commObj': 'comput', 'type': 'command', 'destip': '192.168.1.111', 'destmac': '80-56-F2-2E-64-17'}
+2019-11-22 15:35:13,328 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.111
+2019-11-22 15:35:14,373 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:14,375 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destip': '192.168.1.112', 'destmac': '8C-DC-D4-24-76-74', 'commObj': 'comput', 'data': 'off'}
+2019-11-22 15:35:14,377 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.112
+2019-11-22 15:35:14,998 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:35:15,334 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:35:17,381 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:35:17,973 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:17,974 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'type': 'command', 'destip': '192.168.1.113', 'data': 'off', 'destmac': '00-00-00-00-00-00'}
+2019-11-22 15:35:17,977 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.113
+2019-11-22 15:35:19,765 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:19,767 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'type': 'command', 'data': 'off', 'destip': '192.168.1.114'}
+2019-11-22 15:35:19,769 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.114
+2019-11-22 15:35:20,979 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:35:21,267 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:21,269 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'type': 'command', 'data': 'off', 'destip': '192.168.1.115'}
+2019-11-22 15:35:21,272 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.115
+2019-11-22 15:35:21,786 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:35:22,223 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:22,225 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'type': 'command', 'data': 'off', 'destip': '192.168.1.116'}
+2019-11-22 15:35:22,228 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.116
+2019-11-22 15:35:23,363 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:23,365 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'destmac': '00-00-00-00-00-00', 'type': 'command', 'data': 'off', 'destip': '192.168.1.117'}
+2019-11-22 15:35:23,367 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.117
+2019-11-22 15:35:24,072 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:24,074 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'comput', 'type': 'command', 'data': 'off', 'destmac': '00-00-00-00-00-00', 'destip': '192.168.1.114'}
+2019-11-22 15:35:24,077 - D:\pyproject\control1.2\commonservice.py-shutComput[line:40] - INFO: 关闭主机192.168.1.114
+2019-11-22 15:35:24,238 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:35:24,273 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: timed out
+2019-11-22 15:35:25,373 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:35:26,095 - D:\pyproject\control1.2\commonservice.py-shutComput[line:47] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:35:59,888 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:35:59,889 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'touying', 'data': 'on', 'type': 'command', 'destmac': '4352', 'destip': '192.168.1.116'}
+2019-11-22 15:35:59,892 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:54] - INFO: 发送指令到投影%1POWR 1
+2019-11-22 15:36:00,723 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 15:36:00,725 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'touying', 'destmac': '4352', 'type': 'command', 'data': 'on', 'destip': '192.168.1.116'}
+2019-11-22 15:36:00,727 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:54] - INFO: 发送指令到投影%1POWR 1
+2019-11-22 15:36:01,901 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:66] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:36:02,734 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:66] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-22 15:37:22,118 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,120 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,122 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,124 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,126 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,128 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,130 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,132 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,134 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,136 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,138 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,140 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,141 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,143 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,144 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,145 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,146 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,147 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,148 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,149 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,150 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,152 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,153 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,154 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,155 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,156 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,157 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,158 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,159 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,160 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,161 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,162 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,163 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 15:37:22,164 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-22 17:16:43,907 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-22 17:16:43,910 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-22 17:16:43,913 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-22 17:16:44,053 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-22 17:16:44,587 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-22 17:16:45,063 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-22 17:16:45,067 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-22 17:17:03,223 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 17:17:03,225 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-22 17:17:03,258 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 17:17:03,260 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-22 17:17:03,285 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-22 17:17:03,287 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}

@@ -1,0 +1,34 @@
+2019-11-06 11:48:40,463 - commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-06 11:48:40,467 - commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-06 11:48:40,468 - commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-06 11:48:40,504 - Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-06 11:48:40,954 - jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-06 11:48:41,265 - Impl.py-start[line:25] - INFO: 启动socket
+2019-11-06 11:48:41,268 - Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-06 11:49:02,961 - commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-06 11:49:02,962 - commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-06 11:49:02,963 - commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-06 11:49:03,011 - Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-06 11:49:03,235 - jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-06 11:49:03,525 - Impl.py-start[line:25] - INFO: 启动socket
+2019-11-06 11:49:03,530 - Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-06 11:52:22,435 - commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-06 11:52:22,437 - commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-06 11:52:22,438 - commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-06 11:52:22,478 - Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-06 11:52:22,870 - jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-06 11:52:23,272 - Impl.py-start[line:25] - INFO: 启动socket
+2019-11-06 11:52:23,277 - Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-06 11:52:49,365 - commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-06 11:52:49,366 - commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-06 11:52:49,368 - commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-06 11:52:49,410 - Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-06 11:52:49,616 - jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-06 11:52:49,847 - Impl.py-start[line:25] - INFO: 启动socket
+2019-11-06 11:52:49,850 - Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-06 11:53:03,999 - Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-06 11:53:03,999 - Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-06 11:53:08,980 - Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-06 11:53:08,980 - Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-06 11:53:14,573 - Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-06 11:53:14,573 - Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}

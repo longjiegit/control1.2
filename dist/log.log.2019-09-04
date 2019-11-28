@@ -1,0 +1,7 @@
+2019-09-04 11:22:18,913 - commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-09-04 11:22:18,917 - commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-09-04 11:22:18,919 - commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-09-04 11:22:18,995 - Main.py-__init__[line:12] - INFO: 程序启动
+2019-09-04 11:22:19,389 - jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-09-04 11:22:19,599 - Impl.py-start[line:25] - INFO: 启动socket
+2019-09-04 11:22:19,603 - Impl.py-get_host_ip[line:19] - INFO: 192.168.1.140

@@ -1,0 +1,233 @@
+2019-11-18 15:40:15,267 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 15:40:15,274 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 15:40:15,275 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 15:40:15,361 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 15:40:16,267 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 15:40:16,762 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 15:40:16,765 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 15:40:39,169 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:40:39,170 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-18 15:40:39,211 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:40:39,212 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-18 15:40:39,217 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:40:39,218 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-18 15:42:11,444 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:42:11,445 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-18 15:42:11,450 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:42:11,451 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-18 15:42:11,456 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:42:11,457 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-18 15:52:46,021 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:46,024 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:46,027 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:46,030 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:46,033 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:46,035 - D:\pyproject\control1.2\Impl.py-read[line:126] - ERROR: Expecting value: line 1 column 1 (char 0)
+2019-11-18 15:52:55,266 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:52:55,267 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'comput'}
+2019-11-18 15:52:55,272 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:52:55,273 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'touying'}
+2019-11-18 15:52:55,277 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:52:55,278 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'init', 'initdata': 'video'}
+2019-11-18 15:53:04,356 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:53:04,357 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'type': 'command', 'destmac': '', 'data': 'on', 'commObj': 'socket', 'destip': ''}
+2019-11-18 15:53:04,360 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050000FF00 8F B7
+2019-11-18 15:53:07,362 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:07,666 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050001FF00 DE 77
+2019-11-18 15:53:10,667 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:10,972 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050002FF00 2E 77
+2019-11-18 15:53:13,973 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:14,277 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050003FF00 7F B7
+2019-11-18 15:53:17,279 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:17,584 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050004FF00 CE 76
+2019-11-18 15:53:20,585 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:20,889 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050005FF00 9F B6
+2019-11-18 15:53:23,892 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:24,197 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050006FF00 6F B6
+2019-11-18 15:53:27,198 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:27,503 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050007FF00 3E 76
+2019-11-18 15:53:30,506 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:50,911 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:53:50,912 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '', 'type': 'command', 'data': 'on', 'commObj': 'light', 'destip': ''}
+2019-11-18 15:53:50,914 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050000FF00 8F B7
+2019-11-18 15:53:53,916 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:54,220 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050001FF00 DE 77
+2019-11-18 15:53:57,221 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:53:57,526 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050002FF00 2E 77
+2019-11-18 15:54:00,529 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:00,834 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050003FF00 7F B7
+2019-11-18 15:54:03,836 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:04,141 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050004FF00 CE 76
+2019-11-18 15:54:07,142 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:07,447 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050005FF00 9F B6
+2019-11-18 15:54:10,449 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:10,753 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050006FF00 6F B6
+2019-11-18 15:54:13,755 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:14,060 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c050007FF00 3E 76
+2019-11-18 15:54:17,062 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:41,432 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 15:54:41,433 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 15:54:41,434 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 15:54:41,464 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 15:54:41,731 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 15:54:41,993 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 15:54:41,996 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 15:54:53,789 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:54:53,790 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'destmac': '', 'type': 'command', 'commObj': 'light', 'data': 'off', 'destip': ''}
+2019-11-18 15:54:53,793 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500000000 CE 47
+2019-11-18 15:54:56,796 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:54:57,100 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500010000 9F 87
+2019-11-18 15:55:00,103 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:00,406 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500020000 6F 87
+2019-11-18 15:55:03,408 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:03,711 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500030000 3E 47
+2019-11-18 15:55:06,714 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:07,018 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500040000 8F 86
+2019-11-18 15:55:10,019 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:10,324 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500050000 DE 46
+2019-11-18 15:55:13,326 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:13,630 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500060000 2E 46
+2019-11-18 15:55:16,631 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:16,936 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1c0500070000 7F 86
+2019-11-18 15:55:19,937 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:36,905 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2019-11-18 15:55:36,907 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'socket', 'destmac': '', 'data': 'off', 'destip': '', 'type': 'command'}
+2019-11-18 15:55:36,910 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500000000 CF 96
+2019-11-18 15:55:39,912 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:40,216 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500010000 9E 56
+2019-11-18 15:55:43,219 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:43,523 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500020000 6E 56
+2019-11-18 15:55:46,524 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:46,828 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500030000 3F 96
+2019-11-18 15:55:49,830 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:50,134 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500040000 8E 57
+2019-11-18 15:55:53,136 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:53,441 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500050000 DF 97
+2019-11-18 15:55:56,443 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:55:56,747 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500060000 2F 97
+2019-11-18 15:55:59,750 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 15:56:00,053 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:245] - INFO: 1d0500070000 7E 57
+2019-11-18 15:56:03,055 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:257] - ERROR: timed out
+2019-11-18 16:11:18,308 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:11:18,309 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:11:18,310 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:11:18,342 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:11:18,606 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 16:11:18,856 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:11:18,861 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:13:06,214 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:13:06,215 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:13:06,216 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:13:06,240 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:13:06,477 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 16:13:06,733 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:13:06,737 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:13:25,001 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:13:25,002 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:13:25,003 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:13:25,025 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:13:25,284 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 16:13:25,533 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:13:25,535 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:17:05,760 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:17:05,761 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:17:05,762 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:17:05,787 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:17:06,042 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 16:17:06,313 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:17:06,317 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:17:24,622 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:17:24,623 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:17:24,624 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:17:24,648 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:17:24,909 - D:\pyproject\control1.2\jd.py-timeStartShut[line:38] - INFO: 计时器启动
+2019-11-18 16:17:25,181 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:17:25,183 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:29:52,192 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:29:52,193 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:29:52,194 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:29:52,225 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 16:29:52,454 - D:\pyproject\control1.2\jd.py-timeStartShut[line:39] - INFO: 计时器启动
+2019-11-18 16:29:52,690 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 16:29:52,693 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 16:59:47,350 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 16:59:47,351 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 16:59:47,352 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 16:59:47,385 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:05:52,204 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:05:52,206 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:05:52,207 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:05:52,242 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:05:52,481 - D:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2019-11-18 17:05:52,730 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 17:05:52,733 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 17:06:16,090 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:06:16,091 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:06:16,092 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:06:16,131 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:13:51,984 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:13:51,985 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:13:51,986 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:13:52,022 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:13:52,294 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-18 17:13:52,536 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 17:13:52,539 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 17:13:56,735 - D:\pyproject\control1.2\comput.py-shutComput[line:111] - INFO: 远程关闭主机192.168.1.238
+2019-11-18 17:14:17,740 - D:\pyproject\control1.2\comput.py-shutComput[line:117] - ERROR: 远程关机失败192.168.1.238
+2019-11-18 17:14:17,742 - D:\pyproject\control1.2\comput.py-shutComput[line:118] - ERROR: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2019-11-18 17:15:40,583 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:15:40,584 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:15:40,585 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:15:40,613 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:15:40,847 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-18 17:15:41,103 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 17:15:41,108 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 17:16:57,893 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:16:57,894 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:16:57,895 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:16:57,925 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:16:58,224 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-18 17:16:58,475 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 17:16:58,478 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 17:17:01,800 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:17:03,811 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:17:03,813 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:17:06,200 - D:\pyproject\control1.2\comput.py-wake_up[line:90] - INFO: 远程唤醒:80-56-F2-2E-64-17:网关:255.255.255.255
+2019-11-18 17:18:45,402 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2019-11-18 17:18:45,403 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2019-11-18 17:18:45,404 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2019-11-18 17:18:45,435 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2019-11-18 17:18:45,763 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2019-11-18 17:18:46,000 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2019-11-18 17:18:46,003 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2019-11-18 17:18:49,160 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:18:51,167 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:18:51,168 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:18:55,648 - D:\pyproject\control1.2\comput.py-wake_up[line:90] - INFO: 远程唤醒:80-56-F2-2E-64-17:网关:255.255.255.255
+2019-11-18 17:19:16,303 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:18,103 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:18,312 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:18,314 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:18,520 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:18,960 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:19,431 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:19,872 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:20,112 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:20,114 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:20,345 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:20,527 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:20,529 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:20,888 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:20,967 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:20,969 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:21,256 - D:\pyproject\control1.2\comput.py-shutComput[line:113] - INFO: 远程关闭主机192.168.1.111
+2019-11-18 17:19:21,439 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:21,441 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:21,879 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:21,881 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:22,352 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:22,354 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:22,895 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:22,897 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-11-18 17:19:23,263 - D:\pyproject\control1.2\comput.py-shutComput[line:119] - ERROR: 远程关机失败192.168.1.111
+2019-11-18 17:19:23,265 - D:\pyproject\control1.2\comput.py-shutComput[line:120] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
