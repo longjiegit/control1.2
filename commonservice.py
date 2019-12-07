@@ -41,7 +41,8 @@ class ComputService():
             s=socket.socket()
             s.settimeout(3)
             s.connect((ip,8000))
-            s.send(bytes(command,encoding='UTF-8'))
+            data='{"type":"cmd","data":"'+command+'"}'
+            s.send(bytes(data,encoding='UTF-8'))
             s.close()
         except Exception as e:
             Logger.getLog().logger.error(e)

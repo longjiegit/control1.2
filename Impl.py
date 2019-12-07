@@ -80,7 +80,7 @@ class TablePad():
                         t1 = threading.Thread(target=coms.wake_up, args=(destmac,))
                         t1.start()
                     else:
-                        command = 'shutdown -s -t 00'
+                        command = 'shutdown -s -f -t 00'
                         t1 = threading.Thread(target=coms.shutComput, args=(destip, command,))
                         t1.start()
                 elif commobj=='touying':

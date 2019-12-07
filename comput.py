@@ -104,7 +104,7 @@ class Comput(QWidget):
         for i in range(self.table.rowCount()):
             if (self.table.item(i, 0).checkState()):
                 ip=self.table.item(i,2).text()
-                command='shutdown -s -t 00'
+                command='shutdown -s -f -t 00'
                 self.sc.sendText("".join(("关闭电脑",ip)))
                 t1 = threading.Thread(target=self.shutComput, args=(ip,command,))
                 t1.start()
@@ -113,7 +113,8 @@ class Comput(QWidget):
             Logger.getLog().logger.info("远程关闭主机"+ip)
             s=socket.socket()
             s.connect((ip,8000))
-            s.send(bytes(command,encoding='UTF-8'))
+            data = '{"type":"cmd","data":"' + command + '"}'
+            s.send(bytes(data,encoding='UTF-8'))
             s.close()
         except Exception as e:
             Logger.getLog().logger.error("远程关机失败"+ip)
