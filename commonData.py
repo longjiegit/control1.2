@@ -10,7 +10,7 @@ global ALL_JD
 ALL_JD=''
 global REMOTE_VIDEO
 REMOTE_VIDEO=''
-
+global REGIST
 
 
 
@@ -39,3 +39,9 @@ with codecs.open("videoPlay.txt", 'r', 'utf-8', buffering=True) as f:
             list = l.split(',')
             VIDEO_LIST.append(list)
     Logger.getLog().logger.info('加载播放器数据完成')
+with codecs.open('./lib/zl.txt','r','utf-8',buffering=True) as f:
+    for line in f:
+        print(line)
+        if line !='\r\n':
+            REGIST=line
+    Logger.getLog().logger.info("加载注册数据完成")

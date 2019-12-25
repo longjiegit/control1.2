@@ -1,10 +1,11 @@
 import sys,os
 os.environ['path'] = os.getenv('path') + ";" + os.path.abspath('./lib')
 print(os.getenv('path'))
-from PyQt5.QtWidgets import QWidget,QTabWidget,QApplication,QVBoxLayout,QLabel,QFrame
+from PyQt5.QtWidgets import QWidget,QApplication,QVBoxLayout,QLabel,QFrame,QMessageBox
 import comput,touying,jd,videoplay,threading,Impl,commonData
 from log import Logger
 from MySignal import SignalClass
+import time,util,commonData
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -61,15 +62,45 @@ class MainWindow(QWidget):
         # self.tableview.resize(w,h)
         self.f.resize(w,h)
 
+    def showDerlMessage(self,message):
+        messageBox=QMessageBox()
+        messageBox.setWindowTitle('警告')
+        messageBox.setText(message)
+        messageBox.setStandardButtons(QMessageBox.Yes)
+        buttonY = messageBox.button(QMessageBox.Yes)
+        buttonY.setText('确定')
+        # messageBox.resize(300,300)
+        messageBox.move(600,500)
+
+        messageBox.exec_()
+        if messageBox.clickedButton() == buttonY:
+            sys.exit(0)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-
     table = MainWindow()
-
     table.show()
+    '''注册码验证'''
+    now_time = time.time()
+    try:
+        zl = bytes(commonData.REGIST, encoding='utf-8')
+    except Exception as e:
+        print(e)
+        table.showDerlMessage('无法获取注册码')
+    try:
+        zl2 = util.Util.des_descrypt(zl)
+        list = zl2.split('-')
+        t1_str = list[1].rstrip('a')
+        start_time = int(t1_str)
+    except Exception as e:
+        table.showDerlMessage('无效注册码')
+    print(start_time)
+    print(now_time - start_time)
+    print(int(list[0]))
+    if(int((now_time - start_time) / 3600/24)>int(list[0])):
+        table.showDerlMessage('注册码过期')
     imp=Impl.TablePad()
-    t1 = threading.Thread(target=imp.start, args=())
+    t1= threading.Thread(target=imp.start, args=())
     t1.setDaemon(True)
     t1.start()
     sys.exit(app.exec_())
