@@ -1,17 +1,22 @@
 from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QTableWidget,QHeaderView,QTableWidgetItem
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt,pyqtSignal
+from PyQt5.QtGui import QBrush,QColor
 from log import Logger
 import json,socket,time,struct,threading,commonData
 from MySignal import SignalClass
 
 
 class Comput(QWidget):
+    updata_startus = pyqtSignal(int, int)
     def __init__(self,sc):
         super().__init__()
         self.sc=sc
         self.t = commonData.TERM_DICT['comput']
         self.initUI()
-
+        self.updata_startus.connect(self.updateStatus)
+        thr = threading.Thread(target=self.checkThread, args=())
+        thr.setDaemon(True)
+        thr.start()
 
 
     def initUI(self):
@@ -35,8 +40,8 @@ class Comput(QWidget):
         vbox.addLayout(hbox)
 
 
-        self.table=QTableWidget(len(self.t),4)
-        self.table.setHorizontalHeaderLabels(['','标签','IP','MAC地址'])
+        self.table=QTableWidget(len(self.t),5)
+        self.table.setHorizontalHeaderLabels(['','标签','IP','MAC地址','状态'])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
         self.table.resizeRowsToContents()
@@ -119,3 +124,37 @@ class Comput(QWidget):
         except Exception as e:
             Logger.getLog().logger.error("远程关机失败"+ip)
             Logger.getLog().logger.error(e)
+
+    def checkThread(self):
+        while True:
+            for i in range(len(self.t)):
+                ip = self.t[i]['IP']
+                check1 = threading.Thread(target=self.checkstatus, args=(ip, i))
+                check1.start()
+
+            time.sleep(30)
+
+    def checkstatus(self, ip, index):
+        try:
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            intstatus = checksocket.connect_ex((ip, 5800))
+            if intstatus == 10061:
+                self.updata_startus.emit(1, index)
+            elif intstatus == 0:
+                self.updata_startus.emit(1, index)
+            elif intstatus == 10035:
+                self.updata_startus.emit(0, index)
+            checksocket.close()
+        except Exception as e:
+            print("fail")
+
+    def updateStatus(self, stat, index):
+        if stat == 0:
+            item = QTableWidgetItem("离线")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 1:
+            item = QTableWidgetItem("在线")
+            item.setForeground(QBrush(QColor(0, 255, 0)))
+            self.table.setItem(index, 4, item)
