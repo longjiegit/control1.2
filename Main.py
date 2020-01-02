@@ -97,6 +97,7 @@ if __name__ == '__main__':
     print(start_time)
     print(now_time - start_time)
     print(int(list[0]))
+    print('aaa')
     if(int((now_time - start_time) / 3600/24)>int(list[0])):
         table.showDerlMessage('注册码过期')
     imp=Impl.TablePad()
