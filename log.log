@@ -6,3 +6,11 @@
 2019-12-31 09:32:29,384 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
 2019-12-31 09:32:29,856 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
 2019-12-31 09:32:29,859 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2020-03-28 11:08:27,752 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2020-03-28 11:08:27,753 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2020-03-28 11:08:27,755 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2020-03-28 11:08:27,756 - D:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载注册数据完成
+2020-03-28 11:08:27,801 - D:/pyproject/control1.2/Main.py-__init__[line:13] - INFO: 程序启动
+2020-03-28 11:08:28,087 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2020-03-28 11:08:28,361 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-03-28 11:08:28,363 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
