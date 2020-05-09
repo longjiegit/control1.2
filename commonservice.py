@@ -35,6 +35,8 @@ class ComputService():
         except Exception as e:
             print(e)
             Logger.getLog().logger.error(e.args)
+
+    @staticmethod
     def shutComput(ip,command):
         try:
             Logger.getLog().logger.info('关闭主机'+ip)
@@ -47,7 +49,57 @@ class ComputService():
         except Exception as e:
             Logger.getLog().logger.error(e)
 
-
+    @staticmethod
+    def computForZX(zxcode,comand):
+        if zxcode=='1001':
+            print('1001')
+            c = commonData.TERM_DICT['comput'][0]
+            if comand=='on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1002':
+            print('1002')
+            c = commonData.TERM_DICT['comput'][1]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1003':
+            print('1003')
+            c = commonData.TERM_DICT['comput'][2]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1004':
+            print('1004')
+            c = commonData.TERM_DICT['comput'][3]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1005':
+            print('1005')
+            c = commonData.TERM_DICT['comput'][4]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1006':
+            print('1006')
+            c = commonData.TERM_DICT['comput'][5]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
+        elif zxcode=='1007':
+            print('1007')
+            c = commonData.TERM_DICT['comput'][6]
+            if comand == 'on':
+                ComputService.wake_up(c['MAC'])
+            else:
+                ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
 class TouyingService():
     @staticmethod
     def Pjlink(ip,command):
@@ -78,6 +130,15 @@ class TouyingService():
             Logger.getLog().logger.info(str(re,'utf-8'))
         except Exception as e:
             Logger.getLog().logger.error(e)
+    @staticmethod
+    def touyingForZX(zxcode,data):
+        if zxcode=='1001':
+            ty = commonData.TERM_DICT['comput'][0]
+            if data=='on':
+                TouyingService.comm(ty['IP'],ty['MAC'],'')
+            elif data=='off':
+                TouyingService.comm(ty['IP'], ty['MAC'], '')
+
 class VideoService():
 
     @staticmethod
@@ -90,7 +151,24 @@ class VideoService():
             s.send(command.encode('utf-8') + b'\n')
         except Exception as e:
             Logger.getLog().logger.error(e)
-
+    @staticmethod
+    def videoForZX(zxcode,command):
+        if zxcode=='1001':
+            print('1001')
+            VideoService.videoPlay("1",command)
+        elif zxcode=='1002':
+            print('1002')
+            VideoService.videoPlay("2", command)
+        elif zxcode=='1003':
+            print('1003')
+            VideoService.videoPlay("3", command)
+        elif zxcode=='1004':
+            print('1004')
+            VideoService.videoPlay("4", command)
+        elif zxcode=='1005':
+            print('1005')
+            VideoService.videoPlay("5", command)
+    #despid,序号，从1开始
     @staticmethod
     def videoPlay(despip, command):
         try:
@@ -112,9 +190,9 @@ class VideoService():
                         JDService.sendCommand(IP, port, cmod)
                 except Exception as e:
                     print(e)
-                VideoService.sendVideoCommand(videoip,'stop')
+
                 VideoService.sendVideoCommand(videoip,'play')
-            else:
+            elif command=='stop':
                 """灯光开"""
                 try:
                     index = commonData.VIDEO_LIST[int(despip) - 1][4]
@@ -132,6 +210,8 @@ class VideoService():
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,command)
+            else:
+                VideoService.sendVideoCommand(videoip, command)
         except Exception as e:
             Logger.getLog().logger.error(e)
 class JDService():

@@ -2,7 +2,7 @@ import sys,os
 os.environ['path'] = os.getenv('path') + ";" + os.path.abspath('./lib')
 print(os.getenv('path'))
 from PyQt5.QtWidgets import QWidget,QApplication,QVBoxLayout,QLabel,QFrame,QMessageBox
-import comput,touying,jd,videoplay,threading,Impl,commonData
+import comput,touying,jd,videoplay,threading,Impl,UdpImpl,commonData
 from log import Logger
 from MySignal import SignalClass
 import time,util,commonData
@@ -50,7 +50,7 @@ class MainWindow(QWidget):
 
         self.f.setLayout(vbox)
         self.f.setObjectName("mainwindow")
-        self.f.setStyleSheet("#mainwindow{border-image:url(./img/bg4.jpg)}")
+        self.f.setStyleSheet("#mainwindow{border-image:url(./img/back.jpg)}")
         self.setWindowTitle('中控程序')
         # self.tableview.addTab(self.f,'123')
         self.setGeometry(200,200,1140,800)
@@ -104,4 +104,8 @@ if __name__ == '__main__':
     t1= threading.Thread(target=imp.start, args=())
     t1.setDaemon(True)
     t1.start()
+    udpser=UdpImpl.UdpServer()
+    t2=threading.Thread(target=udpser.startServer,args=())
+    t2.setDaemon(True)
+    t2.start()
     sys.exit(app.exec_())

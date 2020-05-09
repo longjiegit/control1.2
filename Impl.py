@@ -114,6 +114,21 @@ class TablePad():
                     recdata=jsondata['data']
                     t=threading.Thread(target=jds.lightONandOFF,args=(recdata,))
                     t.start()
+                elif commobj=='zxcomput':
+                    zxcode=jsondata['zxcode']
+                    recdata = jsondata['data']
+                    t = threading.Thread(target=coms.computForZX, args=(zxcode,recdata,))
+                    t.start()
+                elif commobj=='zxtouying':
+                    zxcode = jsondata['zxcode']
+                    recdata = jsondata['data']
+                    t = threading.Thread(target=tys.touyingForZX, args=(zxcode, recdata,))
+                    t.start()
+                elif commobj=='zxvideo':
+                    zxcode = jsondata['zxcode']
+                    recdata = jsondata['data']
+                    t = threading.Thread(target=vs.videoForZX, args=(zxcode, recdata,))
+                    t.start()
 
             else:
                 # 如果该socket已被对方关闭，关闭该socket，
