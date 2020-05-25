@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QLabel,Q
 from PyQt5.QtCore import Qt
 import commonData
 from commonservice import VideoService,JDService
+import time
 
 class VideoPlay(QWidget):
     def __init__(self):
@@ -56,10 +57,11 @@ class VideoPlay(QWidget):
                 addr =self.device['device'][line - 1]['addr']
                 cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
                 JDService.sendCommand(IP,port,cmod)
+                time.sleep(0.3)
         except Exception as e:
             print(e)
         VideoService.sendVideoCommand(video[1],'stop')
-        VideoService.sendVideoCommand(video[1],'play')
+        # VideoService.sendVideoCommand(video[1],'play')
     def stop(self,row):
         video = commonData.VIDEO_LIST[row]
         """灯光开"""
@@ -76,6 +78,7 @@ class VideoPlay(QWidget):
                 addr = self.device['device'][line - 1]['addr']
                 cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), 'FF00')
                 JDService.sendCommand(IP, port, cmod)
+                time.sleep(0.3)
         except Exception as e:
             print(e)
         VideoService.sendVideoCommand(video[1], 'stop')

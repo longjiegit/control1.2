@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Main.py'],
-             pathex=['D:\\pyproject\\control1.2'],
+             pathex=['F:\\pyproject\\control1.2'],
              binaries=[],
              datas=[],
              hiddenimports=[],

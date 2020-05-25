@@ -3,6 +3,7 @@ from PyQt5.QtCore import Qt,pyqtSignal
 from PyQt5.QtGui import QBrush,QColor
 from log import Logger
 import json,socket,time,struct,threading,commonData
+import commonservice
 from MySignal import SignalClass
 
 
@@ -74,11 +75,26 @@ class Comput(QWidget):
     def wake(self):
         for i in range(self.table.rowCount()):
             if (self.table.item(i, 0).checkState()):
+                try:
 
-                mac=self.table.item(i,3).text()
-                self.sc.sendText("".join(("开启电脑", mac)))
-                t1 = threading.Thread(target=self.wake_up, args=(mac,))
-                t1.start()
+                    mac=self.table.item(i,3).text()
+                    ip2 = self.t[i]['ip2']
+                    port2 = self.t[i]['port2']
+                    addr = self.t[i]['addr']
+                    road = self.t[i]['road']
+                    print(road)
+                    self.sc.sendText("".join(("开启电脑", mac)))
+                    t1 = threading.Thread(target=self.wake_upfromJd, args=(ip2,port2,addr,road,))
+                    t1.start()
+                except Exception as e:
+                    print(e)
+    def wake_upfromJd(self,ip,port,addr,road):
+        road = road - 1
+        cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
+        commonservice.JDService.sendCommand(ip, port, cmod)
+        time.sleep(0.8)
+        cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+        commonservice.JDService.sendCommand(ip, port, cmod)
     def wake_up(self,mac='DC-4A-3E-78-3E-0A'):
         try:
             MAC = mac
@@ -108,11 +124,26 @@ class Comput(QWidget):
     def shutdownComput(self):
         for i in range(self.table.rowCount()):
             if (self.table.item(i, 0).checkState()):
-                ip=self.table.item(i,2).text()
-                command='shutdown -s -f -t 00'
-                self.sc.sendText("".join(("关闭电脑",ip)))
-                t1 = threading.Thread(target=self.shutComput, args=(ip,command,))
-                t1.start()
+                try:
+                    ip=self.table.item(i,2).text()
+                    command='shutdown -s -f -t 00'
+                    ip2 = self.t[i]['ip2']
+                    port2 = self.t[i]['port2']
+                    addr = self.t[i]['addr']
+                    road = self.t[i]['road']
+                    self.sc.sendText("".join(("关闭电脑",ip)))
+                    t1 = threading.Thread(target=self.shutComputfromJd, args=(ip2,port2,addr,road,))
+                    t1.start()
+                except Exception as e:
+                    print(e)
+    def shutComputfromJd(self,ip,port,addr,road):
+        print("继电关机")
+        road = road - 1
+        cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
+        commonservice.JDService.sendCommand(ip, port, cmod)
+        time.sleep(0.8)
+        cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+        commonservice.JDService.sendCommand(ip, port, cmod)
     def shutComput(self,ip,command):
         try:
             Logger.getLog().logger.info("远程关闭主机"+ip)

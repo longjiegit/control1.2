@@ -81,25 +81,25 @@ if __name__ == '__main__':
     table = MainWindow()
     table.show()
     '''注册码验证'''
-    now_time = time.time()
-    try:
-        zl = bytes(commonData.REGIST, encoding='utf-8')
-    except Exception as e:
-        print(e)
-        table.showDerlMessage('无法获取注册码')
-    try:
-        zl2 = util.Util.des_descrypt(zl)
-        list = zl2.split('-')
-        t1_str = list[1].rstrip('a')
-        start_time = int(t1_str)
-    except Exception as e:
-        table.showDerlMessage('无效注册码')
-    print(start_time)
-    print(now_time - start_time)
-    print(int(list[0]))
-    print('aaa')
-    if(int((now_time - start_time) / 3600/24)>int(list[0])):
-        table.showDerlMessage('注册码过期')
+    # now_time = time.time()
+    # try:
+    #     zl = bytes(commonData.REGIST, encoding='utf-8')
+    # except Exception as e:
+    #     print(e)
+    #     table.showDerlMessage('无法获取注册码')
+    # try:
+    #     zl2 = util.Util.des_descrypt(zl)
+    #     list = zl2.split('-')
+    #     t1_str = list[1].rstrip('a')
+    #     start_time = int(t1_str)
+    # except Exception as e:
+    #     table.showDerlMessage('无效注册码')
+    # print(start_time)
+    # print(now_time - start_time)
+    # print(int(list[0]))
+    # print('aaa')
+    # if(int((now_time - start_time) / 3600/24)>int(list[0])):
+    #     table.showDerlMessage('注册码过期')
     imp=Impl.TablePad()
     t1= threading.Thread(target=imp.start, args=())
     t1.setDaemon(True)
@@ -108,4 +108,5 @@ if __name__ == '__main__':
     t2=threading.Thread(target=udpser.startServer,args=())
     t2.setDaemon(True)
     t2.start()
+
     sys.exit(app.exec_())
