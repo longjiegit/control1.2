@@ -84,28 +84,49 @@ class Touying(QWidget):
                     port=self.table.item(i,3).text()
                     Logger.getLog().logger.info('远程关闭投影机'+ip)
                     t1 = threading.Thread(target=self.comm, args=(ip,port,bytes.fromhex('02 50 4F 46 03'),))
+                    # t1=threading.Thread(target=self.Pjlink,args=(ip,port,b'%1POWR 0\r',))
                     t1.start()
-
+    def Panasonic(self,ip,port,command):
+        try:
+            s=socket.socket()
+            s.settimeout(3)
+            s.connect((ip,1024))
+            result=s.recv(1024).decode('UTF-8')
+            l=list(result)
+            x='admin'
+            y='admin'
+            z = l[12] + l[13] + l[14] + l[15] + l[16] + l[17] + l[18] + l[19]
+            s1 = ':'.join((x, y, z))
+            m = hashlib.md5(s1.encode())
+            cmd = m.hexdigest() + command
+            s.send(cmd.encode('utf-8'))
+            re = s.recv(1024)
+            Logger.getLog().logger.info(re)
+        except Exception as e:
+            Logger.getLog().logger.error(e)
     def Pjlink(self,ip,port,command):
         try:
             print(ip)
             s=socket.socket()
             s.settimeout(3)
-            s.connect(('192.168.1.158',4352))
+            s.connect(('192.168.3.100',1024))
             #s.connect((ip,int(port)))
             result=s.recv(1024).decode('UTF-8')
             l = list(result)
             print(l)
-            x = 'dispadmin'
+            x = 'admin'
             y = 'admin'
-            z = l[9]+l[10]+l[11]+l[12]+l[13]+l[14]+l[15]+l[16]
-            s1 = ':'.join((x, y, z));
+            z = l[12]+l[13]+l[14]+l[15]+l[16]+l[17]+l[18]+l[19]
+            s1 = ':'.join((x, y, z))
             print(s1)
-            m = hashlib.sha3_256(s1.encode())
+            m = hashlib.md5(s1.encode())
             print(m)
-            cmd=m.hexdigest()+'%1POWR 0\r'
+            cmd=m.hexdigest()+'00PON\r'
+            print(m.hexdigest())
+            print(len(m.hexdigest()))
             print(cmd)
-            s.send(cmd.encode())
+            s.send(cmd.encode('utf-8'))
+            # s.send(b'%1POWR 0\r')
             print('end')
             re=s.recv(1024)
             Logger.getLog().logger.info(re)
