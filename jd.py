@@ -220,7 +220,7 @@ class Jd(QWidget):
         for ty in self.t:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
             self.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
-
+        time.sleep(30)
         '''电脑全开'''
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全开')))
         for c in self.cpt:

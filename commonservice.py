@@ -301,6 +301,7 @@ class JDService():
         for ty in commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
             TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+        time.sleep(30)
 
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
