@@ -59,7 +59,6 @@ class Jd(QWidget):
             if self.sunday.checkState():
                 week.append(7)
 
-            print(week)
             now = datetime.datetime.now()
 
             weekday=now.isoweekday()
@@ -225,7 +224,7 @@ class Jd(QWidget):
         '''电脑全开'''
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全开')))
         for c in self.cpt:
-            cs.wake_up(c['MAC'])
+            cs.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
     def Pjlink(self, ip, command):
         try:
             s = socket.socket()
@@ -252,13 +251,14 @@ class Jd(QWidget):
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全关')))
 
         for c in self.cpt:
-            cs.shutComput(c['IP'],'shutdown -s -t 00')
+            cs.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            time.sleep(0.1)
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '投影全关')))
         for ty in self.t:
             Logger.getLog().logger.info('关闭投影机'+ty['IP'])
             self.Pjlink(ty['IP'],b'%1POWR 0\r')
-        Logger.getLog().logger.info('等待240秒')
-        time.sleep(240)
+        Logger.getLog().logger.info('等待60秒')
+        time.sleep(60)
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '继电器全关')))
         for d in range(len(self.devices)):
             dev = self.devices[d]['device']
@@ -267,9 +267,12 @@ class Jd(QWidget):
                 port = t['port']
                 addr = t['addr']
                 road = t['road'] - 1
-                cmod = self.getSingleCommand(hex(addr), hex(road), '0000')
-                self.sendCommand(ip, port, cmod, '继电器全关')
-                time.sleep(0.3)
+                if (addr==2) and (road==2):
+                    print("no close")
+                else:
+                    cmod = self.getSingleCommand(hex(addr), hex(road), '0000')
+                    self.sendCommand(ip, port, cmod, '继电器全关')
+                    time.sleep(0.3)
 
     def onOpen(self):
         dex=self.open_btn.index(self.sender())
@@ -335,7 +338,7 @@ class Jd(QWidget):
             cmod = self.getSingleCommand(hex(addr), dest, '0000')
             t = threading.Thread(target=self.sendCommand, args=(n['ip'],n['port'],cmod,act_name,))
             t.start()
-            time.sleep(1)
+            time.sleep(0.5)
 
     def getMutilCommand(self,addr,num,onOFF='0100'):
         s1='0F000000'
@@ -355,7 +358,6 @@ class Jd(QWidget):
             a_bytes = bytes.fromhex(data)
             Logger.getLog().logger.info(':'.join((ip,str(port))))
             Logger.getLog().logger.info(comd)
-            print(a_bytes)
             s = socket.socket()
             s.settimeout(3)
             s.connect((ip,port))
@@ -384,8 +386,6 @@ class Jd(QWidget):
             str_list.insert(2, '0')
         crc_data = "".join(str_list)
         read = read.strip() + ' ' + crc_data[4:] + ' ' + crc_data[2:4]
-        print('CRC16校验:', crc_data[4:] + ' ' + crc_data[2:4])
-        print('增加Modbus CRC16校验：>>>', read)
         return read
     def changCheck(self,btn,name):
         print(name)
