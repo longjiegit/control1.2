@@ -234,7 +234,7 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
                         Logger.getLog().logger.info("关灯"+cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.1)
+                        time.sleep(0.2)
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,'play')
@@ -254,7 +254,7 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), 'FF00')
                         Logger.getLog().logger.info("开灯" + cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.1)
+                        time.sleep(0.2)
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,command)
@@ -273,7 +273,7 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
                         Logger.getLog().logger.info("关灯"+cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.1)
+                        time.sleep(0.2)
                 except Exception as e:
                     print(e)
             else:
@@ -330,6 +330,8 @@ class JDService():
                 addr = t['addr']
                 road = t['road'] - 1
                 if (addr==2) and (road==2):
+                    print("no close")
+                elif (addr==1) and (road==4):
                     print("no close")
                 else:
                     cmod = JDService.getSingleCommand(hex(addr), hex(road), '0000')

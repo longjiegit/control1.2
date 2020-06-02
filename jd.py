@@ -280,6 +280,8 @@ class Jd(QWidget):
                 road = t['road'] - 1
                 if (addr==2) and (road==2):
                     print("no close")
+                elif (addr == 1) and (road == 4):
+                    print("no close")
                 else:
                     cmod = self.getSingleCommand(hex(addr), hex(road), '0000')
                     self.sendCommand(ip, port, cmod, '继电器全关')
