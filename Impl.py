@@ -69,7 +69,7 @@ class TablePad():
                    skt.send(commonData.ALL_JD.encode('utf-8')+b'\n')
                elif initdata=='video':
                    skt.send(commonData.REMOTE_VIDEO.encode('utf-8') + b'\n')
-               elif initdata == 'hxjzl':
+               elif initdata=='hxjzl':
                    skt.send(json.dumps(commonData.HXJZL).encode('utf-8') + b'\n')
                elif initdata == 'yjzs':
                    skt.send(json.dumps(commonData.YJZS).encode('utf-8') + b'\n')

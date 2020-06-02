@@ -1,399 +1,318 @@
-2020-06-01 12:04:03,728 - D:\pyproject\control1.2\commonData.py-<module>[line:29] - INFO: 加载终端数据完成
-2020-06-01 12:04:03,738 - D:\pyproject\control1.2\commonData.py-<module>[line:36] - INFO: 加载继电器数据完成
-2020-06-01 12:04:03,739 - D:\pyproject\control1.2\commonData.py-<module>[line:43] - INFO: 核心竞争力
-2020-06-01 12:04:03,740 - D:\pyproject\control1.2\commonData.py-<module>[line:50] - INFO: 业绩展示
-2020-06-01 12:04:03,742 - D:\pyproject\control1.2\commonData.py-<module>[line:59] - INFO: 加载播放器数据完成
-2020-06-01 12:04:03,743 - D:\pyproject\control1.2\commonData.py-<module>[line:65] - INFO: 加载注册数据完成
-2020-06-01 12:04:03,889 - D:/pyproject/control1.2/Main.py-__init__[line:13] - INFO: 程序启动
-2020-06-01 12:04:04,782 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
-2020-06-01 12:04:05,201 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
-2020-06-01 12:04:05,201 - D:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
-2020-06-01 12:04:05,203 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
-2020-06-01 12:04:43,703 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:04:43,704 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxonoff', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-06-01 12:04:54,373 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:04:54,374 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxonoff', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-06-01 12:05:01,096 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:01,097 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxonoff', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 12:05:06,987 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:06,988 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxonoff', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 12:05:16,253 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:16,254 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'on', 'type': 'command', 'zxcode': '1001'}
-2020-06-01 12:05:20,860 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:20,861 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'off', 'type': 'command', 'zxcode': '1001'}
-2020-06-01 12:05:23,572 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:23,572 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'on', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 12:05:28,532 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:28,533 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'off', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 12:05:30,763 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:30,764 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'on', 'type': 'command', 'zxcode': '1003'}
-2020-06-01 12:05:40,817 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:05:40,818 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxsocket', 'data': 'off', 'type': 'command', 'zxcode': '1003'}
-2020-06-01 12:06:00,352 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:00,353 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1001'}
-2020-06-01 12:06:02,806 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:02,807 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1002'}
-2020-06-01 12:06:04,430 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:04,432 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1003'}
-2020-06-01 12:06:05,898 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:05,898 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1004'}
-2020-06-01 12:06:07,442 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:07,443 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1005'}
-2020-06-01 12:06:12,034 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:12,035 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1001'}
-2020-06-01 12:06:13,594 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:13,595 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 12:06:15,255 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:15,257 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1003'}
-2020-06-01 12:06:17,060 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:17,061 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1004'}
-2020-06-01 12:06:20,557 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:20,558 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1005'}
-2020-06-01 12:06:40,472 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:40,472 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1006'}
-2020-06-01 12:06:41,840 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:41,841 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1007'}
-2020-06-01 12:06:43,116 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:43,116 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1008'}
-2020-06-01 12:06:45,074 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:45,075 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1009'}
-2020-06-01 12:06:46,708 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:46,709 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1010'}
-2020-06-01 12:06:51,388 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:51,390 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1006'}
-2020-06-01 12:06:52,890 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:52,891 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1007'}
-2020-06-01 12:06:54,505 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:06:54,506 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1008'}
-2020-06-01 12:06:54,535 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,537 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,538 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,540 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,541 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,542 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,543 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,544 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,545 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,546 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,547 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,549 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,550 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,551 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,552 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,554 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:06:54,555 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 12:07:07,180 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:07,181 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1009'}
-2020-06-01 12:07:19,685 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:19,686 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1010'}
-2020-06-01 12:07:29,778 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:29,779 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1011'}
-2020-06-01 12:07:34,400 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:34,401 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1012'}
-2020-06-01 12:07:36,389 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:36,390 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1013'}
-2020-06-01 12:07:37,870 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:37,871 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1014'}
-2020-06-01 12:07:39,937 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:39,938 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1015'}
-2020-06-01 12:07:41,522 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:41,523 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1015'}
-2020-06-01 12:07:43,137 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:43,137 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1014'}
-2020-06-01 12:07:44,818 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:44,819 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1013'}
-2020-06-01 12:07:46,812 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:46,813 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1012'}
-2020-06-01 12:07:48,327 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:07:48,328 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1011'}
-2020-06-01 12:08:02,148 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:02,149 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1016'}
-2020-06-01 12:08:03,474 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:03,475 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1017'}
-2020-06-01 12:08:07,409 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:07,411 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1018'}
-2020-06-01 12:08:09,131 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:09,132 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1019'}
-2020-06-01 12:08:10,559 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:10,560 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'on', 'type': 'zxlight', 'zxcode': '1020'}
-2020-06-01 12:08:12,334 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:12,335 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1016'}
-2020-06-01 12:08:13,544 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:13,545 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1017'}
-2020-06-01 12:08:14,853 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:14,854 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1018'}
-2020-06-01 12:08:15,976 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:15,978 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1019'}
-2020-06-01 12:08:17,491 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 12:08:17,492 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxlight', 'data': 'off', 'type': 'command', 'zxcode': '1020'}
-2020-06-01 17:15:58,399 - D:\pyproject\control1.2\commonData.py-<module>[line:29] - INFO: 加载终端数据完成
-2020-06-01 17:15:58,400 - D:\pyproject\control1.2\commonData.py-<module>[line:36] - INFO: 加载继电器数据完成
-2020-06-01 17:15:58,401 - D:\pyproject\control1.2\commonData.py-<module>[line:43] - INFO: 核心竞争力
-2020-06-01 17:15:58,403 - D:\pyproject\control1.2\commonData.py-<module>[line:50] - INFO: 业绩展示
-2020-06-01 17:15:58,404 - D:\pyproject\control1.2\commonData.py-<module>[line:59] - INFO: 加载播放器数据完成
-2020-06-01 17:15:58,405 - D:\pyproject\control1.2\commonData.py-<module>[line:65] - INFO: 加载注册数据完成
-2020-06-01 17:15:58,461 - D:/pyproject/control1.2/Main.py-__init__[line:13] - INFO: 程序启动
-2020-06-01 17:15:58,988 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
-2020-06-01 17:15:59,367 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
-2020-06-01 17:15:59,367 - D:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
-2020-06-01 17:15:59,368 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
-2020-06-01 17:17:51,767 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 17:17:51,768 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 17:17:51,772 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500000000
-2020-06-01 17:17:51,775 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500000000 CD F9
-2020-06-01 17:17:54,776 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:17:55,079 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500010000
-2020-06-01 17:17:55,080 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500010000 9C 39
-2020-06-01 17:17:58,083 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:17:58,383 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500020000
-2020-06-01 17:17:58,385 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500020000 6C 39
-2020-06-01 17:18:01,386 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:01,689 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500030000
-2020-06-01 17:18:01,691 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500030000 3D F9
-2020-06-01 17:18:04,694 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:04,995 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500040000
-2020-06-01 17:18:04,996 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500040000 8C 38
-2020-06-01 17:18:07,998 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:08,301 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:play
-2020-06-01 17:18:10,318 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 17:18:44,569 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 17:18:44,570 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 17:18:44,572 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050000FF00
-2020-06-01 17:18:44,576 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050000FF00 8C 09
-2020-06-01 17:18:47,578 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:47,880 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050001FF00
-2020-06-01 17:18:47,881 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050001FF00 DD C9
-2020-06-01 17:18:50,882 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:51,184 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050002FF00
-2020-06-01 17:18:51,186 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050002FF00 2D C9
-2020-06-01 17:18:54,188 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:54,489 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050003FF00
-2020-06-01 17:18:54,491 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050003FF00 7C 09
-2020-06-01 17:18:57,494 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:18:57,797 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050004FF00
-2020-06-01 17:18:57,800 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050004FF00 CD C8
-2020-06-01 17:19:00,801 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:01,103 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-06-01 17:19:03,109 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 17:19:14,338 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 17:19:14,339 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'initdata': 'yjzs', 'type': 'init'}
-2020-06-01 17:19:17,633 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 17:19:17,634 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'on', 'type': 'command'}
-2020-06-01 17:19:17,635 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:265] - INFO: 打开电源
-2020-06-01 17:19:17,636 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050000FF00 8C 09
-2020-06-01 17:19:20,638 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:20,942 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050001FF00 DD C9
-2020-06-01 17:19:23,946 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:24,248 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050002FF00 2D C9
-2020-06-01 17:19:27,250 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:27,553 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050003FF00 7C 09
-2020-06-01 17:19:30,555 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:30,859 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050004FF00 CD C8
-2020-06-01 17:19:33,862 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:34,163 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050005FF00 9C 08
-2020-06-01 17:19:37,165 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:37,467 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050006FF00 6C 08
-2020-06-01 17:19:40,468 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:40,770 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050007FF00 3D C8
-2020-06-01 17:19:43,772 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:44,074 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050000FF00 8C 3A
-2020-06-01 17:19:47,077 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:47,378 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050001FF00 DD FA
-2020-06-01 17:19:50,379 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:50,682 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050002FF00 2D FA
-2020-06-01 17:19:53,683 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:53,987 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050003FF00 7C 3A
-2020-06-01 17:19:56,987 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:19:57,290 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050004FF00 CD FB
-2020-06-01 17:20:00,291 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:00,596 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050005FF00 9C 3B
-2020-06-01 17:20:03,596 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:03,900 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050006FF00 6C 3B
-2020-06-01 17:20:06,901 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:07,203 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 01050007FF00 3D FB
-2020-06-01 17:20:10,205 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:10,508 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:278] - INFO: 打开投影
-2020-06-01 17:20:10,509 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:280] - INFO: 开启投影机192.168.2.13
-2020-06-01 17:20:10,510 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:147] - INFO: 发送指令到投影%1POWR 1
-2020-06-01 17:20:13,512 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:159] - ERROR: timed out
-2020-06-01 17:20:13,514 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:284] - INFO: 打开电脑
-2020-06-01 17:20:13,516 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050000FF00 8C 6F
-2020-06-01 17:20:16,517 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:16,920 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500000000 CD 9F
-2020-06-01 17:20:19,922 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:20,024 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050001FF00 DD AF
-2020-06-01 17:20:23,028 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:23,429 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500010000 9C 5F
-2020-06-01 17:20:26,432 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:26,536 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050002FF00 2D AF
-2020-06-01 17:20:29,537 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:29,939 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500020000 6C 5F
-2020-06-01 17:20:32,942 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:33,045 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050003FF00 7C 6F
-2020-06-01 17:20:36,048 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:36,451 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500030000 3D 9F
-2020-06-01 17:20:39,451 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:39,554 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050004FF00 CD AE
-2020-06-01 17:20:42,556 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:42,958 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500040000 8C 5E
-2020-06-01 17:20:45,960 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:46,063 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050005FF00 9C 6E
-2020-06-01 17:20:49,064 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:49,479 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500050000 DD 9E
-2020-06-01 17:20:52,483 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:52,586 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 04050006FF00 6C 6E
-2020-06-01 17:20:55,589 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:55,992 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 040500060000 2D 9E
-2020-06-01 17:20:58,995 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:20:59,097 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 05050000FF00 8D BE
-2020-06-01 17:21:02,099 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:02,501 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 050500000000 CC 4E
-2020-06-01 17:21:05,502 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:05,605 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 05050001FF00 DC 7E
-2020-06-01 17:21:08,606 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:09,009 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 050500010000 9D 8E
-2020-06-01 17:21:12,010 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:12,112 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 05050002FF00 2C 7E
-2020-06-01 17:21:15,115 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:15,519 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 050500020000 6D 8E
-2020-06-01 17:21:18,521 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:18,624 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 05050003FF00 7D BE
-2020-06-01 17:21:21,625 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:21:22,030 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 050500030000 3C 4E
-2020-06-01 17:21:25,033 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 17:24:16,959 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 17:24:16,960 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 17:24:16,961 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 17:24:16,962 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:33:17,349 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:33:17,353 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 19:33:17,355 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500000000
-2020-06-01 19:33:17,359 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500000000 CD F9
-2020-06-01 19:33:18,434 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:33:18,434 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 19:33:18,436 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050000FF00
-2020-06-01 19:33:18,439 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050000FF00 8C 09
-2020-06-01 19:33:18,632 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:33:18,634 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:33:20,362 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:20,665 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500010000
-2020-06-01 19:33:20,666 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500010000 9C 39
-2020-06-01 19:33:20,667 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:33:20,668 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'initdata': 'yjzs', 'type': 'init'}
-2020-06-01 19:33:21,440 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:21,742 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050001FF00
-2020-06-01 19:33:21,743 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050001FF00 DD C9
-2020-06-01 19:33:23,668 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:23,969 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500020000
-2020-06-01 19:33:23,971 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500020000 6C 39
-2020-06-01 19:33:24,146 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:33:24,147 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'initdata': 'hxjzl', 'type': 'init'}
-2020-06-01 19:33:24,744 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:25,046 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050002FF00
-2020-06-01 19:33:25,048 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050002FF00 2D C9
-2020-06-01 19:33:26,971 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:27,274 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500030000
-2020-06-01 19:33:27,275 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500030000 3D F9
-2020-06-01 19:33:28,049 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:28,351 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050003FF00
-2020-06-01 19:33:28,352 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050003FF00 7C 09
-2020-06-01 19:33:30,275 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:30,579 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500040000
-2020-06-01 19:33:30,582 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500040000 8C 38
-2020-06-01 19:33:31,355 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:31,657 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050004FF00
-2020-06-01 19:33:31,658 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050004FF00 CD C8
-2020-06-01 19:33:33,584 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:33,885 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:play
-2020-06-01 19:33:34,659 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:33:34,961 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-06-01 19:33:35,894 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 19:33:36,966 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 19:55:41,880 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:55:41,882 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:57:13,963 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:57:13,964 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 19:57:13,965 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500000000
-2020-06-01 19:57:13,967 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500000000 CD F9
-2020-06-01 19:57:16,837 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 19:57:16,838 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 19:57:16,840 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050000FF00
-2020-06-01 19:57:16,841 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050000FF00 8C 09
-2020-06-01 19:57:16,969 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:17,271 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500010000
-2020-06-01 19:57:17,272 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500010000 9C 39
-2020-06-01 19:57:19,842 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:20,143 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050001FF00
-2020-06-01 19:57:20,145 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050001FF00 DD C9
-2020-06-01 19:57:20,274 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:20,574 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500020000
-2020-06-01 19:57:20,576 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500020000 6C 39
-2020-06-01 19:57:23,147 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:23,451 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050002FF00
-2020-06-01 19:57:23,455 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050002FF00 2D C9
-2020-06-01 19:57:23,578 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:23,880 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500030000
-2020-06-01 19:57:23,883 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500030000 3D F9
-2020-06-01 19:57:26,456 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:26,758 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050003FF00
-2020-06-01 19:57:26,759 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050003FF00 7C 09
-2020-06-01 19:57:26,883 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:27,186 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500040000
-2020-06-01 19:57:27,188 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500040000 8C 38
-2020-06-01 19:57:29,762 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:30,066 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050004FF00
-2020-06-01 19:57:30,069 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050004FF00 CD C8
-2020-06-01 19:57:30,190 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:30,493 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:play
-2020-06-01 19:57:32,498 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 19:57:33,071 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 19:57:33,374 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-06-01 19:57:35,379 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 19:58:10,583 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 19:58:10,585 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 20:01:39,973 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 20:01:39,974 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 20:01:39,975 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500000000
-2020-06-01 20:01:39,977 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500000000 CD F9
-2020-06-01 20:01:41,515 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 20:01:41,515 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1002'}
-2020-06-01 20:01:41,517 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050000FF00
-2020-06-01 20:01:41,518 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050000FF00 8C 09
-2020-06-01 20:01:41,818 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 20:01:41,821 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 20:01:42,977 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:43,153 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 20:01:43,154 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'initdata': 'yjzs', 'type': 'init'}
-2020-06-01 20:01:43,280 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500010000
-2020-06-01 20:01:43,282 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500010000 9C 39
-2020-06-01 20:01:44,520 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:44,822 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050001FF00
-2020-06-01 20:01:44,823 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050001FF00 DD C9
-2020-06-01 20:01:45,976 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-06-01 20:01:45,977 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'initdata': 'hxjzl', 'type': 'init'}
-2020-06-01 20:01:46,158 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 20:01:46,160 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-06-01 20:01:46,285 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:46,586 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500020000
-2020-06-01 20:01:46,587 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500020000 6C 39
-2020-06-01 20:01:47,825 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:48,126 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050002FF00
-2020-06-01 20:01:48,128 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050002FF00 2D C9
-2020-06-01 20:01:49,588 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:49,892 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500030000
-2020-06-01 20:01:49,895 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500030000 3D F9
-2020-06-01 20:01:51,129 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:51,433 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050003FF00
-2020-06-01 20:01:51,436 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050003FF00 7C 09
-2020-06-01 20:01:52,896 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:53,199 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:230] - INFO: 关灯020500040000
-2020-06-01 20:01:53,202 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 020500040000 8C 38
-2020-06-01 20:01:54,437 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:54,740 - D:\pyproject\control1.2\commonservice.py-videoPlay[line:251] - INFO: 开灯02050004FF00
-2020-06-01 20:01:54,741 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:378] - INFO: 02050004FF00 CD C8
-2020-06-01 20:01:56,204 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:56,506 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:play
-2020-06-01 20:01:57,741 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:390] - ERROR: timed out
-2020-06-01 20:01:58,044 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:187] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-06-01 20:01:58,511 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-06-01 20:02:00,063 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:193] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:19:41,047 - D:\pyproject\control1.2\commonData.py-<module>[line:25] - INFO: 加载终端数据完成
+2020-05-08 11:19:41,055 - D:\pyproject\control1.2\commonData.py-<module>[line:32] - INFO: 加载继电器数据完成
+2020-05-08 11:19:41,057 - D:\pyproject\control1.2\commonData.py-<module>[line:41] - INFO: 加载播放器数据完成
+2020-05-08 11:19:41,058 - D:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载注册数据完成
+2020-05-08 11:19:41,171 - D:/pyproject/control1.2/Main.py-__init__[line:13] - INFO: 程序启动
+2020-05-08 11:19:41,920 - D:\pyproject\control1.2\jd.py-timeStartShut[line:40] - INFO: 计时器启动
+2020-05-08 11:19:42,339 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-05-08 11:19:42,342 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.1.146
+2020-05-08 11:19:48,900 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:19:48,903 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:19:48,906 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-05-08 11:19:52,511 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:19:52,512 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:19:52,514 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.238
+2020-05-08 11:19:55,516 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:19:59,680 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:19:59,681 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:19:59,687 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:play
+2020-05-08 11:20:01,697 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:02,960 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:02,963 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'forward', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:20:02,966 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:forward
+2020-05-08 11:20:04,973 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:08,393 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:08,394 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'backward', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:20:08,395 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:backward
+2020-05-08 11:20:10,400 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:15,974 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:15,976 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:20:15,979 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:stop
+2020-05-08 11:20:17,985 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:18,917 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:18,920 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'pause', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:20:18,923 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:pause
+2020-05-08 11:20:20,932 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:22,838 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,840 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,842 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,843 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,845 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,846 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:22,848 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:25,888 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:25,890 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'zxplay,1', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:20:25,892 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:zxplay,1
+2020-05-08 11:20:27,898 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:30,504 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:30,506 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'pause', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:20:30,509 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:pause
+2020-05-08 11:20:32,525 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:32,929 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:32,932 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:20:34,183 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:34,185 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1003'}
+2020-05-08 11:20:34,188 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-05-08 11:20:35,956 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:35,958 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1003'}
+2020-05-08 11:20:35,961 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.112
+2020-05-08 11:20:38,101 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:39,721 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:39,723 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1004'}
+2020-05-08 11:20:39,726 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:20:41,470 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:41,473 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1004'}
+2020-05-08 11:20:41,476 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:20:44,502 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:44,504 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1005'}
+2020-05-08 11:20:44,506 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:20:45,982 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:45,983 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1005'}
+2020-05-08 11:20:45,986 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.114
+2020-05-08 11:20:48,988 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:20:49,210 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:49,211 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1006'}
+2020-05-08 11:20:49,213 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:20:51,413 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:51,415 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1006'}
+2020-05-08 11:20:51,419 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.115
+2020-05-08 11:20:53,428 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:20:53,937 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:53,940 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1007'}
+2020-05-08 11:20:53,943 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:20:56,287 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:20:56,289 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'destmac': '', 'type': 'command', 'zxcode': '1007'}
+2020-05-08 11:20:56,292 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.116
+2020-05-08 11:20:59,296 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:21:04,037 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:04,038 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'data': 'on', 'type': 'command'}
+2020-05-08 11:21:04,040 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050000FF00 8F B7
+2020-05-08 11:21:07,043 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:07,346 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050001FF00 DE 77
+2020-05-08 11:21:10,349 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:10,653 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050002FF00 2E 77
+2020-05-08 11:21:13,655 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:13,962 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050003FF00 7F B7
+2020-05-08 11:21:16,360 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:16,362 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'data': 'off', 'type': 'command'}
+2020-05-08 11:21:16,366 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500000000 CE 47
+2020-05-08 11:21:16,966 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:17,271 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050004FF00 CE 76
+2020-05-08 11:21:19,370 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:19,673 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500010000 9F 87
+2020-05-08 11:21:20,273 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:20,577 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050005FF00 9F B6
+2020-05-08 11:21:22,677 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:22,980 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500020000 6F 87
+2020-05-08 11:21:23,581 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:23,884 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050006FF00 6F B6
+2020-05-08 11:21:25,984 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:26,288 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500030000 3E 47
+2020-05-08 11:21:26,888 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:27,193 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050007FF00 3E 76
+2020-05-08 11:21:29,291 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:29,340 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:29,342 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:21:29,346 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:play
+2020-05-08 11:21:29,595 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500040000 8F 86
+2020-05-08 11:21:30,196 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:31,350 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:21:31,938 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:31,940 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'pause', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-05-08 11:21:31,942 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:pause
+2020-05-08 11:21:32,598 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:32,903 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500050000 DE 46
+2020-05-08 11:21:33,954 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:21:35,906 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:36,211 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500060000 2E 46
+2020-05-08 11:21:36,993 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:36,995 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'on', 'type': 'command'}
+2020-05-08 11:21:37,000 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050000FF00 8F B7
+2020-05-08 11:21:39,213 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:39,516 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500070000 7F 86
+2020-05-08 11:21:40,003 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:40,306 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050001FF00 DE 77
+2020-05-08 11:21:42,518 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:43,309 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:43,612 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050002FF00 2E 77
+2020-05-08 11:21:46,614 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:46,916 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050003FF00 7F B7
+2020-05-08 11:21:49,440 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:21:49,442 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'off', 'type': 'command'}
+2020-05-08 11:21:49,445 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.238
+2020-05-08 11:21:49,919 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:50,222 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050004FF00 CE 76
+2020-05-08 11:21:52,449 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:21:52,451 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.199
+2020-05-08 11:21:52,454 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.112
+2020-05-08 11:21:53,225 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:53,530 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050005FF00 9F B6
+2020-05-08 11:21:55,457 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:21:55,459 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.113
+2020-05-08 11:21:56,533 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:21:56,836 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050006FF00 6F B6
+2020-05-08 11:21:58,462 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:21:58,463 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.114
+2020-05-08 11:21:59,839 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:00,142 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c050007FF00 3E 76
+2020-05-08 11:22:01,464 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:22:01,465 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.115
+2020-05-08 11:22:03,144 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:03,448 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050000FF00 8E 66
+2020-05-08 11:22:03,472 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:03,475 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.116
+2020-05-08 11:22:06,451 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:06,477 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: timed out
+2020-05-08 11:22:06,479 - D:\pyproject\control1.2\commonservice.py-shutComput[line:42] - INFO: 关闭主机192.168.1.117
+2020-05-08 11:22:06,755 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050001FF00 DF A6
+2020-05-08 11:22:08,487 - D:\pyproject\control1.2\commonservice.py-shutComput[line:50] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:08,488 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.2.13
+2020-05-08 11:22:08,489 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:09,758 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:10,063 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050002FF00 2F A6
+2020-05-08 11:22:11,493 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:11,495 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.111
+2020-05-08 11:22:11,498 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:13,067 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:13,368 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050003FF00 7E 66
+2020-05-08 11:22:14,500 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:14,501 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.112
+2020-05-08 11:22:14,502 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:16,372 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:16,678 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050004FF00 CF A7
+2020-05-08 11:22:17,503 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:17,505 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.113
+2020-05-08 11:22:17,506 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:19,679 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:19,983 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050005FF00 9E 67
+2020-05-08 11:22:20,509 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:20,511 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.114
+2020-05-08 11:22:20,512 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:22,985 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:23,289 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050006FF00 6E 67
+2020-05-08 11:22:23,514 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:23,516 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.115
+2020-05-08 11:22:23,518 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:25,541 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:25,543 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.116
+2020-05-08 11:22:25,545 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:26,292 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:26,595 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d050007FF00 3F A7
+2020-05-08 11:22:28,548 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:28,550 - D:\pyproject\control1.2\commonservice.py-keyClose[line:250] - INFO: 关闭投影机192.168.1.117
+2020-05-08 11:22:28,552 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 0
+
+2020-05-08 11:22:29,599 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:22:29,901 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.2.13
+2020-05-08 11:22:29,903 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:30,560 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:30,563 - D:\pyproject\control1.2\commonservice.py-keyClose[line:252] - INFO: 等待240秒
+2020-05-08 11:22:32,906 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:32,908 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.111
+2020-05-08 11:22:32,910 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:35,911 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:35,913 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.112
+2020-05-08 11:22:35,914 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:38,917 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:38,919 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.113
+2020-05-08 11:22:38,921 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:41,925 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:41,927 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.114
+2020-05-08 11:22:41,929 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:44,932 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:44,934 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.115
+2020-05-08 11:22:44,936 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:46,946 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:46,948 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.116
+2020-05-08 11:22:46,949 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:49,953 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: timed out
+2020-05-08 11:22:49,955 - D:\pyproject\control1.2\commonservice.py-keyOpen[line:235] - INFO: 开启投影机192.168.1.117
+2020-05-08 11:22:49,958 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:107] - INFO: 发送指令到投影%1POWR 1
+
+2020-05-08 11:22:51,969 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:119] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:22:51,971 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-05-08 11:22:51,974 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:0C-9D-92-C1-65-3F:网关：:255.255.255.255
+2020-05-08 11:22:51,977 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-05-08 11:22:51,981 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:22:51,984 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:22:51,987 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:22:51,990 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:22:51,993 - D:\pyproject\control1.2\commonservice.py-wake_up[line:13] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-05-08 11:22:54,857 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,858 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,859 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,861 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,862 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,863 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,864 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,865 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,866 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,867 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,868 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,869 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,870 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,872 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,873 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:22:54,874 - D:\pyproject\control1.2\Impl.py-read[line:141] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-05-08 11:26:30,568 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500000000 CE 47
+2020-05-08 11:26:33,569 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:33,874 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500010000 9F 87
+2020-05-08 11:26:36,877 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:37,181 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500020000 6F 87
+2020-05-08 11:26:40,185 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:40,491 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500030000 3E 47
+2020-05-08 11:26:43,493 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:43,798 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500040000 8F 86
+2020-05-08 11:26:46,800 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:47,103 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500050000 DE 46
+2020-05-08 11:26:50,107 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:50,410 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500060000 2E 46
+2020-05-08 11:26:53,414 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:53,719 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1c0500070000 7F 86
+2020-05-08 11:26:56,723 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:26:57,025 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500000000 CF 96
+2020-05-08 11:27:00,029 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:00,333 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500010000 9E 56
+2020-05-08 11:27:03,337 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:03,642 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500020000 6E 56
+2020-05-08 11:27:06,644 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:06,947 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500030000 3F 96
+2020-05-08 11:27:09,950 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:10,253 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500040000 8E 57
+2020-05-08 11:27:13,255 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:13,560 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500050000 DF 97
+2020-05-08 11:27:16,562 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:16,866 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500060000 2F 97
+2020-05-08 11:27:19,868 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:27:20,172 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:327] - INFO: 1d0500070000 7E 57
+2020-05-08 11:27:23,176 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:339] - ERROR: timed out
+2020-05-08 11:44:10,914 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:44:10,916 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'zxplay,2', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:44:10,919 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:zxplay,2
+2020-05-08 11:44:11,350 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:44:11,352 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'zxplay,3', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:44:11,355 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:zxplay,3
+2020-05-08 11:44:11,705 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:44:11,706 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'zxplay,4', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:44:11,709 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:zxplay,4
+2020-05-08 11:44:12,014 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-05-08 11:44:12,015 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'zxplay,5', 'destip': '', 'type': 'command', 'zxcode': '1002'}
+2020-05-08 11:44:12,017 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:147] - INFO: 播放器IP:192.168.1.146:指令:zxplay,5
+2020-05-08 11:44:12,923 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:44:13,359 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:44:13,717 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-05-08 11:44:14,022 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:153] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。

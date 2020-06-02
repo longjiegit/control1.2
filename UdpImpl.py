@@ -23,54 +23,57 @@ class UdpServer():
                 Logger.getLog().logger.info(content)
                 if(content=='open1'):
                    addr=3
-                   road=3
-                   cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
-                   commonservice.JDService.sendCommand(ip2, port2, cmod)
-                   time.sleep(0.2)
-                   road==2
+                   road=2
                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
                    commonservice.JDService.sendCommand(ip2, port2, cmod)
                    time.sleep(0.2)
                    road=1
+                   print(road)
+                   cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+                   print(cmod)
+                   commonservice.JDService.sendCommand(ip2, port2, cmod)
+                   time.sleep(0.2)
+                   road=0
+                   print(road)
                    cmod=commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
                    commonservice.JDService.sendCommand(ip2, port2, cmod)
                 elif(content=='open2'):
                     addr = 3
-                    road=1
+                    road=0
                     cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
                     commonservice.JDService.sendCommand(ip2, port2, cmod)
                     time.sleep(0.2)
-                    road=3
+                    road=2
+                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+                    commonservice.JDService.sendCommand(ip2, port2, cmod)
+                    time.sleep(0.2)
+                    road = 1
+                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
+                    commonservice.JDService.sendCommand(ip2, port2, cmod)
+                elif(content=='open3'):
+                    addr = 3
+                    road=0
+                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+                    commonservice.JDService.sendCommand(ip2, port2, cmod)
+                    time.sleep(0.2)
+                    road=1
                     cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
                     commonservice.JDService.sendCommand(ip2, port2, cmod)
                     time.sleep(0.2)
                     road = 2
                     cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
                     commonservice.JDService.sendCommand(ip2, port2, cmod)
-                elif(content=='open3'):
+                elif (content == 'close'):
                     addr = 3
+                    road = 0
+                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
+                    commonservice.JDService.sendCommand(ip2, port2, cmod)
+                    time.sleep(0.2)
                     road=1
                     cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
                     commonservice.JDService.sendCommand(ip2, port2, cmod)
                     time.sleep(0.2)
                     road=2
-                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
-                    commonservice.JDService.sendCommand(ip2, port2, cmod)
-                    time.sleep(0.2)
-                    road = 3
-                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
-                    commonservice.JDService.sendCommand(ip2, port2, cmod)
-                elif (content == 'close'):
-                    addr = 3
-                    road = 1
-                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
-                    commonservice.JDService.sendCommand(ip2, port2, cmod)
-                    time.sleep(0.2)
-                    road=2
-                    cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
-                    commonservice.JDService.sendCommand(ip2, port2, cmod)
-                    time.sleep(0.2)
-                    road=3
                     cmod = commonservice.JDService.getSingleCommand(hex(addr), hex(road), '0000')
                     commonservice.JDService.sendCommand(ip2, port2, cmod)
                     time.sleep(0.2)

@@ -75,10 +75,15 @@ class ComputService():
         elif zxcode=='1004':
             print('1004')
             c = commonData.TERM_DICT['comput'][3]
+            c2=commonData.TERM_DICT['comput'][11]
             if comand == 'on':
                 ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+                time.sleep(0.2)
+                ComputService.wake_upfromJd(c2['ip2'], c2['port2'], c2['addr'], c2['road'])
             else:
                 ComputService.shutComputfromJd(c['ip2'], c['port2'], c['addr'], c['road'])
+                time.sleep(0.2)
+                ComputService.shutComputfromJd(c2['ip2'], c2['port2'], c2['addr'], c2['road'])
                 # ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
         elif zxcode=='1005':
             print('1005')
@@ -229,11 +234,10 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
                         Logger.getLog().logger.info("关灯"+cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.3)
+                        time.sleep(0.2)
                 except Exception as e:
                     print(e)
-
-                VideoService.sendVideoCommand(videoip,command)
+                VideoService.sendVideoCommand(videoip,'play')
             elif command=='stop':
                 """灯光开"""
                 try:
@@ -250,10 +254,28 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), 'FF00')
                         Logger.getLog().logger.info("开灯" + cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.3)
+                        time.sleep(0.2)
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,command)
+            elif command=='closelight':
+                try:
+                    index =commonData.VIDEO_LIST[int(despip)-1][4]
+                    lines = commonData.VIDEO_LIST[int(despip)-1][5]
+                    lineList = lines.split("#")
+                    device = commonData.JD_DICT['devices'][int(index) - 1]
+                    for lineNum in lineList:
+                        line = int(lineNum)
+                        IP = device['device'][line - 1]['ip']
+                        port = device['device'][line - 1]['port']
+                        dest =device['device'][line - 1]['road']
+                        addr = device['device'][line - 1]['addr']
+                        cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
+                        Logger.getLog().logger.info("关灯"+cmod)
+                        JDService.sendCommand(IP, port, cmod)
+                        time.sleep(0.2)
+                except Exception as e:
+                    print(e)
             else:
                 VideoService.sendVideoCommand(videoip, command)
         except Exception as e:
@@ -278,7 +300,8 @@ class JDService():
         Logger.getLog().logger.info("打开投影")
         for ty in commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
-            TouyingService.Pjlink(ty['IP'],b'%1POWR 1\r')
+            TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+        time.sleep(30)
 
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
@@ -295,7 +318,7 @@ class JDService():
         Logger.getLog().logger.info("关闭投影")
         for ty in  commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('关闭投影机' + ty['IP'])
-            TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
+            TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
         Logger.getLog().logger.info('等待50秒')
         time.sleep(50)
         Logger.getLog().logger.info("关闭电源")
@@ -307,6 +330,8 @@ class JDService():
                 addr = t['addr']
                 road = t['road'] - 1
                 if (addr==2) and (road==2):
+                    print("no close")
+                elif (addr==1) and (road==4):
                     print("no close")
                 else:
                     cmod = JDService.getSingleCommand(hex(addr), hex(road), '0000')

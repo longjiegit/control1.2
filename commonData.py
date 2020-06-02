@@ -6,16 +6,15 @@ global JD_DICT
 global TERM_DICT
 global VIDEO_LIST
 VIDEO_LIST=[]
-global HXJZL
-HXJZL=[]
-global YJZS
-YJZS=[]
 global ALL_JD
 ALL_JD=''
 global REMOTE_VIDEO
 REMOTE_VIDEO=''
 global REGIST
-
+global HXJZL
+HXJZL=[]
+global YJZS
+YJZS=[]
 
 
 with open("c.json", 'r', encoding='utf-8') as load_f:
@@ -34,20 +33,20 @@ with open("jd.json", 'r', encoding='utf-8') as load_f:
     else:
         JD_DICT = json.loads(content)
     Logger.getLog().logger.info("加载继电器数据完成")
-with open("hxjzl.json",'r',encoding='utf-8') as load_f:
+with open("hxjzl.json", 'r', encoding='utf-8') as load_f:
     content = load_f.read()
     if content.startswith(u'\ufeff'):
-        HXJZL=json.loads(content.encode('utf8')[3:].decode('utf8'))
+        HXJZL = json.loads(content.encode('utf8')[3:].decode('utf8'))
     else:
         HXJZL = json.loads(content)
-    Logger.getLog().logger.info("核心竞争力")
-with open("yjzs.json",'r',encoding='utf-8') as load_f:
+    Logger.getLog().logger.info("加载核心竞争力数据完成")
+with open("yjzs.json", 'r', encoding='utf-8') as load_f:
     content = load_f.read()
     if content.startswith(u'\ufeff'):
-        YJZS=json.loads(content.encode('utf8')[3:].decode('utf8'))
+        YJZS = json.loads(content.encode('utf8')[3:].decode('utf8'))
     else:
         YJZS = json.loads(content)
-    Logger.getLog().logger.info("业绩展示")
+    Logger.getLog().logger.info("加载业绩展示数据完成")
 with codecs.open("videoPlay.txt", 'r', 'utf-8', buffering=True) as f:
     for line in f:
         if line != '\r\n':

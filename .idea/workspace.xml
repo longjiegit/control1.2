@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cce606-2736-44ca-ba1f-11117bf09c12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/control1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/control1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdpImpl.py" beforeDir="false" afterPath="$PROJECT_DIR$/UdpImpl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/warn-Main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/warn-Main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Main/xref-Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Main/xref-Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c.json" beforeDir="false" afterPath="$PROJECT_DIR$/c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonData.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonservice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comput.py" beforeDir="false" afterPath="$PROJECT_DIR$/comput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxjzl.json" beforeDir="false" afterPath="$PROJECT_DIR$/hxjzl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd.json" beforeDir="false" afterPath="$PROJECT_DIR$/jd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/touying.py" beforeDir="false" afterPath="$PROJECT_DIR$/touying.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,48 +37,42 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/control1_2$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1571717607131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/control1_2$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1569461816175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/control1_2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1591002958099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/control1_2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1588907980570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd.py">
+        <entry file="file://$PROJECT_DIR$/jd.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="254" column="26" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#118#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoPlay.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonservice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoplay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1738">
-              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+            <state relative-caret-position="528">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
               <folding>
                 <element signature="e#0#120#0" expanded="true" />
               </folding>
@@ -64,13 +81,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Impl.py">
+        <entry file="file://$PROJECT_DIR$/commonservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+            <state relative-caret-position="248">
+              <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UdpImpl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hxjzl.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -78,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/touying.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
+            <state relative-caret-position="-1014">
               <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <element signature="e#0#113#0" expanded="true" />
@@ -90,41 +133,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comput.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+            <state relative-caret-position="2376">
+              <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
               <folding>
                 <element signature="e#0#113#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hxjzl.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="137" lean-forward="true" selection-end-column="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yjzs.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -158,32 +171,31 @@
         <option value="$PROJECT_DIR$/test/test5.py" />
         <option value="$PROJECT_DIR$/touying.py" />
         <option value="$PROJECT_DIR$/test/test6.py" />
-        <option value="$PROJECT_DIR$/MySignal.py" />
         <option value="$PROJECT_DIR$/videoplay.py" />
         <option value="$PROJECT_DIR$/jd.json" />
-        <option value="$PROJECT_DIR$/videoPlay.txt" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/UdpImpl.py" />
-        <option value="$PROJECT_DIR$/c.json" />
+        <option value="$PROJECT_DIR$/MySignal.py" />
         <option value="$PROJECT_DIR$/jd.py" />
         <option value="$PROJECT_DIR$/comput.py" />
-        <option value="$PROJECT_DIR$/hxjzl.json" />
-        <option value="$PROJECT_DIR$/yjzs.json" />
         <option value="$PROJECT_DIR$/commonData.py" />
+        <option value="$PROJECT_DIR$/videoPlay.txt" />
         <option value="$PROJECT_DIR$/Impl.py" />
+        <option value="$PROJECT_DIR$/UdpImpl.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/hxjzl.json" />
+        <option value="$PROJECT_DIR$/c.json" />
         <option value="$PROJECT_DIR$/commonservice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -194,42 +206,18 @@
               <item name="control1.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="control1.2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="control1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="control1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="control1.2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="control1.2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -361,10 +349,8 @@
       <workItem from="1585714716424" duration="7874000" />
       <workItem from="1586767033267" duration="253000" />
       <workItem from="1587349541470" duration="6536000" />
-      <workItem from="1587786011306" duration="32567000" />
-      <workItem from="1589852978891" duration="30456000" />
-      <workItem from="1591064761840" duration="1406000" />
-      <workItem from="1591087756413" duration="683000" />
+      <workItem from="1587786011306" duration="5206000" />
+      <workItem from="1591088742058" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="修改与关机程序数据传递格式">
       <created>1575704321498</created>
@@ -380,30 +366,16 @@
       <option name="project" value="LOCAL" />
       <updated>1585365080454</updated>
     </task>
-    <task id="LOCAL-00003" summary="有色金属院第二版">
-      <created>1588990020069</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1588990020070</updated>
-    </task>
-    <task id="LOCAL-00004" summary="有色院0601end">
-      <created>1591002956592</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591002956592</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189864000" />
+    <option name="totallyTimeSpent" value="131758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,8 +388,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35140997" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35140997" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -472,8 +444,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改与关机程序数据传递格式" />
     <MESSAGE value="有色金属院第二版" />
-    <MESSAGE value="有色院0601end" />
-    <option name="LAST_COMMIT_MESSAGE" value="有色院0601end" />
+    <option name="LAST_COMMIT_MESSAGE" value="有色金属院第二版" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/Main/EXE-00.toc">
@@ -571,6 +542,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/commonData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/timeconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -587,80 +568,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoPlay.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdpImpl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="254" column="26" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="26" />
+        <state relative-caret-position="7348">
+          <caret line="351" column="40" selection-start-line="351" selection-start-column="24" selection-end-line="351" selection-end-column="40" />
           <folding>
             <element signature="e#0#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonservice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoplay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1738">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+        <state relative-caret-position="528">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UdpImpl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/touying.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="-1014">
           <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
             <element signature="e#0#113#0" expanded="true" />
@@ -668,44 +625,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comput.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hxjzl.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="137" lean-forward="true" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yjzs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/c.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
+        <state relative-caret-position="22">
+          <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlay.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

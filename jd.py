@@ -219,8 +219,8 @@ class Jd(QWidget):
 
         for ty in self.t:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
-            self.Pjlink(ty['IP'],b'%1POWR 1\r')
-
+            self.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+        time.sleep(30)
         '''电脑全开'''
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全开')))
         for c in self.cpt:
@@ -241,7 +241,18 @@ class Jd(QWidget):
                 self.updata_resTxt.emit(res)
         except Exception as e:
             Logger.getLog().logger.error(e)
-
+    def comm(ip,port,command):
+        try:
+            Logger.getLog().logger.info('发送指令到投影' + str(command,'utf-8'))
+            s = socket.socket()
+            s.settimeout(3)
+            s.connect((ip, port))
+            s.send(command)
+            re=s.recv(1024)
+            Logger.getLog().logger.info('投影返回结果')
+            Logger.getLog().logger.info(str(re,'utf-8'))
+        except Exception as e:
+            Logger.getLog().logger.error(e)
 
     def onKeyClose(self):
         t = threading.Thread(target=self.keyClose, args=())
@@ -256,9 +267,9 @@ class Jd(QWidget):
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '投影全关')))
         for ty in self.t:
             Logger.getLog().logger.info('关闭投影机'+ty['IP'])
-            self.Pjlink(ty['IP'],b'%1POWR 0\r')
-        Logger.getLog().logger.info('等待60秒')
-        time.sleep(60)
+            self.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 46 03'))
+        Logger.getLog().logger.info('等待50秒')
+        time.sleep(50)
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '继电器全关')))
         for d in range(len(self.devices)):
             dev = self.devices[d]['device']
@@ -268,6 +279,8 @@ class Jd(QWidget):
                 addr = t['addr']
                 road = t['road'] - 1
                 if (addr==2) and (road==2):
+                    print("no close")
+                elif (addr == 1) and (road == 4):
                     print("no close")
                 else:
                     cmod = self.getSingleCommand(hex(addr), hex(road), '0000')
