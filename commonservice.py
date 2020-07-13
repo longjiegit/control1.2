@@ -234,7 +234,7 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), '0000')
                         Logger.getLog().logger.info("关灯"+cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,'play')
@@ -254,7 +254,7 @@ class VideoService():
                         cmod = JDService.getSingleCommand(hex(addr), hex(dest - 1), 'FF00')
                         Logger.getLog().logger.info("开灯" + cmod)
                         JDService.sendCommand(IP, port, cmod)
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                 except Exception as e:
                     print(e)
                 VideoService.sendVideoCommand(videoip,command)
@@ -306,15 +306,24 @@ class JDService():
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
         for c in commonData.TERM_DICT['comput']:
-            ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            time.sleep(0.1)
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            intstatus = checksocket.connect_ex((c['IP'], 5800))
+            if (intstatus == 10035):
+                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            time.sleep(0.2)
 
     @staticmethod
     def keyClose(all_list):
         '''一键全关只能关闭电脑，然后关闭投影，间隔4分钟后，最后继电器'''
         Logger.getLog().logger.info("关闭电脑")
         for c in commonData.TERM_DICT['comput']:
-            ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            intstatus = checksocket.connect_ex((c['IP'], 5800))
+            if(intstatus == 0 or intstatus==10061):
+                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            time.sleep(0.4)
         Logger.getLog().logger.info("关闭投影")
         for ty in  commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('关闭投影机' + ty['IP'])

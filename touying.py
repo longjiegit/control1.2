@@ -109,25 +109,10 @@ class Touying(QWidget):
             print(ip)
             s=socket.socket()
             s.settimeout(3)
-            s.connect(('192.168.3.100',1024))
+            s.connect((ip,port))
             #s.connect((ip,int(port)))
             result=s.recv(1024).decode('UTF-8')
-            l = list(result)
-            print(l)
-            x = 'admin'
-            y = 'admin'
-            z = l[12]+l[13]+l[14]+l[15]+l[16]+l[17]+l[18]+l[19]
-            s1 = ':'.join((x, y, z))
-            print(s1)
-            m = hashlib.md5(s1.encode())
-            print(m)
-            cmd=m.hexdigest()+'00PON\r'
-            print(m.hexdigest())
-            print(len(m.hexdigest()))
-            print(cmd)
-            s.send(cmd.encode('utf-8'))
-            # s.send(b'%1POWR 0\r')
-            print('end')
+            s.send(command)
             re=s.recv(1024)
             Logger.getLog().logger.info(re)
         except Exception as e:

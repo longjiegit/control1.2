@@ -224,7 +224,12 @@ class Jd(QWidget):
         '''电脑全开'''
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全开')))
         for c in self.cpt:
-            cs.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            intstatus = checksocket.connect_ex((c['IP'], 5800))
+            if (intstatus == 10035):
+                cs.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            time.sleep(0.3)
     def Pjlink(self, ip, command):
         try:
             s = socket.socket()
@@ -241,7 +246,7 @@ class Jd(QWidget):
                 self.updata_resTxt.emit(res)
         except Exception as e:
             Logger.getLog().logger.error(e)
-    def comm(ip,port,command):
+    def comm(self,ip,port,command):
         try:
             Logger.getLog().logger.info('发送指令到投影' + str(command,'utf-8'))
             s = socket.socket()
@@ -262,8 +267,13 @@ class Jd(QWidget):
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '电脑全关')))
 
         for c in self.cpt:
-            cs.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            time.sleep(0.1)
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            intstatus = checksocket.connect_ex((c['IP'], 5800))
+            print(intstatus)
+            if (intstatus == 0 or intstatus == 10061):
+                cs.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            time.sleep(0.3)
         self.sendText.append(':'.join((time.strftime('%Y-%m-%d %H:%M:%S'), '投影全关')))
         for ty in self.t:
             Logger.getLog().logger.info('关闭投影机'+ty['IP'])
