@@ -2,8 +2,8 @@ from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QTableWi
 from PyQt5.QtCore import Qt,pyqtSignal
 from PyQt5.QtGui import QBrush,QColor
 from log import Logger
-import json,socket,time,struct,threading,commonData
-from MySignal import SignalClass
+import json,socket,time,struct,threading,commonData,commonservice
+from commonservice import ComputService as cs
 
 
 class Comput(QWidget):
@@ -76,8 +76,8 @@ class Comput(QWidget):
             if (self.table.item(i, 0).checkState()):
 
                 mac=self.table.item(i,3).text()
-                self.sc.sendText("".join(("开启电脑", mac)))
-                t1 = threading.Thread(target=self.wake_up, args=(mac,))
+                # self.sc.sendText("".join(("开启电脑", mac)))
+                t1 = threading.Thread(target=cs.wake_up, args=(mac,))
                 t1.start()
     def wake_up(self,mac='DC-4A-3E-78-3E-0A'):
         try:
@@ -110,8 +110,8 @@ class Comput(QWidget):
             if (self.table.item(i, 0).checkState()):
                 ip=self.table.item(i,2).text()
                 command='shutdown -s -f -t 00'
-                self.sc.sendText("".join(("关闭电脑",ip)))
-                t1 = threading.Thread(target=self.shutComput, args=(ip,command,))
+                # self.sc.sendText("".join(("关闭电脑",ip)))
+                t1 = threading.Thread(target=cs.shutComput, args=(ip,command,))
                 t1.start()
     def shutComput(self,ip,command):
         try:

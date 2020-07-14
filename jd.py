@@ -7,16 +7,17 @@ from log import Logger
 import codecs,commonData
 import  datetime
 import configparser
-from commonservice import ComputService as cs
+from commonservice import ComputService as cs,JDService as jds
 from MySignal import SignalClass
 class Jd(QWidget):
     updata_resTxt=pyqtSignal(str)
-    def __init__(self,sc):
+    def __init__(self,sc,recvsignal):
         super().__init__()
         self.initData()
         self.initUI()
         self.updata_resTxt.connect(self.updateRecText)
         sc.textSignal.connect(self.updateSendText)
+        recvsignal.textSignal.connect(self.updata_resTxt)
         self.addListen()
     #   启动一个线程定时执行任务
         time_start_shut=threading.Thread(target=self.timeStartShut,args=())
@@ -199,7 +200,7 @@ class Jd(QWidget):
         self.sendText.append(content)
     def onKeyOpen(self):
 
-        t=threading.Thread(target=self.keyOpen,args=())
+        t=threading.Thread(target=jds.keyOpen,args=(commonData.ALL_LIST,))
         t.start()
     def keyOpen(self):
         '''先开继电器，然后开投影，然后开电脑'''
@@ -260,7 +261,7 @@ class Jd(QWidget):
             Logger.getLog().logger.error(e)
 
     def onKeyClose(self):
-        t = threading.Thread(target=self.keyClose, args=())
+        t = threading.Thread(target=jds.keyClose, args=(commonData.ALL_LIST,))
         t.start()
     def keyClose(self):
         '''一键全关只能关闭电脑，然后关闭投影，间隔4分钟后，最后继电器'''

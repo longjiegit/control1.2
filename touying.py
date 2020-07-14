@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QTableWi
 from PyQt5.QtCore import Qt
 import json,socket,time,struct,threading,commonData
 from log import Logger
+from commonservice import TouyingService as tys
 import hashlib
 
 class Touying(QWidget):
@@ -75,7 +76,7 @@ class Touying(QWidget):
                     ip=self.table.item(i,2).text()
                     port = self.table.item(i, 3).text()
                     Logger.getLog().logger.info("远程开启投影机"+ip)
-                    t1 = threading.Thread(target=self.comm, args=(ip,port,bytes.fromhex('02 50 4F 4E 03'),))
+                    t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 4E 03'),))
                     t1.start()
         else:
             for i in range(self.table.rowCount()):
@@ -83,7 +84,7 @@ class Touying(QWidget):
                     ip = self.table.item(i, 2).text()
                     port=self.table.item(i,3).text()
                     Logger.getLog().logger.info('远程关闭投影机'+ip)
-                    t1 = threading.Thread(target=self.comm, args=(ip,port,bytes.fromhex('02 50 4F 46 03'),))
+                    t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 46 03'),))
                     # t1=threading.Thread(target=self.Pjlink,args=(ip,port,b'%1POWR 0\r',))
                     t1.start()
     def Panasonic(self,ip,port,command):

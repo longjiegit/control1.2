@@ -60,7 +60,7 @@ class VideoPlay(QWidget):
                 time.sleep(0.3)
         except Exception as e:
             print(e)
-        VideoService.sendVideoCommand(video[1],'stop')
+        VideoService.sendVideoCommand(video[1],'play')
         # VideoService.sendVideoCommand(video[1],'play')
     def stop(self,row):
         video = commonData.VIDEO_LIST[row]

@@ -4,14 +4,12 @@ print(os.getenv('path'))
 from PyQt5.QtWidgets import QWidget,QApplication,QVBoxLayout,QLabel,QFrame,QMessageBox
 import comput,touying,jd,videoplay,threading,Impl,UdpImpl,commonData
 from log import Logger
-from MySignal import SignalClass
 import time,util,commonData
 
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         Logger.getLog().logger.info('程序启动')
-        self.sc=SignalClass()
         self.initUI()
         self.setMinimumWidth(1024)
         self.setMinimumHeight(700)
@@ -22,14 +20,14 @@ class MainWindow(QWidget):
         vbox=QVBoxLayout()
 
 
-        self.tb1=comput.Comput(self.sc)
+        self.tb1=comput.Comput(commonData.SENDSIG)
         self.tb1.resize(500,300)
 
 
         self.tb2=touying.Touying()
         self.tb2.resize(500, 300)
 
-        self.tb3=jd.Jd(self.sc)
+        self.tb3=jd.Jd(commonData.SENDSIG,commonData.RECSIG)
         self.tb3.resize(500,300)
 
         self.tb4=videoplay.VideoPlay()

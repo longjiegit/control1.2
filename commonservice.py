@@ -3,14 +3,16 @@ from binascii import *
 from crcmod import *
 from log import Logger
 import commonData
+import hashlib
 class ComputService():
+
     @staticmethod
     def wake_up(mac='DC-4A-3E-78-3E-0A'):
         try:
-
             MAC = mac
             BROADCAST = "255.255.255.255"
             Logger.getLog().logger.info(':'.join(('唤醒',mac,'网关：',BROADCAST)))
+            commonData.SENDSIG.sendText("".join(("开启电脑", mac)))
             if len(MAC) != 17:
                 raise ValueError("MAC address should be set as form 'XX-XX-XX-XX-XX-XX'")
             mac_address = MAC.replace("-", '')
@@ -26,11 +28,11 @@ class ComputService():
 
             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
             sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-            # sock.sendto(send_data, (BROADCAST, 7))
-            # time.sleep(1)
             sock.sendto(send_data, (BROADCAST, 7))
-            # time.sleep(1)
-            # sock.sendto(send_data, (BROADCAST, 7))
+            time.sleep(1)
+            sock.sendto(send_data, (BROADCAST, 7))
+            time.sleep(1)
+            sock.sendto(send_data, (BROADCAST, 7))
 
         except Exception as e:
             print(e)
@@ -40,6 +42,7 @@ class ComputService():
     def shutComput(ip,command):
         try:
             Logger.getLog().logger.info('关闭主机'+ip)
+            commonData.SENDSIG.sendText('关闭主机'+ip)
             s=socket.socket()
             s.settimeout(3)
             s.connect((ip,8000))
@@ -48,6 +51,7 @@ class ComputService():
             s.close()
         except Exception as e:
             Logger.getLog().logger.error(e)
+            commonData.RECSIG.sendText(str(e))
 
     @staticmethod
     def computForZX(zxcode,comand):
@@ -142,7 +146,7 @@ class ComputService():
         road = road - 1
         cmod = JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
         JDService.sendCommand(ip, port, cmod)
-        time.sleep(0.3)
+        time.sleep(0.4)
         cmod = JDService.getSingleCommand(hex(addr), hex(road), '0000')
         JDService.sendCommand(ip, port, cmod)
 class TouyingService():
@@ -150,6 +154,7 @@ class TouyingService():
     def Pjlink(ip,command):
         try:
             Logger.getLog().logger.info('发送指令到投影'+str(command,'utf-8'))
+            commonData.SENDSIG.sendText('发送指令到投影'+str(command,'utf-8'))
             s=socket.socket()
             s.settimeout(3)
             s.connect((ip,4352))
@@ -160,19 +165,41 @@ class TouyingService():
                 re=s.recv(1024)
                 Logger.getLog().logger.info('投影返回结果')
                 Logger.getLog().logger.info(str(re,'utf-8'))
+                commonData.RECSIG.sendText('投影返回结果'+str(re,'utf-8'))
         except Exception as e:
             Logger.getLog().logger.error(e)
     @staticmethod
     def comm(ip,port,command):
         try:
             Logger.getLog().logger.info('发送指令到投影' + str(command,'utf-8'))
+            commonData.SENDSIG.sendText('发送指令到投影' + str(command, 'utf-8'))
             s = socket.socket()
             s.settimeout(3)
+            port=int(port)
             s.connect((ip, port))
             s.send(command)
             re=s.recv(1024)
             Logger.getLog().logger.info('投影返回结果')
             Logger.getLog().logger.info(str(re,'utf-8'))
+            commonData.RECSIG.sendText('投影返回结果' + str(re, 'utf-8'))
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+    def Panasonic(self,ip,port,command):
+        try:
+            s=socket.socket()
+            s.settimeout(3)
+            s.connect((ip,1024))
+            result=s.recv(1024).decode('UTF-8')
+            l=list(result)
+            x='admin'
+            y='admin'
+            z = l[12] + l[13] + l[14] + l[15] + l[16] + l[17] + l[18] + l[19]
+            s1 = ':'.join((x, y, z))
+            m = hashlib.md5(s1.encode())
+            cmd = m.hexdigest() + command
+            s.send(cmd.encode('utf-8'))
+            re = s.recv(1024)
+            Logger.getLog().logger.info(re)
         except Exception as e:
             Logger.getLog().logger.error(e)
     @staticmethod
@@ -189,6 +216,7 @@ class VideoService():
     @staticmethod
     def sendVideoCommand(despip,command):
         try:
+            commonData.SENDSIG.sendText(':'.join(('播放器IP',despip,'指令',command)))
             Logger.getLog().logger.info(':'.join(('播放器IP',despip,'指令',command)))
             s = socket.socket()
             s.settimeout(3)
@@ -285,6 +313,7 @@ class JDService():
     def keyOpen(all_list):
         '''先开电，然后投影，最后开电脑'''
         Logger.getLog().logger.info("打开电源")
+        commonData.SENDSIG.sendText("打开电源")
         devices = commonData.JD_DICT['devices']
         for d in range(len(devices)):
             dev = devices[d]['device']
@@ -295,9 +324,11 @@ class JDService():
                 road = t['road'] - 1
                 cmod = JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
                 JDService.sendCommand(ip,port,cmod)
-                time.sleep(0.3)
+                time.sleep(0.4)
 
         Logger.getLog().logger.info("打开投影")
+        time.sleep(30)
+        commonData.SENDSIG.sendText("打开投影")
         for ty in commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
             TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
@@ -305,6 +336,7 @@ class JDService():
 
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
+        commonData.SENDSIG.sendText("打开电脑")
         for c in commonData.TERM_DICT['comput']:
             checksocket = socket.socket()
             checksocket.settimeout(2)
@@ -317,6 +349,7 @@ class JDService():
     def keyClose(all_list):
         '''一键全关只能关闭电脑，然后关闭投影，间隔4分钟后，最后继电器'''
         Logger.getLog().logger.info("关闭电脑")
+        commonData.SENDSIG.sendText("关闭电脑")
         for c in commonData.TERM_DICT['comput']:
             checksocket = socket.socket()
             checksocket.settimeout(2)
@@ -324,13 +357,17 @@ class JDService():
             if(intstatus == 0 or intstatus==10061):
                 ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
             time.sleep(0.4)
+
+        time.sleep(30)
         Logger.getLog().logger.info("关闭投影")
+        commonData.SENDSIG.sendText("关闭投影")
         for ty in  commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('关闭投影机' + ty['IP'])
             TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
         Logger.getLog().logger.info('等待50秒')
         time.sleep(50)
         Logger.getLog().logger.info("关闭电源")
+        commonData.SENDSIG.sendText("关闭电源")
         for d in range(len( commonData.JD_DICT['devices'])):
             dev =  commonData.JD_DICT['devices'][d]['device']
             for t in dev:
@@ -379,6 +416,7 @@ class JDService():
                 addr = t['addr']
                 road = t['road'] - 1
                 cmod = JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
+                commonData.SENDSIG.sendText("".join(("开灯", cmod)))
                 JDService.sendCommand(ip, port, cmod)
                 time.sleep(0.3)
         elif data == 'off':
@@ -420,6 +458,7 @@ class JDService():
             re=s.recv(1024)
             Logger.getLog().logger.info('继电器返回')
             Logger.getLog().logger.info(re)
+            commonData.RECSIG.sendText(re)
         except Exception as e:
             Logger.getLog().logger.error(e)
         # aa = ''.join(['%02x' % b for b in re])

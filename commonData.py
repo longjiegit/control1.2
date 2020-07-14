@@ -1,5 +1,6 @@
 import json,codecs
 from log import Logger
+from MySignal import SignalClass,RecvSignalClass
 global ALL_LIST
 ALL_LIST=[]
 global JD_DICT
@@ -15,6 +16,10 @@ global HXJZL
 HXJZL=[]
 global YJZS
 YJZS=[]
+global SENDSIG
+SENDSIG=SignalClass()
+global RECSIG
+RECSIG=RecvSignalClass()
 
 
 with open("c.json", 'r', encoding='utf-8') as load_f:
