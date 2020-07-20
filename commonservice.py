@@ -4,6 +4,8 @@ from crcmod import *
 from log import Logger
 import commonData
 import hashlib
+from pythonosc import udp_client
+import argparse
 class ComputService():
 
     @staticmethod
@@ -55,83 +57,15 @@ class ComputService():
 
     @staticmethod
     def computForZX(zxcode,comand):
-        if zxcode=='1001':
-            print('1001')
-            c = commonData.TERM_DICT['comput'][0]
+        if zxcode=='0000':
             if comand=='on':
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-        elif zxcode=='1002':
-            print('1002')
-            c = commonData.TERM_DICT['comput'][1]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-        elif zxcode=='1003':
-            print('1003')
-            c = commonData.TERM_DICT['comput'][2]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-        elif zxcode=='1004':
-            print('1004')
-            c = commonData.TERM_DICT['comput'][3]
-            c2=commonData.TERM_DICT['comput'][11]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-                time.sleep(0.2)
-                ComputService.wake_upfromJd(c2['ip2'], c2['port2'], c2['addr'], c2['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'], c['port2'], c['addr'], c['road'])
-                time.sleep(0.2)
-                ComputService.shutComputfromJd(c2['ip2'], c2['port2'], c2['addr'], c2['road'])
-                # ComputService.shutComput(c['IP'], 'shutdown -s -f -t 00')
-        elif zxcode=='1005':
-            print('1005')
-            c = commonData.TERM_DICT['comput'][4]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'], c['port2'], c['addr'], c['road'])
-        elif zxcode=='1006':
-            print('1006')
-            c1 = commonData.TERM_DICT['comput'][10]
-            c2=commonData.TERM_DICT['comput'][5]
-            c3=commonData.TERM_DICT['comput'][7]
-            c4=commonData.TERM_DICT['comput'][8]
-            c5=commonData.TERM_DICT['comput'][9]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c2['ip2'], c2['port2'], c2['addr'], c2['road'])
-                time.sleep(0.2)
-                ComputService.wake_upfromJd(c3['ip2'], c3['port2'], c3['addr'], c3['road'])
-                time.sleep(0.2)
-                ComputService.wake_upfromJd(c4['ip2'], c4['port2'], c4['addr'], c4['road'])
-                time.sleep(0.2)
-                ComputService.wake_upfromJd(c5['ip2'], c5['port2'], c5['addr'], c5['road'])
-                time.sleep(0.2)
-                ComputService.wake_upfromJd(c1['ip2'], c1['port2'], c1['addr'], c1['road'])
-                time.sleep(0.2)
-            else:
-                ComputService.shutComputfromJd(c2['ip2'],c2['port2'],c2['addr'],c2['road'])
-                time.sleep(0.2)
-                ComputService.shutComputfromJd(c3['ip2'], c3['port2'], c3['addr'], c3['road'])
-                time.sleep(0.2)
-                ComputService.shutComputfromJd(c4['ip2'], c4['port2'], c4['addr'], c4['road'])
-                time.sleep(0.2)
-                ComputService.shutComputfromJd(c5['ip2'], c5['port2'], c5['addr'], c5['road'])
-                time.sleep(0.2)
-                ComputService.shutComputfromJd(c1['ip2'], c1['port2'], c1['addr'], c1['road'])
-                time.sleep(0.2)
-        elif zxcode=='1007':
-            print('1007')
-            c = commonData.TERM_DICT['comput'][6]
-            if comand == 'on':
-                ComputService.wake_upfromJd(c['ip2'], c['port2'], c['addr'], c['road'])
-            else:
-                ComputService.shutComputfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+                for c in commonData.TERM_DICT['comput']:
+                    ComputService.wake_up(c['MAC'])
+                    time.sleep(0.2)
+            elif comand=='off':
+                for c in commonData.TERM_DICT['comput']:
+                    ComputService.shutComput(c['IP'],'shutdown -s -f -t 00')
+                    time.sleep(0.2)
     @staticmethod
     def wake_upfromJd(ip,port,addr,road):
         road = road - 1
@@ -204,12 +138,17 @@ class TouyingService():
             Logger.getLog().logger.error(e)
     @staticmethod
     def touyingForZX(zxcode,data):
-        if zxcode=='1001':
-            ty = commonData.TERM_DICT['comput'][0]
+        if zxcode=='0000':
             if data=='on':
-                TouyingService.comm(ty['IP'],ty['MAC'],'')
+                for ty in commonData.TERM_DICT['touying']:
+                    Logger.getLog().logger.info('开启投影机' + ty['IP'])
+                    TouyingService.Pjlink(ty['IP'],b'%1POWR 1\r')
+                    time.sleep(0.5)
             elif data=='off':
-                TouyingService.comm(ty['IP'], ty['MAC'], '')
+                for ty in commonData.TERM_DICT['touying']:
+                    Logger.getLog().logger.info('关闭投影机' + ty['IP'])
+                    TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
+                    time.sleep(0.5)
 
 class VideoService():
 
@@ -222,6 +161,19 @@ class VideoService():
             s.settimeout(3)
             s.connect((despip,9050))
             s.send(command.encode('utf-8') + b'\n')
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+    @staticmethod
+    def sendOSCCommand(destip,command):
+        try:
+            parser = argparse.ArgumentParser()
+            parser.add_argument("--ip", default=destip,
+                                help="The ip of the OSC server")
+            parser.add_argument("--port", type=int, default=7000,
+                                help="The port the OSC server is listening on")
+            args = parser.parse_args()
+            client = udp_client.SimpleUDPClient(args.ip, args.port)
+            client.send_message(command, 1)
         except Exception as e:
             Logger.getLog().logger.error(e)
     @staticmethod
@@ -332,17 +284,19 @@ class JDService():
         for ty in commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
             TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+            time.sleep(0.5)
         time.sleep(30)
 
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
         commonData.SENDSIG.sendText("打开电脑")
         for c in commonData.TERM_DICT['comput']:
-            checksocket = socket.socket()
-            checksocket.settimeout(2)
-            intstatus = checksocket.connect_ex((c['IP'], 5800))
-            if (intstatus == 10035):
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            # checksocket = socket.socket()
+            # checksocket.settimeout(2)
+            # intstatus = checksocket.connect_ex((c['IP'], 5800))
+            # if (intstatus == 10035):
+            #     ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            ComputService.wake_up(c['MAC'])
             time.sleep(0.2)
 
     @staticmethod
@@ -361,9 +315,6 @@ class JDService():
         time.sleep(30)
         Logger.getLog().logger.info("关闭投影")
         commonData.SENDSIG.sendText("关闭投影")
-        for ty in  commonData.TERM_DICT['touying']:
-            Logger.getLog().logger.info('关闭投影机' + ty['IP'])
-            TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
         Logger.getLog().logger.info('等待50秒')
         time.sleep(50)
         Logger.getLog().logger.info("关闭电源")

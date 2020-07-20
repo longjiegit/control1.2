@@ -295,3 +295,14 @@
 2020-07-14 13:05:47,019 - D:\pyproject\control1.2\commonservice.py-comm[line:174] - INFO: 发送指令到投影PON
 2020-07-14 13:05:50,022 - D:\pyproject\control1.2\commonservice.py-comm[line:186] - ERROR: timed out
 2020-07-14 13:05:58,017 - D:\pyproject\control1.2\commonservice.py-wake_up[line:14] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 16:40:49,177 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 16:40:49,209 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 16:40:49,209 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 16:40:49,209 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 16:40:49,224 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 16:40:49,224 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 16:40:50,396 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 16:40:51,943 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 16:40:53,240 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 16:40:53,240 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 16:40:53,286 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
