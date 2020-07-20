@@ -305,11 +305,12 @@ class JDService():
         Logger.getLog().logger.info("关闭电脑")
         commonData.SENDSIG.sendText("关闭电脑")
         for c in commonData.TERM_DICT['comput']:
-            checksocket = socket.socket()
-            checksocket.settimeout(2)
-            intstatus = checksocket.connect_ex((c['IP'], 5800))
-            if(intstatus == 0 or intstatus==10061):
-                ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            # checksocket = socket.socket()
+            # checksocket.settimeout(2)
+            # intstatus = checksocket.connect_ex((c['IP'], 5800))
+            # if(intstatus == 0 or intstatus==10061):
+            #     ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+            ComputService.shutComput(c['IP'],'shutdown -s -f -t 00')
             time.sleep(0.4)
 
         time.sleep(30)
