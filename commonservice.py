@@ -53,7 +53,7 @@ class ComputService():
             s.close()
         except Exception as e:
             Logger.getLog().logger.error(e)
-            commonData.RECSIG.sendText(str(e))
+            commonData.RECSIG.sendText(ip+str(e))
 
     @staticmethod
     def computForZX(zxcode,comand):
@@ -101,6 +101,7 @@ class TouyingService():
                 Logger.getLog().logger.info(str(re,'utf-8'))
                 commonData.RECSIG.sendText('投影返回结果'+str(re,'utf-8'))
         except Exception as e:
+            commonData.RECSIG.sendText(ip+str(e))
             Logger.getLog().logger.error(e)
     @staticmethod
     def comm(ip,port,command):
@@ -283,7 +284,8 @@ class JDService():
         commonData.SENDSIG.sendText("打开投影")
         for ty in commonData.TERM_DICT['touying']:
             Logger.getLog().logger.info('开启投影机'+ty['IP'])
-            TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+            TouyingService.Pjlink(ty['IP'], b'%1POWR 1\r')
+            # TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
             time.sleep(0.5)
         time.sleep(30)
 
@@ -316,6 +318,11 @@ class JDService():
         time.sleep(30)
         Logger.getLog().logger.info("关闭投影")
         commonData.SENDSIG.sendText("关闭投影")
+        for ty in  commonData.TERM_DICT['touying']:
+            Logger.getLog().logger.info('关闭投影机' + ty['IP'])
+            # TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
+            TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
+            time.sleep(0.5)
         Logger.getLog().logger.info('等待50秒')
         time.sleep(50)
         Logger.getLog().logger.info("关闭电源")
@@ -412,6 +419,7 @@ class JDService():
             Logger.getLog().logger.info(re)
             commonData.RECSIG.sendText(re)
         except Exception as e:
+            commonData.RECSIG.sendText(comd+str(e))
             Logger.getLog().logger.error(e)
         # aa = ''.join(['%02x' % b for b in re])
         # act_name=act_name+"响应"

@@ -306,116 +306,441 @@
 2020-07-20 16:40:53,240 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
 2020-07-20 16:40:53,240 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
 2020-07-20 16:40:53,286 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
-2020-07-20 16:46:13,496 - D:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
-2020-07-20 16:46:13,498 - D:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
-2020-07-20 16:46:13,499 - D:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
-2020-07-20 16:46:13,500 - D:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
-2020-07-20 16:46:13,502 - D:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
-2020-07-20 16:46:13,503 - D:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
-2020-07-20 16:46:13,682 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
-2020-07-20 16:46:14,031 - D:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
-2020-07-20 16:46:14,341 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
-2020-07-20 16:46:14,341 - D:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
-2020-07-20 16:46:14,344 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.127
-2020-07-20 16:47:55,411 - D:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
-2020-07-20 16:47:55,412 - D:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
-2020-07-20 16:47:55,413 - D:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
-2020-07-20 16:47:55,415 - D:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
-2020-07-20 16:47:55,416 - D:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
-2020-07-20 16:47:55,417 - D:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
-2020-07-20 16:47:55,517 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
-2020-07-20 16:47:55,768 - D:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
-2020-07-20 16:47:56,034 - D:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
-2020-07-20 16:47:56,034 - D:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
-2020-07-20 16:47:56,035 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.127
-2020-07-20 16:48:31,209 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:48:31,210 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxonoff', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-07-20 16:51:30,980 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
-2020-07-20 16:51:46,131 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:51:46,132 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '0000'}
-2020-07-20 16:51:46,133 - D:\pyproject\control1.2\commonservice.py-touyingForZX[line:144] - INFO: 开启投影机192.168.3.100
-2020-07-20 16:51:46,134 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 1
-2020-07-20 16:51:49,137 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:104] - ERROR: timed out
-2020-07-20 16:52:06,979 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:52:06,980 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
-2020-07-20 16:52:06,982 - D:\pyproject\control1.2\commonservice.py-touyingForZX[line:149] - INFO: 关闭投影机192.168.3.100
-2020-07-20 16:52:06,983 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
-2020-07-20 16:52:09,987 - D:\pyproject\control1.2\commonservice.py-Pjlink[line:104] - ERROR: timed out
-2020-07-20 16:52:20,874 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:52:20,875 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '0000'}
-2020-07-20 16:52:20,877 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-32:网关：:255.255.255.255
-2020-07-20 16:52:23,083 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:25,290 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:27,496 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:29,702 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:31,908 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:34,114 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:36,319 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
-2020-07-20 16:52:38,525 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-32:网关：:255.255.255.255
-2020-07-20 16:52:40,731 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
-2020-07-20 16:52:42,936 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:52:45,142 - D:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
-2020-07-20 16:53:26,631 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:53:26,632 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
-2020-07-20 16:53:26,634 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.199
-2020-07-20 16:53:29,637 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:53:29,839 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.127
-2020-07-20 16:53:31,846 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:32,052 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
-2020-07-20 16:53:34,074 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:34,278 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
-2020-07-20 16:53:36,289 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:36,493 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
-2020-07-20 16:53:38,503 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:38,706 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
-2020-07-20 16:53:40,715 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:40,919 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.116
-2020-07-20 16:53:43,922 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:53:44,126 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.238
-2020-07-20 16:53:47,129 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:53:47,333 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.199
-2020-07-20 16:53:50,336 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:53:50,541 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.112
-2020-07-20 16:53:53,545 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:53:53,748 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.113
-2020-07-20 16:53:55,760 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:53:55,964 - D:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.114
-2020-07-20 16:53:58,967 - D:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
-2020-07-20 16:54:27,075 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:54:27,076 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-07-20 16:54:27,082 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:159] - INFO: 播放器IP:192.168.1.146:指令:play
-2020-07-20 16:54:30,085 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:165] - ERROR: timed out
-2020-07-20 16:54:30,991 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:54:30,992 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-07-20 16:54:30,994 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:159] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-07-20 16:54:33,998 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:165] - ERROR: timed out
-2020-07-20 16:54:49,497 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:54:49,499 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxvideo', 'data': 'stop', 'destip': '', 'type': 'command', 'zxcode': '1001'}
-2020-07-20 16:54:49,501 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:159] - INFO: 播放器IP:192.168.1.146:指令:stop
-2020-07-20 16:54:52,504 - D:\pyproject\control1.2\commonservice.py-sendVideoCommand[line:165] - ERROR: timed out
-2020-07-20 16:55:00,821 - D:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
-2020-07-20 16:55:00,822 - D:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'data': 'on', 'type': 'command'}
-2020-07-20 16:55:00,825 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050000FF00 8C 09
-2020-07-20 16:55:02,834 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:03,139 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050001FF00 DD C9
-2020-07-20 16:55:05,149 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:05,452 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050002FF00 2D C9
-2020-07-20 16:55:07,463 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:07,766 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050003FF00 7C 09
-2020-07-20 16:55:09,774 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:10,079 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050004FF00 CD C8
-2020-07-20 16:55:12,091 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:12,395 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050005FF00 9C 08
-2020-07-20 16:55:14,413 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:14,717 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050006FF00 6C 08
-2020-07-20 16:55:16,724 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:17,028 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 02050007FF00 3D C8
-2020-07-20 16:55:19,037 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:19,341 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 04050001FF00 DD AF
-2020-07-20 16:55:21,350 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:21,654 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 04050002FF00 2D AF
-2020-07-20 16:55:23,660 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:23,963 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 04050007FF00 3D AE
-2020-07-20 16:55:25,971 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
-2020-07-20 16:55:26,276 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:401] - INFO: 05050003FF00 7D BE
-2020-07-20 16:55:28,286 - D:\pyproject\control1.2\commonservice.py-sendCommand[line:414] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:03:58,187 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:03:58,203 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:03:58,203 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:03:58,203 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:03:58,203 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:03:58,203 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:03:59,359 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:04:00,656 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:04:01,843 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:04:01,859 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:04:01,890 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:04:29,520 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:04:29,536 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:04:29,536 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:144] - INFO: 开启投影机192.168.3.100
+2020-07-20 18:04:29,536 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 1
+2020-07-20 18:04:32,645 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:104] - ERROR: timed out
+2020-07-20 18:04:58,127 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:04:58,127 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:04:58,127 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.199
+2020-07-20 18:05:01,158 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:01,377 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.127
+2020-07-20 18:05:03,440 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:05:03,658 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:05:06,674 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:06,877 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:05:09,892 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:10,095 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:05:13,111 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:13,314 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:05:16,345 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:16,548 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.116
+2020-07-20 18:05:19,563 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:19,782 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.238
+2020-07-20 18:05:22,798 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:23,016 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.199
+2020-07-20 18:05:26,032 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:26,235 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.112
+2020-07-20 18:05:29,250 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:29,453 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.113
+2020-07-20 18:05:32,469 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:05:32,672 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.114
+2020-07-20 18:05:35,687 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:12:20,909 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:12:20,909 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:12:20,909 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:12:20,909 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:12:20,925 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:12:20,925 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:12:21,112 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:12:21,503 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:12:21,971 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:12:21,971 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:12:21,971 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:12:28,540 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:12:28,540 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:12:28,556 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:150] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:12:28,556 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:13:49,555 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:13:49,758 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:13:50,242 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:13:51,070 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:13:51,070 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:13:51,070 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:14:09,431 - F:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-07-20 18:14:10,149 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:14:10,149 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:14:10,149 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:150] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:14:10,149 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:18:01,568 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:18:01,568 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:18:01,584 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:18:01,584 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:18:01,584 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:18:01,584 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:18:01,803 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:18:02,271 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:18:02,849 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:18:02,865 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:18:02,865 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:18:06,130 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:18:06,130 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:18:06,130 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:151] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:18:06,130 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:18:47,361 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:18:47,361 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:18:47,361 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:18:47,377 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:18:47,377 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:18:47,377 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:18:47,596 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:18:48,143 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:18:48,580 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:18:48,580 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:18:48,580 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:18:54,626 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:18:54,626 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:18:54,626 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:151] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:18:54,642 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:18:57,673 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:106] - ERROR: timed out
+2020-07-20 18:19:41,498 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:19:41,498 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:19:41,514 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:19:41,514 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:19:41,514 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:19:41,514 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:19:41,733 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:19:42,139 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:19:42,889 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:19:42,889 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:19:42,889 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:19:47,295 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:19:47,295 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:19:47,295 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:151] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:19:47,310 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:19:50,326 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:106] - ERROR: timed out
+2020-07-20 18:20:18,824 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:20:18,839 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:20:18,855 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:20:18,871 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:20:18,871 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:20:18,886 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:20:19,152 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:20:19,855 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:20:20,417 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:20:20,417 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:20:20,433 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:20:24,042 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:20:24,042 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:20:24,042 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:151] - INFO: 关闭投影机192.168.3.100
+2020-07-20 18:20:24,058 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 0
+2020-07-20 18:20:27,073 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:106] - ERROR: timed out
+2020-07-20 18:20:40,619 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:20:40,619 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'off', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:20:40,619 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.199
+2020-07-20 18:20:43,623 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:20:43,826 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.127
+2020-07-20 18:20:46,404 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:20:46,623 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:20:49,638 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:20:49,841 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:20:52,857 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:20:53,060 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:20:56,075 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:20:56,294 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:20:59,309 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:20:59,528 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.116
+2020-07-20 18:21:02,544 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:21:02,762 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.238
+2020-07-20 18:21:05,778 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:21:05,996 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.199
+2020-07-20 18:21:09,012 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:21:09,215 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.112
+2020-07-20 18:21:12,230 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:21:12,433 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.113
+2020-07-20 18:21:15,449 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:21:15,668 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.114
+2020-07-20 18:21:18,683 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:24:55,621 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:24:55,621 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:24:55,621 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:24:55,637 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:24:55,637 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:24:55,637 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:24:55,809 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:24:56,215 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:24:56,684 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:24:56,684 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:24:56,684 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:25:01,565 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:25:01,565 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'data': 'off', 'type': 'command'}
+2020-07-20 18:25:01,596 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500000000 CD F9
+2020-07-20 18:25:57,019 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:25:57,019 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:25:57,034 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:25:57,034 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:25:57,034 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:25:57,034 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:25:57,269 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:25:57,753 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:25:58,222 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:25:58,237 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:25:58,237 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:26:00,987 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:26:00,987 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'light', 'data': 'off', 'type': 'command'}
+2020-07-20 18:26:00,987 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500000000 CD F9
+2020-07-20 18:26:03,596 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:03,909 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500010000 9C 39
+2020-07-20 18:26:06,596 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:06,908 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500020000 6C 39
+2020-07-20 18:26:09,405 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:09,718 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500030000 3D F9
+2020-07-20 18:26:12,295 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:12,608 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500040000 8C 38
+2020-07-20 18:26:14,670 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:14,983 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500050000 DD F8
+2020-07-20 18:26:17,045 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:17,358 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500060000 2D F8
+2020-07-20 18:26:19,404 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:19,717 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500070000 7C 38
+2020-07-20 18:26:21,779 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:22,092 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500010000 9C 5F
+2020-07-20 18:26:24,154 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:24,467 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500020000 6C 5F
+2020-07-20 18:26:26,529 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:26,841 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500070000 7C 5E
+2020-07-20 18:26:28,904 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:26:29,216 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 050500030000 3C 4E
+2020-07-20 18:26:31,279 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:27:01,480 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:27:01,480 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxtouying', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:27:01,495 - F:\pyproject\control1.2\commonservice.py-touyingForZX[line:145] - INFO: 开启投影机192.168.3.100
+2020-07-20 18:27:01,495 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:90] - INFO: 发送指令到投影%1POWR 1
+2020-07-20 18:27:04,511 - F:\pyproject\control1.2\commonservice.py-Pjlink[line:105] - ERROR: timed out
+2020-07-20 18:27:12,323 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:27:12,323 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'zxcomput', 'data': 'on', 'destip': '', 'type': 'command', 'zxcode': '0000'}
+2020-07-20 18:27:12,323 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-07-20 18:27:14,557 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:16,791 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:19,025 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:21,259 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:23,494 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:25,728 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:27,962 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-07-20 18:27:30,196 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-07-20 18:27:32,431 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-07-20 18:27:34,665 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:36,899 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:27:52,531 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:27:52,531 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:27:52,531 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:27:52,531 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:27:52,546 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:27:52,546 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:27:52,734 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:27:53,140 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:27:53,546 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:27:53,546 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:27:53,546 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:28:00,615 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:28:00,615 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'on', 'type': 'command'}
+2020-07-20 18:28:00,615 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:268] - INFO: 打开电源
+2020-07-20 18:28:00,615 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050000FF00 8C 09
+2020-07-20 18:28:02,677 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:03,083 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050001FF00 DD C9
+2020-07-20 18:28:05,146 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:05,552 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050002FF00 2D C9
+2020-07-20 18:28:07,614 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:08,021 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050003FF00 7C 09
+2020-07-20 18:28:10,083 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:10,489 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050004FF00 CD C8
+2020-07-20 18:28:12,552 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:12,958 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050005FF00 9C 08
+2020-07-20 18:28:15,020 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:15,426 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050006FF00 6C 08
+2020-07-20 18:28:17,489 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:17,895 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050007FF00 3D C8
+2020-07-20 18:28:19,957 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:20,364 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050001FF00 DD AF
+2020-07-20 18:28:22,426 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:22,832 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050002FF00 2D AF
+2020-07-20 18:28:24,894 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:25,301 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050007FF00 3D AE
+2020-07-20 18:28:27,363 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:27,769 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 05050003FF00 7D BE
+2020-07-20 18:28:29,808 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:30,214 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050000FF00 8C 3A
+2020-07-20 18:28:32,276 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:32,682 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050001FF00 DD FA
+2020-07-20 18:28:34,745 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:35,151 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050002FF00 2D FA
+2020-07-20 18:28:37,213 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:37,619 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050003FF00 7C 3A
+2020-07-20 18:28:39,682 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:40,088 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050004FF00 CD FB
+2020-07-20 18:28:42,150 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:42,557 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050005FF00 9C 3B
+2020-07-20 18:28:44,619 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:45,025 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050006FF00 6C 3B
+2020-07-20 18:28:47,088 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:47,494 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050007FF00 3D FB
+2020-07-20 18:28:49,556 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:28:49,962 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:282] - INFO: 打开投影
+2020-07-20 18:29:19,978 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:286] - INFO: 开启投影机192.168.3.100
+2020-07-20 18:29:19,978 - F:\pyproject\control1.2\commonservice.py-comm[line:109] - INFO: 发送指令到投影PON
+2020-07-20 18:29:23,462 - F:\pyproject\control1.2\commonservice.py-comm[line:121] - ERROR: timed out
+2020-07-20 18:29:53,984 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:292] - INFO: 打开电脑
+2020-07-20 18:29:53,984 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-07-20 18:29:56,218 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:29:58,453 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:00,687 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:02,921 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:05,155 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:07,390 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:09,624 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-07-20 18:30:11,858 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-07-20 18:30:14,092 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-07-20 18:30:16,326 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:30:18,561 - F:\pyproject\control1.2\commonservice.py-wake_up[line:16] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-07-20 18:38:50,268 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:38:50,268 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:38:50,284 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:38:50,284 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:38:50,284 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:38:50,284 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:38:50,471 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:38:50,893 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:38:51,346 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:38:51,346 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:38:51,346 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:39:05,173 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:39:05,173 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'on', 'type': 'command'}
+2020-07-20 18:39:05,173 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:268] - INFO: 打开电源
+2020-07-20 18:39:05,189 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050000FF00 8C 09
+2020-07-20 18:39:07,251 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:07,658 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050001FF00 DD C9
+2020-07-20 18:39:09,720 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:10,126 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050002FF00 2D C9
+2020-07-20 18:39:12,189 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:12,595 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050003FF00 7C 09
+2020-07-20 18:39:14,657 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:15,063 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050004FF00 CD C8
+2020-07-20 18:39:17,126 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:17,532 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050005FF00 9C 08
+2020-07-20 18:39:19,594 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:20,001 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050006FF00 6C 08
+2020-07-20 18:39:22,063 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:22,469 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 02050007FF00 3D C8
+2020-07-20 18:39:24,531 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:24,938 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050001FF00 DD AF
+2020-07-20 18:39:27,000 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:27,422 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050002FF00 2D AF
+2020-07-20 18:39:29,484 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:29,890 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 04050007FF00 3D AE
+2020-07-20 18:39:31,953 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:32,359 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 05050003FF00 7D BE
+2020-07-20 18:39:34,421 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:34,828 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050000FF00 8C 3A
+2020-07-20 18:39:36,890 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:37,296 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050001FF00 DD FA
+2020-07-20 18:39:39,359 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:39,765 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050002FF00 2D FA
+2020-07-20 18:39:41,827 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:42,233 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050003FF00 7C 3A
+2020-07-20 18:39:44,296 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:44,702 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050004FF00 CD FB
+2020-07-20 18:39:46,764 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:47,171 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050005FF00 9C 3B
+2020-07-20 18:39:49,233 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:49,639 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050006FF00 6C 3B
+2020-07-20 18:39:51,701 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:52,108 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 01050007FF00 3D FB
+2020-07-20 18:39:54,170 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:39:54,576 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:282] - INFO: 打开投影
+2020-07-20 18:40:24,579 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:286] - INFO: 开启投影机192.168.3.100
+2020-07-20 18:40:24,579 - F:\pyproject\control1.2\commonservice.py-comm[line:109] - INFO: 发送指令到投影PON
+2020-07-20 18:40:27,766 - F:\pyproject\control1.2\commonservice.py-comm[line:121] - ERROR: timed out
+2020-07-20 18:40:58,802 - F:\pyproject\control1.2\commonData.py-<module>[line:33] - INFO: 加载终端数据完成
+2020-07-20 18:40:58,802 - F:\pyproject\control1.2\commonData.py-<module>[line:40] - INFO: 加载继电器数据完成
+2020-07-20 18:40:58,802 - F:\pyproject\control1.2\commonData.py-<module>[line:47] - INFO: 加载核心竞争力数据完成
+2020-07-20 18:40:58,818 - F:\pyproject\control1.2\commonData.py-<module>[line:54] - INFO: 加载业绩展示数据完成
+2020-07-20 18:40:58,818 - F:\pyproject\control1.2\commonData.py-<module>[line:63] - INFO: 加载播放器数据完成
+2020-07-20 18:40:58,818 - F:\pyproject\control1.2\commonData.py-<module>[line:69] - INFO: 加载注册数据完成
+2020-07-20 18:40:58,974 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-07-20 18:40:59,396 - F:\pyproject\control1.2\jd.py-timeStartShut[line:41] - INFO: 计时器启动
+2020-07-20 18:40:59,849 - F:\pyproject\control1.2\Impl.py-start[line:25] - INFO: 启动socket
+2020-07-20 18:40:59,849 - F:\pyproject\control1.2\UdpImpl.py-startServer[line:5] - INFO: upd监听程序启动
+2020-07-20 18:40:59,849 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:19] - INFO: 192.168.50.122
+2020-07-20 18:41:02,567 - F:\pyproject\control1.2\Impl.py-read[line:57] - INFO: 接口数据请求
+2020-07-20 18:41:02,567 - F:\pyproject\control1.2\Impl.py-read[line:58] - INFO: {'commObj': 'jd', 'data': 'off', 'type': 'command'}
+2020-07-20 18:41:02,567 - F:\pyproject\control1.2\commonservice.py-keyClose[line:306] - INFO: 关闭电脑
+2020-07-20 18:41:02,567 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.199
+2020-07-20 18:41:05,572 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:05,978 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.50.127
+2020-07-20 18:41:08,016 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:41:08,422 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:41:11,438 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:11,844 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:41:14,859 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:15,266 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:41:18,281 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:18,687 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.117
+2020-07-20 18:41:21,703 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:22,109 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.116
+2020-07-20 18:41:25,124 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:25,531 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.238
+2020-07-20 18:41:28,546 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:28,952 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.199
+2020-07-20 18:41:31,968 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:32,374 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.112
+2020-07-20 18:41:35,389 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:35,796 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.113
+2020-07-20 18:41:38,811 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:41:39,217 - F:\pyproject\control1.2\commonservice.py-shutComput[line:46] - INFO: 关闭主机192.168.1.114
+2020-07-20 18:41:42,233 - F:\pyproject\control1.2\commonservice.py-shutComput[line:55] - ERROR: timed out
+2020-07-20 18:42:12,652 - F:\pyproject\control1.2\commonservice.py-keyClose[line:318] - INFO: 关闭投影
+2020-07-20 18:42:12,652 - F:\pyproject\control1.2\commonservice.py-keyClose[line:320] - INFO: 等待50秒
+2020-07-20 18:43:02,665 - F:\pyproject\control1.2\commonservice.py-keyClose[line:322] - INFO: 关闭电源
+2020-07-20 18:43:02,665 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500000000 CD F9
+2020-07-20 18:43:04,727 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:05,039 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500010000 9C 39
+2020-07-20 18:43:07,102 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:07,414 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500030000 3D F9
+2020-07-20 18:43:09,477 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:09,789 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500040000 8C 38
+2020-07-20 18:43:11,851 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:12,164 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500050000 DD F8
+2020-07-20 18:43:14,226 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:14,539 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500060000 2D F8
+2020-07-20 18:43:16,601 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:16,914 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 020500070000 7C 38
+2020-07-20 18:43:18,976 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:19,288 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500010000 9C 5F
+2020-07-20 18:43:21,351 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:21,663 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500020000 6C 5F
+2020-07-20 18:43:23,726 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:24,038 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 040500070000 7C 5E
+2020-07-20 18:43:26,116 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:26,428 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 050500030000 3C 4E
+2020-07-20 18:43:28,491 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:28,803 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500000000 CD CA
+2020-07-20 18:43:30,866 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:31,178 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500010000 9C 0A
+2020-07-20 18:43:33,241 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:33,584 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500020000 6C 0A
+2020-07-20 18:43:35,647 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:35,959 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500030000 3D CA
+2020-07-20 18:43:38,021 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:38,334 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500050000 DD CB
+2020-07-20 18:43:40,396 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:40,709 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500060000 2D CB
+2020-07-20 18:43:42,771 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-07-20 18:43:43,084 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500070000 7C 0B
+2020-07-20 18:43:45,146 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
