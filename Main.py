@@ -102,9 +102,9 @@ if __name__ == '__main__':
     t1= threading.Thread(target=imp.start, args=())
     t1.setDaemon(True)
     t1.start()
-    udpser=UdpImpl.UdpServer()
-    t2=threading.Thread(target=udpser.startServer,args=())
-    t2.setDaemon(True)
-    t2.start()
+    # udpser=UdpImpl.UdpServer()
+    # t2=threading.Thread(target=udpser.startServer,args=())
+    # t2.setDaemon(True)
+    # t2.start()
 
     sys.exit(app.exec_())

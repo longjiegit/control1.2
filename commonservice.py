@@ -66,6 +66,29 @@ class ComputService():
                 for c in commonData.TERM_DICT['comput']:
                     ComputService.shutComput(c['IP'],'shutdown -s -f -t 00')
                     time.sleep(0.2)
+        elif zxcode=='1001':
+            if comand=='on':
+                for i in range(0,5):
+                    mac=commonData.TERM_DICT['comput'][i]['MAC']
+                    ComputService.wake_up(mac)
+                    time.sleep(0.2)
+            elif comand=='off':
+                for i in range(0,5):
+                    ip=commonData.TERM_DICT['comput'][i]['IP']
+                    ComputService.shutComput(ip,'shutdown -s -f -t 00')
+                    time.sleep(0.2)
+        elif zxcode=='1002':
+            if comand=='on':
+                for i in range(5,6):
+                    mac=commonData.TERM_DICT['comput'][i]['MAC']
+                    ComputService.wake_up(mac)
+                    time.sleep(0.2)
+            elif comand=='off':
+                for i in range(5,6):
+                    ip=commonData.TERM_DICT['comput'][i]['IP']
+                    ComputService.shutComput(ip,'shutdown -s -f -t 00')
+                    time.sleep(0.2)
+
     @staticmethod
     def wake_upfromJd(ip,port,addr,road):
         road = road - 1
@@ -87,10 +110,10 @@ class TouyingService():
     @staticmethod
     def Pjlink(ip,command):
         try:
-            Logger.getLog().logger.info('发送指令到投影'+str(command,'utf-8'))
-            commonData.SENDSIG.sendText('发送指令到投影'+str(command,'utf-8'))
+            Logger.getLog().logger.info('发送指令到投影'+ip+str(command,'utf-8'))
+            commonData.SENDSIG.sendText('发送指令到投影'+ip+str(command,'utf-8'))
             s=socket.socket()
-            s.settimeout(3)
+            s.settimeout(5)
             s.connect((ip,4352))
             result=s.recv(1024).decode('UTF-8')
             l = list(result)
@@ -150,9 +173,48 @@ class TouyingService():
                     Logger.getLog().logger.info('关闭投影机' + ty['IP'])
                     TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
                     time.sleep(0.5)
+        elif zxcode=='1001':
+            if data=='on':
+                for i in range(0,16):
+                    ip=commonData.TERM_DICT['touying'][i]['IP']
+                    Logger.getLog().logger.info('开启投影机' + ip)
+                    TouyingService.Pjlink(ip, b'%1POWR 1\r')
+                    time.sleep(0.5)
+            elif data=='off':
+                for i in range(0,16):
+                    ip=commonData.TERM_DICT['touying'][i]['IP']
+                    Logger.getLog().logger.info('关闭投影机' + ip)
+                    TouyingService.Pjlink(ip, b'%1POWR 0\r')
+                    time.sleep(0.5)
+        elif zxcode=='1002':
+            if data=='on':
+                for i in range(16,17):
+                    ip=commonData.TERM_DICT['touying'][i]['IP']
+                    Logger.getLog().logger.info('开启投影机' + ip)
+                    TouyingService.Pjlink(ip, b'%1POWR 1\r')
+                    time.sleep(0.5)
+            elif data=='off':
+                for i in range(16,17):
+                    ip=commonData.TERM_DICT['touying'][i]['IP']
+                    Logger.getLog().logger.info('关闭投影机' + ip)
+                    TouyingService.Pjlink(ip, b'%1POWR 0\r')
+                    time.sleep(0.5)
 
 class VideoService():
-
+    @staticmethod
+    def sendVoiceCommnad(destip,command):
+        try:
+            Logger.getLog().logger.info('声音控制'+destip)
+            # commonData.SENDSIG.sendText('声音控制'+destip)
+            s=socket.socket()
+            s.settimeout(3)
+            s.connect((destip,8000))
+            data='{"type":"sysvoice","data":"'+command+'"}'
+            s.send(bytes(data,encoding='UTF-8'))
+            s.close()
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+            # commonData.RECSIG.sendText(destip+str(e))
     @staticmethod
     def sendVideoCommand(despip,command):
         try:
@@ -175,6 +237,40 @@ class VideoService():
             args = parser.parse_args()
             client = udp_client.SimpleUDPClient(args.ip, args.port)
             client.send_message(command, 1)
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+    @staticmethod
+    def guangmoCommand(ip,command):
+        try:
+            commonData.SENDSIG.sendText(':'.join(('播放器IP', ip, '指令', str(command,'utf-8'))))
+            Logger.getLog().logger.info(':'.join(('播放器IP', ip, '指令', str(command,'utf-8'))))
+            upd_socket=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+            upd_socket.sendto(command,(ip,11412))
+            upd_socket.close()
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+            print(e)
+    @staticmethod
+    def siteCommand(ip,command):
+        try:
+            commonData.SENDSIG.sendText(':'.join(('座椅动作IP', '192.168.3.16', '指令', command)))
+            Logger.getLog().logger.info(':'.join(('座椅动作IP', '192.168.3.16', '指令', command)))
+            upd_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            upd_socket.sendto(command.encode('utf-8'), ('192.168.3.16', 12346))
+            upd_socket.close()
+        except Exception as e:
+            Logger.getLog().logger.error(e)
+            print(e)
+    @staticmethod
+    def siteCommand2(command):
+        try:
+            commonData.SENDSIG.sendText(':'.join(('播放器IP', '192.168.3.16', '指令', command.strip('\n').strip('\r'))))
+            Logger.getLog().logger.info(':'.join(('播放器IP', '192.168.3.16', '指令', command.strip('\n').strip('\r'))))
+            s = socket.socket()
+            s.settimeout(3)
+            s.connect(('192.168.3.16', 57910))
+            s.send(bytes(command, encoding='UTF-8'))
+            s.close()
         except Exception as e:
             Logger.getLog().logger.error(e)
     @staticmethod
@@ -218,7 +314,43 @@ class VideoService():
                         time.sleep(0.3)
                 except Exception as e:
                     print(e)
-                VideoService.sendVideoCommand(videoip,'play')
+                # VideoService.siteCommand(videoip, '1#101')
+                # time.sleep(2)
+                if despip=='1':
+                    data = '{"ID":0,"CmdType":3,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    time.sleep(4)
+                    data = '{"ID":101,"CmdType":1,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    # VideoService.siteCommand(videoip, '1#101')
+                    time.sleep(commonData.LAZY)
+                    # VideoService.sendVideoCommand('192.168.3.16', 'zxplay,5')
+                    VideoService.guangmoCommand(videoip,bytes.fromhex('4D 00 53 00 47 00 5F 00 46 00 50 00 43 00 4D 00 44 00 7C 00 54 00 72 00 61 00 63 00 6B 00 5F 00 50 00 6C 00 61 00 79 00 54 00 72 00 61 00 63 00 6B 00 7C 00 30 00 7C 00 00 00'))
+
+                elif despip=='2':
+                    data = '{"ID":0,"CmdType":3,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    time.sleep(4)
+                    data = '{"ID":102,"CmdType":1,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    # VideoService.siteCommand(videoip, '1#102')
+                    time.sleep(commonData.LAZY)
+                    # VideoService.sendVideoCommand('192.168.3.16','zxplay,1')
+                    VideoService.guangmoCommand(videoip, bytes.fromhex(
+                        '4D 00 53 00 47 00 5F 00 46 00 50 00 43 00 4D 00 44 00 7C 00 54 00 72 00 61 00 63 00 6B 00 5F 00 50 00 6C 00 61 00 79 00 54 00 72 00 61 00 63 00 6B 00 7C 00 32 00 7C 00 00 00'))
+
+                elif despip=='3':
+                    data = '{"ID":0,"CmdType":3,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    time.sleep(4)
+                    data = '{"ID":103,"CmdType":1,"Data":null}\r\r\n'
+                    VideoService.siteCommand2(data)
+                    # VideoService.siteCommand(videoip, '1#103')
+                    # VideoService.sendVideoCommand('192.168.3.16', 'zxplay,2')
+                    time.sleep(commonData.LAZY)
+                    VideoService.guangmoCommand(videoip, bytes.fromhex(
+                        '4D 00 53 00 47 00 5F 00 46 00 50 00 43 00 4D 00 44 00 7C 00 54 00 72 00 61 00 63 00 6B 00 5F 00 50 00 6C 00 61 00 79 00 54 00 72 00 61 00 63 00 6B 00 7C 00 34 00 7C 00 00 00'))
+
             elif command=='stop':
                 """灯光开"""
                 try:
@@ -238,7 +370,20 @@ class VideoService():
                         time.sleep(0.3)
                 except Exception as e:
                     print(e)
-                VideoService.sendVideoCommand(videoip,command)
+                # VideoService.sendVideoCommand(videoip,command)
+                data = '{"ID":0,"CmdType":3,"Data":null}\r\r\n'
+                VideoService.siteCommand2(data)
+                # VideoService.sendVideoCommand('192.168.3.16', 'stop')
+                # VideoService.siteCommand(videoip, '2#0')
+                VideoService.guangmoCommand(videoip, bytes.fromhex('4D 00 53 00 47 00 5F 00 46 00 50 00 43 00 4D 00 44 00 7C 00 54 00 72 00 61 00 63 00 6B 00 5F 00 53 00 74 00 6F 00 70 00 7C 00 00 00'))
+                # VideoService.siteCommand(videoip, '2#0')
+
+            elif command=="voiceadd":
+                VideoService.sendVoiceCommnad('192.168.3.11',"addvoice")
+            elif command=="minusvoice":
+                VideoService.sendVoiceCommnad("192.168.3.11","minusvoice")
+            elif command=="voiceclose":
+                VideoService.sendVoiceCommnad(videoip,"mutevoice")
             elif command=='closelight':
                 try:
                     index =commonData.VIDEO_LIST[int(despip)-1][4]
@@ -268,38 +413,41 @@ class JDService():
         Logger.getLog().logger.info("打开电源")
         commonData.SENDSIG.sendText("打开电源")
         devices = commonData.JD_DICT['devices']
-        for d in range(len(devices)):
-            dev = devices[d]['device']
-            for t in dev:
-                ip=t['ip']
-                port=t['port']
-                addr = t['addr']
-                road = t['road'] - 1
-                cmod = JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
-                JDService.sendCommand(ip,port,cmod)
-                time.sleep(0.4)
-
-        Logger.getLog().logger.info("打开投影")
+        for i in range(0,2):
+            for d in range(len(devices)):
+                dev = devices[d]['device']
+                for t in dev:
+                    ip=t['ip']
+                    port=t['port']
+                    addr = t['addr']
+                    road = t['road'] - 1
+                    cmod = JDService.getSingleCommand(hex(addr), hex(road), 'FF00')
+                    JDService.sendCommand(ip,port,cmod)
+                    time.sleep(0.3)
         time.sleep(30)
+        Logger.getLog().logger.info("打开投影")
         commonData.SENDSIG.sendText("打开投影")
-        for ty in commonData.TERM_DICT['touying']:
-            Logger.getLog().logger.info('开启投影机'+ty['IP'])
-            TouyingService.Pjlink(ty['IP'], b'%1POWR 1\r')
-            # TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
-            time.sleep(0.5)
+        for i in range(0,2):
+            for ty in commonData.TERM_DICT['touying']:
+                if(ty['IP']!='192.168.3.37'):
+                    Logger.getLog().logger.info('开启投影机'+ty['IP'])
+                    TouyingService.Pjlink(ty['IP'], b'%1POWR 1\r')
+                    # TouyingService.comm(ty['IP'],4196,bytes.fromhex('02 50 4F 4E 03'))
+                    time.sleep(0.5)
         time.sleep(30)
 
         '''电脑全开'''
         Logger.getLog().logger.info("打开电脑")
         commonData.SENDSIG.sendText("打开电脑")
-        for c in commonData.TERM_DICT['comput']:
-            # checksocket = socket.socket()
-            # checksocket.settimeout(2)
-            # intstatus = checksocket.connect_ex((c['IP'], 5800))
-            # if (intstatus == 10035):
-            #     ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
-            ComputService.wake_up(c['MAC'])
-            time.sleep(0.2)
+        for i in range(0,2):
+            for c in commonData.TERM_DICT['comput']:
+                # checksocket = socket.socket()
+                # checksocket.settimeout(2)
+                # intstatus = checksocket.connect_ex((c['IP'], 5800))
+                # if (intstatus == 10035):
+                #     ComputService.wake_upfromJd(c['ip2'],c['port2'],c['addr'],c['road'])
+                ComputService.wake_up(c['MAC'])
+                time.sleep(0.2)
 
     @staticmethod
     def keyClose(all_list):
@@ -318,30 +466,28 @@ class JDService():
         time.sleep(30)
         Logger.getLog().logger.info("关闭投影")
         commonData.SENDSIG.sendText("关闭投影")
-        for ty in  commonData.TERM_DICT['touying']:
-            Logger.getLog().logger.info('关闭投影机' + ty['IP'])
-            # TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
-            TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
-            time.sleep(0.5)
+        for i in range(0,2):
+            for ty in  commonData.TERM_DICT['touying']:
+                Logger.getLog().logger.info('关闭投影机' + ty['IP'])
+                # TouyingService.comm(ty['IP'], 4196,bytes.fromhex('02 50 4F 46 03'))
+                TouyingService.Pjlink(ty['IP'], b'%1POWR 0\r')
+                time.sleep(0.5)
         Logger.getLog().logger.info('等待50秒')
-        time.sleep(50)
+        time.sleep(300)
         Logger.getLog().logger.info("关闭电源")
         commonData.SENDSIG.sendText("关闭电源")
-        for d in range(len( commonData.JD_DICT['devices'])):
-            dev =  commonData.JD_DICT['devices'][d]['device']
-            for t in dev:
-                ip = t['ip']
-                port = t['port']
-                addr = t['addr']
-                road = t['road'] - 1
-                if (addr==2) and (road==2):
-                    print("no close")
-                elif (addr==1) and (road==4):
-                    print("no close")
-                else:
-                    cmod = JDService.getSingleCommand(hex(addr), hex(road), '0000')
-                    JDService.sendCommand(ip, port, cmod)
-                    time.sleep(0.3)
+        for i in range(0,2):
+            for d in range(len( commonData.JD_DICT['devices'])):
+                dev =  commonData.JD_DICT['devices'][d]['device']
+                for t in dev:
+                    ip = t['ip']
+                    port = t['port']
+                    addr = t['addr']
+                    road = t['road'] - 1
+                    if not(addr==1 and road==7):
+                        cmod = JDService.getSingleCommand(hex(addr), hex(road), '0000')
+                        JDService.sendCommand(ip, port, cmod)
+                        time.sleep(0.3)
     @staticmethod
     def socketONandOFF(data):
         if data=='on':
@@ -417,7 +563,7 @@ class JDService():
             re=s.recv(1024)
             Logger.getLog().logger.info('继电器返回')
             Logger.getLog().logger.info(re)
-            commonData.RECSIG.sendText(re)
+            commonData.RECSIG.sendText(str(re))
         except Exception as e:
             commonData.RECSIG.sendText(comd+str(e))
             Logger.getLog().logger.error(e)
