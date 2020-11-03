@@ -2,8 +2,8 @@ from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QTableWi
 from PyQt5.QtCore import Qt,pyqtSignal
 from PyQt5.QtGui import QBrush,QColor
 from log import Logger
-import json,socket,time,struct,threading,commonData,commonservice
-from commonservice import ComputService as cs
+import json,socket,time,struct,threading,commonData
+from ComputerService import ComputService as cs
 
 
 class Comput(QWidget):
@@ -131,7 +131,6 @@ class Comput(QWidget):
                 ip = self.t[i]['IP']
                 check1 = threading.Thread(target=self.checkstatus, args=(ip, i))
                 check1.start()
-
             time.sleep(30)
 
     def checkstatus(self, ip, index):

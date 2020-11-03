@@ -1,6 +1,7 @@
 import json,codecs
 from log import Logger
 from MySignal import SignalClass,RecvSignalClass
+import configparser
 global ALL_LIST
 ALL_LIST=[]
 global JD_DICT

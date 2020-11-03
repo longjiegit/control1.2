@@ -744,3 +744,320 @@
 2020-07-20 18:43:42,771 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
 2020-07-20 18:43:43,084 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:403] - INFO: 010500070000 7C 0B
 2020-07-20 18:43:45,146 - F:\pyproject\control1.2\commonservice.py-sendCommand[line:417] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-11-03 11:16:13,700 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 11:16:13,747 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 11:16:13,759 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 11:16:13,762 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 11:56:33,653 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 11:56:33,747 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 11:56:33,763 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 11:56:33,778 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 11:56:35,028 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 11:56:36,637 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 11:56:38,012 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 11:56:38,012 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 11:56:56,850 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 11:57:03,127 - F:\pyproject\control1.2\ComputerService.py-shutComput[line:41] - INFO: 关闭主机192.168.50.127
+2020-11-03 11:57:05,694 - F:\pyproject\control1.2\ComputerService.py-shutComput[line:50] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-11-03 11:57:10,510 - F:\pyproject\control1.2\touying.py-wake[line:78] - INFO: 远程开启投影机192.168.3.100
+2020-11-03 11:57:10,512 - F:\pyproject\control1.2\TyService.py-comm[line:30] - INFO: 发送指令到投影PON
+2020-11-03 11:57:13,805 - F:\pyproject\control1.2\TyService.py-comm[line:42] - ERROR: timed out
+2020-11-03 11:57:27,367 - F:\pyproject\control1.2\touying.py-wake[line:86] - INFO: 远程关闭投影机192.168.3.100
+2020-11-03 11:57:27,371 - F:\pyproject\control1.2\TyService.py-comm[line:30] - INFO: 发送指令到投影POF
+2020-11-03 11:57:30,384 - F:\pyproject\control1.2\TyService.py-comm[line:42] - ERROR: timed out
+2020-11-03 11:59:00,996 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 11:59:00,996 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 11:59:00,996 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 11:59:00,996 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 11:59:01,261 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 11:59:01,808 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 11:59:02,699 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 11:59:02,699 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 11:59:08,260 - F:\pyproject\control1.2\touying.py-wake[line:78] - INFO: 远程开启投影机192.168.3.100
+2020-11-03 11:59:45,967 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 11:59:45,967 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 11:59:45,967 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 11:59:45,967 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 11:59:46,217 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 11:59:46,670 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 11:59:47,545 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 11:59:47,545 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 11:59:53,738 - F:\pyproject\control1.2\touying.py-wake[line:78] - INFO: 远程开启投影机192.168.3.100
+2020-11-03 11:59:53,741 - F:\pyproject\control1.2\TyService.py-Pjlink[line:11] - INFO: 发送指令到投影192.168.3.100%1POWR 1
+2020-11-03 11:59:58,746 - F:\pyproject\control1.2\TyService.py-Pjlink[line:26] - ERROR: timed out
+2020-11-03 12:00:01,607 - F:\pyproject\control1.2\touying.py-wake[line:87] - INFO: 远程关闭投影机192.168.3.100
+2020-11-03 12:00:01,610 - F:\pyproject\control1.2\TyService.py-Pjlink[line:11] - INFO: 发送指令到投影192.168.3.100%1POWR 0
+2020-11-03 12:00:06,614 - F:\pyproject\control1.2\TyService.py-Pjlink[line:26] - ERROR: timed out
+2020-11-03 12:00:11,946 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:00:14,948 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:00:18,952 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":101,"CmdType":1,"Data":null}
+2020-11-03 12:00:21,953 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:00:22,506 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 0 |   
+2020-11-03 12:00:22,560 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:00:25,561 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:00:29,565 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":101,"CmdType":1,"Data":null}
+2020-11-03 12:00:32,566 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:00:33,070 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 0 |   
+2020-11-03 12:00:45,268 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:00:48,270 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:00:48,274 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ S t o p |   
+2020-11-03 12:00:53,206 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500000000
+2020-11-03 12:00:53,273 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500000000 CD F9
+2020-11-03 12:00:56,276 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:00:56,578 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500010000
+2020-11-03 12:00:56,581 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500010000 9C 39
+2020-11-03 12:00:59,584 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:00:59,886 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500020000
+2020-11-03 12:00:59,889 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500020000 6C 39
+2020-11-03 12:01:02,892 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:03,194 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500030000
+2020-11-03 12:01:03,197 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500030000 3D F9
+2020-11-03 12:01:06,200 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:06,502 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500040000
+2020-11-03 12:01:06,505 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500040000 8C 38
+2020-11-03 12:01:09,510 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:09,812 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:01:12,815 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:01:16,818 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":102,"CmdType":1,"Data":null}
+2020-11-03 12:01:19,820 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:01:20,323 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 2 |   
+2020-11-03 12:01:20,351 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500000000
+2020-11-03 12:01:20,354 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500000000 CD F9
+2020-11-03 12:01:23,358 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:23,659 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500010000
+2020-11-03 12:01:23,662 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500010000 9C 39
+2020-11-03 12:01:26,666 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:26,968 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500020000
+2020-11-03 12:01:26,971 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500020000 6C 39
+2020-11-03 12:01:29,974 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:30,276 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500030000
+2020-11-03 12:01:30,279 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500030000 3D F9
+2020-11-03 12:01:33,282 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:33,585 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:118] - INFO: 关灯020500040000
+2020-11-03 12:01:33,587 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500040000 8C 38
+2020-11-03 12:01:36,590 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:01:36,894 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:01:39,896 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:01:43,900 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":102,"CmdType":1,"Data":null}
+2020-11-03 12:01:46,903 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:01:47,406 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 2 |   
+2020-11-03 12:06:33,421 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:06:33,421 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:06:33,421 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:06:33,421 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:06:33,702 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:06:34,139 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 12:06:34,967 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:06:34,967 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 12:06:40,333 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:06:43,349 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:06:47,364 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":101,"CmdType":1,"Data":null}
+2020-11-03 12:06:50,380 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:06:50,895 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 0 |   
+2020-11-03 12:07:03,443 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:07:06,404 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:122] - INFO: 关灯020500000000
+2020-11-03 12:07:06,408 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500000000 CD F9
+2020-11-03 12:07:06,445 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:07:06,447 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ S t o p |   
+2020-11-03 12:07:09,423 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:07:09,735 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:122] - INFO: 关灯020500010000
+2020-11-03 12:07:09,735 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500010000 9C 39
+2020-11-03 12:07:12,751 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:07:13,063 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:122] - INFO: 关灯020500020000
+2020-11-03 12:07:13,063 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500020000 6C 39
+2020-11-03 12:07:16,070 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:07:16,382 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:122] - INFO: 关灯020500030000
+2020-11-03 12:07:16,382 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500030000 3D F9
+2020-11-03 12:07:19,398 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:07:19,710 - F:\pyproject\control1.2\VideoService.py-videoPlay[line:122] - INFO: 关灯020500040000
+2020-11-03 12:07:19,710 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 020500040000 8C 38
+2020-11-03 12:07:22,726 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:07:23,038 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:07:26,053 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:07:30,069 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":102,"CmdType":1,"Data":null}
+2020-11-03 12:07:33,084 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:07:33,600 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 2 |   
+2020-11-03 12:07:46,441 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:74] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-03 12:07:49,453 - F:\pyproject\control1.2\VideoService.py-siteCommand2[line:81] - ERROR: timed out
+2020-11-03 12:07:49,453 - F:\pyproject\control1.2\VideoService.py-guangmoCommand[line:52] - INFO: 播放器IP:192.168.2.116:指令:M S G _ F P C M D | T r a c k _ S t o p |   
+2020-11-03 12:09:07,573 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:09:07,589 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:09:07,589 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:09:07,589 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:09:07,854 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:09:08,307 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 12:09:09,229 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:09:09,229 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 12:09:13,540 - F:\pyproject\control1.2\VideoService.py-sendVideoCommand[line:28] - INFO: 播放器IP:192.168.1.146:指令:play1
+2020-11-03 12:09:16,547 - F:\pyproject\control1.2\VideoService.py-sendVideoCommand[line:34] - ERROR: timed out
+2020-11-03 12:10:31,760 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:10:31,760 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:10:31,760 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:10:31,776 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:10:32,026 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:10:32,463 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 12:10:33,276 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:10:33,291 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 12:10:36,766 - F:\pyproject\control1.2\VideoService.py-sendVideoCommand[line:28] - INFO: 播放器IP:192.168.1.146:指令:play1
+2020-11-03 12:10:39,781 - F:\pyproject\control1.2\VideoService.py-sendVideoCommand[line:35] - ERROR: timed out
+2020-11-03 12:11:46,408 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:11:46,424 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:11:46,424 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:11:46,424 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:11:46,674 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:11:47,111 - F:\pyproject\control1.2\jd.py-timeStartShut[line:42] - INFO: 计时器启动
+2020-11-03 12:11:47,955 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:11:47,955 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 12:13:55,581 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:13:55,581 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:13:55,581 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:13:55,597 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:13:55,847 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:13:56,316 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-03 12:13:57,206 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:13:57,206 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 12:14:02,082 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:11] - INFO: 打开电源
+2020-11-03 12:14:02,085 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050000FF00 8C 09
+2020-11-03 12:14:05,097 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:05,409 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050001FF00 DD C9
+2020-11-03 12:14:08,425 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:08,737 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050002FF00 2D C9
+2020-11-03 12:14:11,753 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:12,065 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050003FF00 7C 09
+2020-11-03 12:14:15,080 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:15,393 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050004FF00 CD C8
+2020-11-03 12:14:18,408 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:18,721 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050005FF00 9C 08
+2020-11-03 12:14:21,736 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:22,049 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050006FF00 6C 08
+2020-11-03 12:14:25,064 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:25,377 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050007FF00 3D C8
+2020-11-03 12:14:28,392 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:28,705 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050001FF00 DD AF
+2020-11-03 12:14:31,720 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:32,032 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050002FF00 2D AF
+2020-11-03 12:14:35,048 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:35,360 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050007FF00 3D AE
+2020-11-03 12:14:38,376 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:38,688 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 05050003FF00 7D BE
+2020-11-03 12:14:41,702 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:42,014 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050000FF00 8C 3A
+2020-11-03 12:14:45,030 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:45,342 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050001FF00 DD FA
+2020-11-03 12:14:48,358 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:48,670 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050002FF00 2D FA
+2020-11-03 12:14:51,686 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:51,998 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050003FF00 7C 3A
+2020-11-03 12:14:55,013 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:55,326 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050004FF00 CD FB
+2020-11-03 12:14:58,341 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:14:58,654 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050005FF00 9C 3B
+2020-11-03 12:15:01,669 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:01,982 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050006FF00 6C 3B
+2020-11-03 12:15:04,997 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:05,310 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050007FF00 3D FB
+2020-11-03 12:15:08,325 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:08,638 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050000FF00 8C 09
+2020-11-03 12:15:11,653 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:11,965 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050001FF00 DD C9
+2020-11-03 12:15:14,981 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:15,293 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050002FF00 2D C9
+2020-11-03 12:15:18,309 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:18,621 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050003FF00 7C 09
+2020-11-03 12:15:21,637 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:21,949 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050004FF00 CD C8
+2020-11-03 12:15:24,965 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:25,277 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050005FF00 9C 08
+2020-11-03 12:15:28,292 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:28,605 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050006FF00 6C 08
+2020-11-03 12:15:31,620 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:32,027 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 02050007FF00 3D C8
+2020-11-03 12:15:35,042 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:35,354 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050001FF00 DD AF
+2020-11-03 12:15:38,370 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:38,682 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050002FF00 2D AF
+2020-11-03 12:15:41,698 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:42,010 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 04050007FF00 3D AE
+2020-11-03 12:15:45,026 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:45,338 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 05050003FF00 7D BE
+2020-11-03 12:15:48,354 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:48,666 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050000FF00 8C 3A
+2020-11-03 12:15:51,681 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:51,994 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050001FF00 DD FA
+2020-11-03 12:15:55,009 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:55,322 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050002FF00 2D FA
+2020-11-03 12:15:58,337 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:15:58,650 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050003FF00 7C 3A
+2020-11-03 12:16:01,665 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:16:01,978 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050004FF00 CD FB
+2020-11-03 12:16:04,993 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:16:05,306 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050005FF00 9C 3B
+2020-11-03 12:16:08,321 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:16:08,633 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050006FF00 6C 3B
+2020-11-03 12:16:11,649 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:16:11,961 - F:\pyproject\control1.2\JDService.py-sendCommand[line:71] - INFO: 01050007FF00 3D FB
+2020-11-03 12:16:14,977 - F:\pyproject\control1.2\JDService.py-sendCommand[line:85] - ERROR: timed out
+2020-11-03 12:16:45,294 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:26] - INFO: 打开投影
+2020-11-03 12:16:45,294 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:31] - INFO: 开启投影机192.168.3.100
+2020-11-03 12:16:45,294 - F:\pyproject\control1.2\TyService.py-Pjlink[line:11] - INFO: 发送指令到投影192.168.3.100%1POWR 1
+2020-11-03 12:16:50,309 - F:\pyproject\control1.2\TyService.py-Pjlink[line:26] - ERROR: timed out
+2020-11-03 12:16:50,825 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:31] - INFO: 开启投影机192.168.3.100
+2020-11-03 12:16:50,825 - F:\pyproject\control1.2\TyService.py-Pjlink[line:11] - INFO: 发送指令到投影192.168.3.100%1POWR 1
+2020-11-03 12:16:55,840 - F:\pyproject\control1.2\TyService.py-Pjlink[line:26] - ERROR: timed out
+2020-11-03 12:17:26,369 - F:\pyproject\control1.2\commonservice.py-keyOpen[line:38] - INFO: 打开电脑
+2020-11-03 12:17:26,369 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-11-03 12:17:28,603 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:30,838 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:33,072 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:35,306 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:37,540 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:39,775 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:42,009 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-11-03 12:17:44,243 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-11-03 12:17:46,477 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-11-03 12:17:48,711 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:50,946 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:53,180 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-11-03 12:17:55,414 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:57,648 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:17:59,883 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:18:02,117 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:18:04,351 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:18:06,585 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:18:08,819 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:40-B0-76-47-36-3C:网关：:255.255.255.255
+2020-11-03 12:18:11,054 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:0C-9D-92-C1-65-30:网关：:255.255.255.255
+2020-11-03 12:18:13,288 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:8C-DC-D4-24-76-74:网关：:255.255.255.255
+2020-11-03 12:18:15,522 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:18:17,756 - F:\pyproject\control1.2\ComputerService.py-wake_up[line:11] - INFO: 唤醒:00-00-00-00-00-00:网关：:255.255.255.255
+2020-11-03 12:35:58,750 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 12:35:58,750 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 12:35:58,750 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 12:35:58,750 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 12:35:59,016 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 12:35:59,641 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-03 12:36:00,500 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 12:36:00,500 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.50.61
+2020-11-03 13:18:24,311 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 13:18:24,357 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 13:18:24,373 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 13:18:24,373 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 13:18:25,420 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 13:18:27,107 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-03 13:18:28,263 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 13:18:28,263 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.18
+2020-11-03 13:33:08,698 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 13:33:08,698 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 13:33:08,698 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 13:33:08,713 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 13:33:08,963 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 13:33:09,416 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-03 13:33:10,260 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 13:33:10,260 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.18
+2020-11-03 13:33:52,851 - F:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-03 13:33:52,851 - F:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-03 13:33:52,851 - F:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-03 13:33:52,851 - F:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-03 13:33:53,117 - F:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-03 13:33:53,632 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-03 13:33:54,476 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-03 13:33:54,476 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.18

@@ -1,7 +1,8 @@
 from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QLabel,QTableWidget,QHeaderView,QTableWidgetItem
 from PyQt5.QtCore import Qt
 import commonData
-from commonservice import VideoService,JDService
+from VideoService import VideoService
+from JDService import JDService
 import time
 
 class VideoPlay(QWidget):
@@ -33,9 +34,9 @@ class VideoPlay(QWidget):
         widget = QWidget()
         hLbox = QHBoxLayout()
         playBtn = QPushButton('播放')
-        playBtn.clicked.connect(lambda :VideoService.videoPlay(str(id+1),'play'))
+        playBtn.clicked.connect(lambda :VideoService.videoPlayThread(str(id+1),'play'))
         stopBtn = QPushButton('停止')
-        stopBtn.clicked.connect(lambda :VideoService.videoPlay(str(id+1),'stop'))
+        stopBtn.clicked.connect(lambda :VideoService.videoPlayThread(str(id+1),'stop'))
         hLbox.addWidget(playBtn)
         hLbox.addWidget(stopBtn)
         hLbox.setContentsMargins(5, 2, 5, 2)

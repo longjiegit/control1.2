@@ -1,7 +1,11 @@
 import selectors,socket,threading,time,struct
 import json,commonData
 from log import Logger
-from commonservice import ComputService as coms,TouyingService as tys,JDService as jds,VideoService as vs
+from ComputerService import ComputService as coms
+from TyService import TouyingService as tys
+from JDService import  JDService as jds
+from VideoService import  VideoService as vs
+from commonservice import Common
 class TablePad():
     def __init__(self):
         self.touying= commonData.TERM_DICT['touying']
@@ -69,10 +73,6 @@ class TablePad():
                    skt.send(commonData.ALL_JD.encode('utf-8')+b'\n')
                elif initdata=='video':
                    skt.send(commonData.REMOTE_VIDEO.encode('utf-8') + b'\n')
-               elif initdata=='hxjzl':
-                   skt.send(json.dumps(commonData.HXJZL).encode('utf-8') + b'\n')
-               elif initdata == 'yjzs':
-                   skt.send(json.dumps(commonData.YJZS).encode('utf-8') + b'\n')
             elif req_type=='command':
                 commobj=jsondata['commObj']
                 print("控制目标："+commobj)
@@ -100,10 +100,10 @@ class TablePad():
                 elif commobj=='jd':
                     recdata = jsondata['data']
                     if recdata=='on':
-                        t = threading.Thread(target=jds.keyOpen, args=(commonData.ALL_LIST,))
+                        t = threading.Thread(target=Common.keyOpen, args=(commonData.ALL_LIST,))
                         t.start()
                     else:
-                        t = threading.Thread(target=jds.keyClose, args=(commonData.ALL_LIST,))
+                        t = threading.Thread(target=Common.keyClose, args=(commonData.ALL_LIST,))
                         t.start()
                 elif commobj=='video':
                     destip=jsondata['destip']
