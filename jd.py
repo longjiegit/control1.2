@@ -7,7 +7,9 @@ from log import Logger
 import codecs,commonData
 import  datetime
 import configparser
-from commonservice import ComputService as cs,JDService as jds
+from commonservice import ComputService as cs
+from JDService import JDService as jds
+from commonservice import Common
 from MySignal import SignalClass
 class Jd(QWidget):
     updata_resTxt=pyqtSignal(str)
@@ -200,7 +202,7 @@ class Jd(QWidget):
         self.sendText.append(content)
     def onKeyOpen(self):
 
-        t=threading.Thread(target=jds.keyOpen,args=(commonData.ALL_LIST,))
+        t=threading.Thread(target=Common.keyOpen,args=(commonData.ALL_LIST,))
         t.start()
     def keyOpen(self):
         '''先开继电器，然后开投影，然后开电脑'''
@@ -261,7 +263,7 @@ class Jd(QWidget):
             Logger.getLog().logger.error(e)
 
     def onKeyClose(self):
-        t = threading.Thread(target=jds.keyClose, args=(commonData.ALL_LIST,))
+        t = threading.Thread(target=Common.keyClose, args=(commonData.ALL_LIST,))
         t.start()
     def keyClose(self):
         '''一键全关只能关闭电脑，然后关闭投影，间隔4分钟后，最后继电器'''

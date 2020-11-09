@@ -1,16 +1,21 @@
 from PyQt5.QtWidgets import QWidget,QPushButton,QVBoxLayout,QHBoxLayout,QTableWidget,QHeaderView,QTableWidgetItem
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt,pyqtSignal
+from PyQt5.QtGui import QBrush,QColor
 import json,socket,time,struct,threading,commonData
 from log import Logger
-from commonservice import TouyingService as tys
+from TyService import TouyingService as tys
 import hashlib
 
 class Touying(QWidget):
+    updata_startus = pyqtSignal(int, int)
     def __init__(self):
         super().__init__()
         self.initData()
         self.initUI()
-
+        self.updata_startus.connect(self.updateStatus)
+        thr = threading.Thread(target=self.checkThread, args=())
+        thr.setDaemon(True)
+        thr.start()
     def initData(self):
 
         self.t = commonData.TERM_DICT['touying']
@@ -36,8 +41,8 @@ class Touying(QWidget):
         vbox = QVBoxLayout()
         vbox.addLayout(hbox)
 
-        self.table = QTableWidget(len(self.t), 4)
-        self.table.setHorizontalHeaderLabels(['', '标签', 'IP', '端口'])
+        self.table = QTableWidget(len(self.t), 5)
+        self.table.setHorizontalHeaderLabels(['', '标签', 'IP', '端口','状态'])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
         self.table.resizeRowsToContents()
@@ -76,7 +81,8 @@ class Touying(QWidget):
                     ip=self.table.item(i,2).text()
                     port = self.table.item(i, 3).text()
                     Logger.getLog().logger.info("远程开启投影机"+ip)
-                    t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 4E 03'),))
+                    # t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 4E 03'),))
+                    t1 = threading.Thread(target=tys.Pjlink, args=(ip, b'%1POWR 1\r',))
                     t1.start()
         else:
             for i in range(self.table.rowCount()):
@@ -84,8 +90,8 @@ class Touying(QWidget):
                     ip = self.table.item(i, 2).text()
                     port=self.table.item(i,3).text()
                     Logger.getLog().logger.info('远程关闭投影机'+ip)
-                    t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 46 03'),))
-                    # t1=threading.Thread(target=self.Pjlink,args=(ip,port,b'%1POWR 0\r',))
+                    # t1 = threading.Thread(target=tys.comm, args=(ip,port,bytes.fromhex('02 50 4F 46 03'),))
+                    t1=threading.Thread(target=tys.Pjlink,args=(ip,b'%1POWR 0\r',))
                     t1.start()
     def Panasonic(self,ip,port,command):
         try:
@@ -128,3 +134,69 @@ class Touying(QWidget):
             Logger.getLog().logger.info(re)
         except Exception as e:
             Logger.getLog().logger.error(e)
+
+    def checkThread(self):
+        while True:
+            for i in range(len(self.t)):
+                ip = self.t[i]['IP']
+                check1 = threading.Thread(target=self.checkstatusPJLink, args=(ip, i))
+                check1.start()
+            time.sleep(30)
+
+    def checkstatusPJLink(self, ip, index):
+        try:
+            checksocket = socket.socket()
+            checksocket.settimeout(2)
+            checksocket.connect((ip, 4352))
+            result = checksocket.recv(1024).decode('UTF-8')
+            l = list(result)
+            checksocket.send(b'%1POWR ?\r')
+            re = checksocket.recv(1024)
+            intstatus = str(re,'utf-8')
+            print(intstatus)
+            if intstatus == '%1POWR=0':
+                self.updata_startus.emit(0, index)
+            elif intstatus == '%1POWR=1':
+                self.updata_startus.emit(1, index)
+            elif intstatus == '%1POWR=2':
+                self.updata_startus.emit(2, index)
+            elif intstatus == '%1POWR=3':
+                self.updata_startus.emit(3, index)
+            elif intstatus == '%1POWR=ERR3':
+                self.updata_startus.emit(4, index)
+            elif intstatus == '%1POWR=ERR4':
+                self.updata_startus.emit(5, index)
+            checksocket.close()
+        except Exception as e:
+            self.updata_startus.emit(6, index)
+            print("fail")
+
+    def updateStatus(self, stat, index):
+        if stat == 0:
+            item = QTableWidgetItem("开机")
+            item.setForeground(QBrush(QColor(0, 255, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 1:
+            item = QTableWidgetItem("关机")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 2:
+            item = QTableWidgetItem("冷却中")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 3:
+            item = QTableWidgetItem("预热中")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 4:
+            item = QTableWidgetItem("不可用")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 5:
+            item = QTableWidgetItem("机器故障")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
+        elif stat == 6:
+            item = QTableWidgetItem("离线")
+            item.setForeground(QBrush(QColor(255, 0, 0)))
+            self.table.setItem(index, 4, item)
