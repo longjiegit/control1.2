@@ -25,12 +25,12 @@ class TablePad():
             s.close()
 
         return ip
-    def start(self):
-        Logger.getLog().logger.info('启动socket')
+    def start(self,ip):
+        Logger.getLog().logger.info('启动socket:'+ip)
         # 创建默认的selectors对象
         self.sel = selectors.DefaultSelector()
         self.sock = socket.socket()
-        self.sock.bind((self.get_host_ip(), 9080))
+        self.sock.bind((ip, 9080))
         self.sock.listen()
         # 设置该socket是非阻塞的
         self.sock.setblocking(False)

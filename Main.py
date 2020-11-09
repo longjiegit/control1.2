@@ -4,7 +4,7 @@ print(os.getenv('path'))
 from PyQt5.QtWidgets import QWidget,QApplication,QVBoxLayout,QLabel,QFrame,QMessageBox
 import comput,touying,jd,videoplay,threading,Impl,UdpImpl,commonData
 from log import Logger
-import time,util,commonData
+import time,util,commonData,socket
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -98,10 +98,13 @@ if __name__ == '__main__':
     # print('aaa')
     # if(int((now_time - start_time) / 3600/24)>int(list[0])):
     #     table.showDerlMessage('注册码过期')
-    imp=Impl.TablePad()
-    t1= threading.Thread(target=imp.start, args=())
-    t1.setDaemon(True)
-    t1.start()
+    addrs = socket.getaddrinfo(socket.gethostname(), None)
+    for item in addrs:
+        if ':' not in item[4][0]:
+            imp=Impl.TablePad()
+            t1= threading.Thread(target=imp.start, args=(item[4][0],))
+            t1.setDaemon(True)
+            t1.start()
     # udpser=UdpImpl.UdpServer()
     # t2=threading.Thread(target=udpser.startServer,args=())
     # t2.setDaemon(True)

@@ -1061,3 +1061,59 @@
 2020-11-03 13:33:53,632 - F:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
 2020-11-03 13:33:54,476 - F:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
 2020-11-03 13:33:54,476 - F:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.18
+2020-11-09 14:23:38,750 - D:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-09 14:23:38,751 - D:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-09 14:23:38,752 - D:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-09 14:23:38,754 - D:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-09 14:23:38,948 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-09 14:23:39,308 - D:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-09 14:23:39,691 - D:\pyproject\control1.2\Impl.py-start[line:33] - INFO: 启动socket
+2020-11-09 14:23:39,692 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.24
+2020-11-09 14:25:29,949 - D:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-09 14:25:29,951 - D:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-09 14:25:29,952 - D:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-09 14:25:29,954 - D:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-09 14:25:30,048 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-09 14:25:30,339 - D:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-09 14:25:30,688 - D:\pyproject\control1.2\Impl.py-start[line:33] - INFO: 启动socket
+2020-11-09 14:25:30,690 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.24
+2020-11-09 14:25:38,464 - D:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-09 14:25:38,465 - D:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-09 14:25:38,466 - D:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-09 14:25:38,467 - D:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-09 14:25:38,572 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-09 14:25:38,861 - D:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-09 14:25:39,177 - D:\pyproject\control1.2\Impl.py-start[line:33] - INFO: 启动socket
+2020-11-09 14:25:39,179 - D:\pyproject\control1.2\Impl.py-get_host_ip[line:23] - INFO: 192.168.20.24
+2020-11-09 15:00:55,089 - D:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-09 15:00:55,091 - D:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-09 15:00:55,092 - D:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-09 15:00:55,094 - D:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-09 15:00:55,269 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-09 15:00:55,694 - D:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-09 15:00:56,160 - D:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-09 15:00:56,161 - D:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket
+2020-11-09 15:03:14,695 - D:\pyproject\control1.2\commonData.py-<module>[line:35] - INFO: 加载终端数据完成
+2020-11-09 15:03:14,697 - D:\pyproject\control1.2\commonData.py-<module>[line:42] - INFO: 加载继电器数据完成
+2020-11-09 15:03:14,698 - D:\pyproject\control1.2\commonData.py-<module>[line:51] - INFO: 加载播放器数据完成
+2020-11-09 15:03:14,699 - D:\pyproject\control1.2\commonData.py-<module>[line:57] - INFO: 加载注册数据完成
+2020-11-09 15:03:14,800 - D:/pyproject/control1.2/Main.py-__init__[line:12] - INFO: 程序启动
+2020-11-09 15:03:15,104 - D:\pyproject\control1.2\jd.py-timeStartShut[line:43] - INFO: 计时器启动
+2020-11-09 15:03:15,424 - D:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket:192.168.20.24
+2020-11-09 15:03:15,425 - D:\pyproject\control1.2\Impl.py-start[line:29] - INFO: 启动socket:192.168.3.11
+2020-11-09 15:03:48,245 - D:\pyproject\control1.2\Impl.py-read[line:61] - INFO: 接口数据请求
+2020-11-09 15:03:48,247 - D:\pyproject\control1.2\Impl.py-read[line:62] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-11-09 15:03:48,254 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:75] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-09 15:03:51,259 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:82] - ERROR: timed out
+2020-11-09 15:03:55,274 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:75] - INFO: 播放器IP:192.168.3.16:指令:{"ID":101,"CmdType":1,"Data":null}
+2020-11-09 15:03:58,288 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:82] - ERROR: timed out
+2020-11-09 15:03:58,825 - D:\pyproject\control1.2\VideoService.py-guangmoCommand[line:53] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 0 |   
+2020-11-09 15:04:42,266 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
+2020-11-09 15:05:43,304 - D:\pyproject\control1.2\Impl.py-read[line:61] - INFO: 接口数据请求
+2020-11-09 15:05:43,306 - D:\pyproject\control1.2\Impl.py-read[line:62] - INFO: {'commObj': 'zxvideo', 'data': 'play', 'destip': '', 'type': 'command', 'zxcode': '1001'}
+2020-11-09 15:05:43,310 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:75] - INFO: 播放器IP:192.168.3.16:指令:{"ID":0,"CmdType":3,"Data":null}
+2020-11-09 15:05:46,328 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:82] - ERROR: timed out
+2020-11-09 15:05:50,340 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:75] - INFO: 播放器IP:192.168.3.16:指令:{"ID":101,"CmdType":1,"Data":null}
+2020-11-09 15:05:53,355 - D:\pyproject\control1.2\VideoService.py-siteCommand2[line:82] - ERROR: timed out
+2020-11-09 15:05:53,867 - D:\pyproject\control1.2\VideoService.py-guangmoCommand[line:53] - INFO: 播放器IP:192.168.1.146:指令:M S G _ F P C M D | T r a c k _ P l a y T r a c k | 0 |   
+2020-11-09 15:06:48,660 - D:\pyproject\control1.2\Impl.py-read[line:145] - ERROR: Expecting value: line 1 column 1 (char 0)
